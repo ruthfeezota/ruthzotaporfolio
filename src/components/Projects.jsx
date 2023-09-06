@@ -1,4 +1,13 @@
 import React from 'react'
+import LawyerPhoto from '../assets/Lawyersite.png'
+import LashesPhoto from '../assets/LashesPhoto.jpeg'
+import LeafPhoto from '../assets/LeafPhoto.jpg'
+import CBDoil from '../assets/CBDphoto.jpg'
+import Roseoil from '../assets/RoseOil.jpg'
+import NailPhoto from '../assets/NailPhoto.jpg'
+import Hempoil from '../assets/HempOil.jpg'
+import CoffeePhoto from '../assets/CoffeePhoto.jpg'
+
 
 
 function Projects() {
@@ -7,12 +16,12 @@ function Projects() {
         <div className="max-w-screen-xl mx-auto px-4 md:px-8">
             <div className='relative max-w-xl mx-auto sm:text-center'>
                 <h3 className=' text-3xl font-semibold sm:text-4xl text-red-300'>
-                    Our Porfolio
+                    Porfolio
                 </h3>
                 <p className="mt-3 text-white">
-                    Im well versed in many frontend development tools and design technology
+                    Click each to view the websites of past happy clients!
                 </p>
-            
+
             </div>
 
         </div>
@@ -23,54 +32,54 @@ function Projects() {
     <div class="flex w-1/2 flex-wrap">
 
       <div class="w-1/2 p-1 md:p-2">
-      <a href="https://intermountainnv.org/" target="_blank" rel="noreferrer">
+      <a href="https://mionails.ru/" target="_blank" rel="noreferrer">
         <img
           alt="gallery"
           class="block h-full w-full rounded-lg object-cover object-center"
-          src="https://intermountainnv.org/wp-content/uploads/2020/04/Intermountain-wynnIMG_0141-copy-scaled.jpg" />
+          src={NailPhoto} />
     </a>
       </div>
 
       <div class="w-1/2 p-1 md:p-2">
-      <a href="https://perlmanclinic.com/urgent-care-chula-vista/" target="_blank" rel="noreferrer">
+      <a href="https://freckbeauty.com/" target="_blank" rel="noreferrer">
         <img
           alt="gallery"
           class="block h-full w-full rounded-lg object-cover object-center"
-          src="https://perlmanclinic.com/wp-content/uploads/2019/06/urgent-care-chula-vista-1-1024x819.jpg" />
+          src={Roseoil} />
           </a>
       </div>
       <div class="w-full p-1 md:p-2">
-      <a href="https://www.syhealth.org/" target="_blank" rel="noreferrer">
+      <a href="https://coffeeopia.com/" target="_blank" rel="noreferrer">
         <img
           alt="gallery"
           class="block h-full w-full rounded-lg object-cover object-center"
-          src="https://assets.website-files.com/634334b7b9d4ce4304b2afc4/63767994ddf2b03c3a31c155_Clinic_MCHC.webp" />
+          src={CoffeePhoto}  />
           </a>
       </div>
     </div>
     <div class="flex w-1/2 flex-wrap">
       <div class="w-full p-1 md:p-2">
-      <a href="https://elitelv.com/" target="_blank" rel="noreferrer">
+      <a href="https://trilogeneseeds.com/" target="_blank" rel="noreferrer">
         <img
           alt="gallery"
           class="block h-full w-full rounded-lg object-cover object-center"
-          src="https://elitelv.com/wp-content/uploads/2020/01/Elite-Medical-Center-Las-Vegas-Hospital-1024x536.jpg" />
+          src={Hempoil} />
           </a>
       </div>
       <div class="w-1/2 p-1 md:p-2">
-      <a href="https://cdchc.org/" target="_blank" rel="noreferrer">
+      <a href="https://takespruce.com/" target="_blank" rel="noreferrer">
         <img
           alt="gallery"
           class="block h-full w-full rounded-lg object-cover object-center"
-          src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Seattle_-_Country_Doctor_02.jpg" />
+          src={CBDoil} />
           </a>
       </div>
       <div class="w-1/2 p-1 md:p-2">
-      <a href="https://www.lvscc.com/location/buffalo/" target="_blank" rel="noreferrer">
+      <a href="https://www.leafglobalfintech.com" target="_blank" rel="noreferrer">
         <img
           alt="gallery"
           class="block h-full w-full rounded-lg object-cover object-center"
-          src="https://images1.loopnet.com/i2/EugDR8EFWh6Bc1lpXaDBjWtxl3bR-3veGv_9Ojg5OQ8/112/image.jpg" />
+          src={LeafPhoto}  />
           </a>
       </div>
     </div>

@@ -53,7 +53,7 @@ const Brand = () => (
 )
 
   return (
-    <div  className='bg-[url("https://i.ibb.co/RpVt9r8/Cream-and-Brown-Photographic-Beauty-Site-Launch-Website-4.png")] text-white relative overflow-hidden bg-cover bg-no-repeat p-12 text-center' id='Hero'>
+    <div  className=' text-white bg-gray-900 relative overflow-hidden bg-cover bg-no-repeat p-12 text-center' id='Hero'>
             <header>
                 <div className={`md:hidden ${state ? "mx-2 pb-5" : "hidden"}`}>
                     <Brand />
@@ -136,7 +136,7 @@ const Brand = () => (
                         </div>
                     </div>
                 </div>
-               
+
             </section>
         </div>
   )
