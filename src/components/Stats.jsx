@@ -3,16 +3,16 @@ import React from 'react'
 function Stats() {
     const stats = [
         {
-            data: "35K",
-            title: "Customers"
+            data: "400+",
+            title: "Clients Helped"
         },
         {
-            data: "40+",
+            data: "4+",
             title: "Countries"
         },
         {
-            data: "30M+",
-            title: "Total revenue"
+            data: "20+",
+            title: "Different Industries"
         },
     ]
 
@@ -20,8 +20,8 @@ function Stats() {
     <section className="py-28 bg-gray-900">
             <div className="max-w-screen-xl mx-auto px-4 md:px-8">
                 <div className="max-w-2xl mx-auto text-center">
-                    <h3 className="text-white text-3xl font-semibold sm:text-4xl">
-                        Our customers are always happy
+                    <h3 className="text-red-300 text-3xl font-semibold sm:text-4xl">
+                        My clients are always happy
                     </h3>
                     <p className="mt-3 text-gray-300">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis sollicitudin quam ut tincidunt.

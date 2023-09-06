@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Logo from '../assets/Logo.png'
 
 function Nav() {
     const [state, setState] = useState(false)
@@ -17,10 +18,10 @@ function Nav() {
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <a href="javascript:void(0)">
                         <img
-                            src="https://www.floatui.com/logo.svg"
+                            src={Logo}
                             width={120}
                             height={50}
-                            alt="Float UI logo"
+                            alt="Ruth logo"
                         />
                     </a>
                   <div className="md:hidden">

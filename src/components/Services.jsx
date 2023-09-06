@@ -53,13 +53,13 @@ function Services() {
     ]
   return (
     <section className="py-14 bg-gray-900">
-    <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
+    <div className="max-w-screen-xl mx-auto px-4  md:px-8">
         <div className="relative max-w-2xl mx-auto sm:text-center">
             <div className="relative z-10">
-                <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+                <h3 className=" text-red-300 text-3xl font-semibold sm:text-4xl">
                     Let’s help power your SaaS
                 </h3>
-                <p className="mt-3">
+                <p className="mt-3 text-white">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius, enim ex faucibus purus.
                 </p>
             </div>
@@ -70,7 +70,7 @@ function Services() {
                 {
                     features.map((item, idx) => (
                         <li key={idx} className="bg-white space-y-3 p-4 border rounded-lg">
-                            <div className="text-indigo-600 pb-3">
+                            <div className="text-red-300 pb-3">
                                 {item.icon}
                             </div>
                             <h4 className="text-lg text-gray-800 font-semibold">

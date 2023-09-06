@@ -8,17 +8,17 @@ import Services from './components/Services';
 import Stats from './components/Stats';
 import Testimonial from './components/Testimonial';
 
-import TopBanner from './components/TopBanner';
+
 
 
 function App() {
 	return (
 	  <div>
-		<TopBanner/>
+
 		<Hero/>
+		<Brands/>
 		<Stats/>
 		<Services/>
-		<Brands/>
 		<Contact/>
 		<ActionBanner/>
 		<Testimonial/>
