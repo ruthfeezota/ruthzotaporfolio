@@ -4,14 +4,18 @@ import JavaScriptLogo from '../assets/JavaScript-Logo.svg'
 import TypeScriptLogo from '../assets/TypescriptLogo.png'
 import VueLogo from '../assets/VueLogo.png'
 import FigmaLogo from '../assets/Figmalogo.png'
+import AngularLogo from '../assets/Angular_logo.png'
+import HTMLLogo from '../assets/HTML.png'
+import CSSLogo from '../assets/CSS3_logo.png'
+import WordPressLogo from '../assets/WordPress_Logo.png'
 
 
 function Brands() {
   return (
-    <div className="py-14 bg-white ">
+    <div className="py-14 bg-gray-900 ">
     <div className="max-w-screen-xl mx-auto px-4 md:px-8">
-        <h3 className="font-semibold text-md text-gray-600 text-center">
-            Tech Stack 5+ Years of Experience
+        <h3 className="font-bold text-md text-gray-200 text-center">
+            Tech Stacks
         </h3>
         <div className="mt-6">
             <ul className="flex gap-x-10 gap-y-6 flex-wrap items-center justify-center md:gap-x-16">
@@ -35,9 +39,32 @@ function Brands() {
               <img src={VueLogo}/>
               </li>
 
+
+
               {/* LOGO 4 */}
-              <li className="w-10">
+              <li className="w-16">
+              <img src={AngularLogo}/>
+              </li>
+
+              {/* LOGO 4 */}
+              <li className="w-14">
+              <img src={HTMLLogo}/>
+              </li>
+
+              {/* LOGO 4 */}
+              <li className="w-14">
+              <img src={CSSLogo}/>
+              </li>
+
+
+              {/* LOGO 4 */}
+               <li className="w-10">
               <img src={FigmaLogo}/>
+              </li>
+
+              {/* LOGO 4 */}
+              <li className="w-14">
+              <img src={WordPressLogo}/>
               </li>
             </ul>
         </div>

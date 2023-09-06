@@ -3,7 +3,7 @@ import React from 'react'
 function Stats() {
     const stats = [
         {
-            data: "400+",
+            data: "200+",
             title: "Clients Helped"
         },
         {
@@ -21,10 +21,10 @@ function Stats() {
             <div className="max-w-screen-xl mx-auto px-4 md:px-8">
                 <div className="max-w-2xl mx-auto text-center">
                     <h3 className="text-red-300 text-3xl font-semibold sm:text-4xl">
-                        My clients are always happy
+                        My Freelance Network Explands
                     </h3>
                     <p className="mt-3 text-gray-300">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis sollicitudin quam ut tincidunt.
+                        I've helped clients build user-friendly websites and applications in many different industry and countries.
                     </p>
                 </div>
                 <div className="mt-12">
@@ -40,7 +40,10 @@ function Stats() {
                     </ul>
                 </div>
             </div>
+            <div className='absolute inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[400px]' style={{ background: "linear-gradient(106.89deg, rgba(192, 132, 252, 0.11) 15.73%, rgba(14, 165, 233, 0.41) 15.74%, rgba(232, 121, 249, 0.26) 56.49%, rgba(79, 70, 229, 0.4) 115.91%)" }}></div>
+
         </section>
+
   )
 }
 
