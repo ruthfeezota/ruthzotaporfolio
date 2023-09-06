@@ -1,38 +1,32 @@
-import { useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
-import ReactGA from "react-ga4";
+import React from 'react';
+import ActionBanner from './components/ActionBanner';
+import Brands from './components/Brands';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Hero from './components/Hero';
+import Services from './components/Services';
+import Stats from './components/Stats';
+import Testimonial from './components/Testimonial';
 
-import Homepage from "./pages/homepage";
-import About from "./pages/about";
-import Projects from "./pages/projects";
-import Articles from "./pages/articles";
-import ReadArticle from "./pages/readArticle";
-import Contact from "./pages/contact";
-import Notfound from "./pages/404";
+import TopBanner from './components/TopBanner';
 
-import { TRACKING_ID } from "./data/tracking";
-import "./app.css";
 
 function App() {
-	useEffect(() => {
-		if (TRACKING_ID !== "") {
-			ReactGA.initialize(TRACKING_ID);
-		}
-	}, []);
-
 	return (
-		<div className="App">
-			<Routes>
-				<Route path="/" element={<Homepage />} />
-				<Route path="/about" element={<About />} />
-				<Route path="/projects" element={<Projects />} />
-				<Route path="/articles" element={<Articles />} />
-				<Route path="/article/:slug" element={<ReadArticle />} />
-				<Route path="/contact" element={<Contact />} />
-				<Route path="*" element={<Notfound />} />
-			</Routes>
-		</div>
-	);
-}
+	  <div>
+		<TopBanner/>
+		<Hero/>
+		<Stats/>
+		<Services/>
+		<Brands/>
+		<Contact/>
+		<ActionBanner/>
+		<Testimonial/>
+		<Footer/>
 
-export default App;
+	  </div>
+	);
+  }
+
+  export default App;
+
