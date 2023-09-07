@@ -33,7 +33,7 @@ const Brand = () => (
                         />
                     </a>
         <div className="md:hidden">
-            <button className="menu-btn text-gray-400 hover:text-gray-300"
+            <button className="menu-btn text-white hover:text-gray-300"
                 onClick={() => setState(!state)}
             >
                 {
@@ -53,7 +53,7 @@ const Brand = () => (
 )
 
   return (
-    <div  className=' text-white bg-gray-900 relative overflow-hidden bg-cover bg-no-repeat p-12 text-center' id='Hero'>
+    <div  className="bg-gray-900 text-white h-full relative overflow-hidden bg-cover bg-no-repeat p-12 text-center" id='Hero'>
             <header>
                 <div className={`md:hidden ${state ? "mx-2 pb-5" : "hidden"}`}>
                     <Brand />
@@ -106,7 +106,7 @@ const Brand = () => (
           />
         </div>
 
-                        <p className="max-w-2xl mx-auto text-gray-200">
+                        <p className="max-w-2xl mx-auto text-white">
                         I build accessible, inclusive products and digital experiences for the web.
                         </p>
                         <form

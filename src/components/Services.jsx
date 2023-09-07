@@ -66,7 +66,8 @@ function Services() {
                     I'm well versed in many frontend development tools and design technology
                 </p>
             </div>
-            <div className="absolute inset-0 max-w-xs mx-auto h-44 blur-[118px]" style={{ background: "linear-gradient(152.92deg, rgba(192, 132, 252, 0.2) 4.54%, rgba(232, 121, 249, 0.26) 34.2%, rgba(192, 132, 252, 0.1) 77.55%)" }}></div>
+            <div className="absolute inset-0 max-w-xs mx-auto h-44 blur-[118px]" ></div>
+            {/* <div className="absolute inset-0 max-w-xs mx-auto h-44 blur-[118px]" style={{ background: "linear-gradient(152.92deg, rgba(192, 132, 252, 0.2) 4.54%, rgba(232, 121, 249, 0.26) 34.2%, rgba(192, 132, 252, 0.1) 77.55%)" }}></div> */}
         </div>
         <div className="relative mt-12">
             <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -87,7 +88,7 @@ function Services() {
                 }
             </ul>
         </div>
-        <div className='absolute inset-0 blur-[118px] max-w-lg h-[400px] mx-auto sm:max-w-3xl sm:h-[400px]' style={{ background: "linear-gradient(106.89deg, rgba(192, 132, 252, 0.11) 15.73%, rgba(14, 165, 233, 0.41) 15.74%, rgba(232, 121, 249, 0.26) 56.49%, rgba(79, 70, 229, 0.4) 115.91%)" }}></div>
+        <div className='absolute inset-0 blur-[118px] max-w-lg h-[400px] mx-auto sm:max-w-3xl sm:h-[400px]' style={{ background: "linear-gradient(106.89deg, rgba(192, 132, 252, 0.11) 15.73%, rgb(252,165,165) 15.74%, rgba(232, 121, 249, 0.26) 56.49%, rgba(79, 70, 229, 0.4) 115.91%)" }}></div>
     </div>
 
 </section>

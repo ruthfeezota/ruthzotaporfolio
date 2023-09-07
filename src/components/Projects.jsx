@@ -31,7 +31,7 @@ function Projects() {
   <div class="-m-1 flex flex-wrap md:-m-2">
     <div class="flex w-1/2 flex-wrap">
 
-      <div class="w-1/2 p-1 md:p-2">
+      <div class="w-1/2 p-1 md:p-2 group-hover:opacity-50">
       <a href="https://mionails.ru/" target="_blank" rel="noreferrer">
         <img
           alt="gallery"
