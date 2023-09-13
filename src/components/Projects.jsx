@@ -16,7 +16,7 @@ function Projects() {
         <div className="max-w-screen-xl mx-auto px-4 md:px-8">
             <div className='relative max-w-xl mx-auto sm:text-center'>
                 <h3 className=' text-3xl font-semibold sm:text-4xl text-red-300'>
-                    Porfolio
+                    Portfolio
                 </h3>
                 <p className="mt-3 text-white">
                     Click each to view the websites of past happy clients!

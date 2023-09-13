@@ -12,7 +12,7 @@ import WordPressLogo from '../assets/WordPress_Logo.png'
 
 function Brands() {
   return (
-    <div className="py-14 bg-gray-900 ">
+    <div className="py-14 bg-gray-900" id='Tech'>
     <div className="max-w-screen-xl mx-auto px-4 md:px-8">
         <h3 className="font-bold text-md text-gray-200 text-center">
             Tech Stacks
