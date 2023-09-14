@@ -3,7 +3,7 @@ import RuthPhoto from '../assets/RuthPhoto.jpg'
 
 function ActionBanner() {
   return (
-    <section className="py-14 bg-gray-900">
+    <section className="py-14 bg-gray-900" id='About'>
     <div className="max-w-screen-xl mx-auto md:px-8">
         <div className="items-center gap-x-12 sm:px-4 md:px-0 lg:flex">
             <div className="flex-1 sm:hidden lg:block">
@@ -14,14 +14,14 @@ function ActionBanner() {
                     About Me
                 </h3>
                 <p className="text-red-300 text-3xl font-semibold sm:text-4xl">
-                    Clean Design and Professionalism
+                    Army Veteran and Clean Aesthetic
                 </p>
                 <p className="mt-3 text-gray-200">
-                My name is Ruth Zota. A freelance UX/UI developer & UX Designer in Austin Texas -- with roots in digital marketing & SEO. I'm passionate about music, technology and basically everything that makes the internet tick.
+                My name is Ruth Zota. A freelance UX/UI developer & UX Designer located in Austin Texas -- with roots in digital & product marketing. I spend 6 years in the US Army and loved every minute of it!
 
-                My freelance web development roots are in Wordpress & Shopify.  In 2016, I started at the University of Washington to broaden my knowledge of the Node.js ecosystem. Since then, I fell in love with & have been primarily using React & Redux in web applications. For static sites, I love using Angular for creating blazing fast, SEO-driven headless frontend user interfaces. I believe in clean design and my past work reflects that.
+                My freelance web development roots are in custom website/application development and CMS development (Drupal, Wordpress & Shopify).  In 2016, I started at the University of Washington to broaden my knowledge of the Node.js ecosystem. Since then, I fell in love with & have been primarily using React & Redux in web applications. I believe in clean design and my past work reflects that.
                 </p>
-                <a href="javascript:void(0)" className="inline-flex gap-x-1 items-center text-red-300 hover:text-red-500 duration-150 font-medium">
+                <a href="#contact" className="inline-flex gap-x-1 items-center text-red-300 hover:text-cyan-400 font-medium duration-150   active:bg-indigo-700 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
                     Connect with me
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
                         <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />

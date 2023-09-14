@@ -15,7 +15,6 @@ import Testimonial from './components/Testimonial';
 function App() {
 	return (
 	  <div>
-
 		<Hero/>
 		<Brands/>
 		<Stats/>
@@ -25,7 +24,6 @@ function App() {
 		<Contact/>
 		<Testimonial/>
 		<Footer/>
-
 	  </div>
 	);
   }

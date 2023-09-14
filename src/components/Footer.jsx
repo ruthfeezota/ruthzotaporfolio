@@ -4,23 +4,20 @@ import RuthLogo from '../assets/Logo.png'
 function Footer() {
     const footerNavs = [
         {
-            href: 'javascript:void()',
+            href: '#About',
             name: 'About'
         },
+
         {
-            href: 'javascript:void()',
-            name: 'Services'
-        },
-        {
-            href: 'javascript:void()',
+            href: '#Project',
             name: 'Projects'
         },
         {
-            href: 'javascript:void()',
+            href: '#contact',
             name: 'Contact'
         },
         {
-            href: 'javascript:void()',
+            href: '#Testimonials',
             name: 'Testimonial'
         }
     ]
@@ -28,7 +25,7 @@ function Footer() {
   return (
     <footer className="pt-10 bg-gray-900 text-gray-200 px-4 py-5  ">
             <div className="max-w-lg sm:mx-auto sm:text-center">
-                <img src={RuthLogo} className="w-32 sm:mx-auto animate-bounce" />
+                <img src={RuthLogo} className="w-32 sm:mx-auto " />
                 {/* <p className="leading-relaxed mt-2 text-[15px]">
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                 </p> */}
@@ -36,7 +33,7 @@ function Footer() {
             <ul className="items-center justify-center mt-8 space-y-5 sm:flex sm:space-x-4 sm:space-y-0">
                 {
                     footerNavs.map((item, idx) => (
-                        <li className=" hover:text-gray-800">
+                        <li className=" hover:text-gray-300">
                             <a key={idx} href={item.href}>
                                 { item.name }
                             </a>

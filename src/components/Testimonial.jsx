@@ -9,13 +9,13 @@ function Testimonial() {
             quote: "I had the privilege of working with Ruth on our business website, and I am absolutely thrilled with the results. Ruth demonstrated an impressive blend of creativity and technical expertise, bringing our vision to life in ways we couldn't have imagined. "
         },
         {
-            avatar: "https://randomuser.me/api/portraits/women/79.jpg",
+            avatar: "https://www.littlesphotography.com/wp-content/uploads/2019/02/Seasy-2117-819x1024.jpg",
             name: "Elizabeth Soto",
             title: "Business Owner - Bettersheabutter.com",
             quote: "Our website is PERFECT! Every element of the website was thoughtfully crafted, from the elegant color scheme to the user-friendly navigation. It's clear that Ms. Ruth prioritizes both aesthetics and user experience."
         },
         {
-            avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+            avatar: "https://images.squarespace-cdn.com/content/v1/5cfb0f8783523500013c5639/1684363549672-2HO6BQNQJF9V65TJNGDC/Professional-headshots-vancouver--2.jpg",
             name: "Karim Smith",
             title: "Senior UI engineer - TechCrunch",
             quote: "Ruth worked with our team as a UX designer. She was responsive, receptive to feedback, and proactive in solving any challenges that arose during the development process. Her professionalism and commitment."

@@ -24,7 +24,7 @@ function Services() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
                 </svg>,
             title: "UX Design and Figma Prototype",
-            desc: "Design user-friendly prototype that followers WCAG compliance. Tools used Figma, Illustrator, and Sketch"
+            desc: "Design user-friendly prototype that followers WCAG compliance. Tools experienced with: Figma, Illustrator, and Sketch"
         },
         {
             icon:
@@ -32,7 +32,7 @@ function Services() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0l4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0l-5.571 3-5.571-3" />
                 </svg>,
             title: "CMS Web Maintenance (WordPress/Drupal)",
-            desc: "Maintain CMS website for businesses and create custom components. "
+            desc: "Maintain CMS website for businesses and create custom coded components. "
         },
         {
             icon:
@@ -63,17 +63,17 @@ function Services() {
                     Services
                 </h3>
                 <p className="mt-3 text-white">
-                    I'm well versed in many frontend development tools and design technology
+                    I'm well versed in many frontend development tools and design technologies
                 </p>
             </div>
             <div className="absolute inset-0 max-w-xs mx-auto h-44 blur-[118px]" ></div>
             {/* <div className="absolute inset-0 max-w-xs mx-auto h-44 blur-[118px]" style={{ background: "linear-gradient(152.92deg, rgba(192, 132, 252, 0.2) 4.54%, rgba(232, 121, 249, 0.26) 34.2%, rgba(192, 132, 252, 0.1) 77.55%)" }}></div> */}
         </div>
         <div className="relative mt-12">
-            <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 ">
                 {
                     features.map((item, idx) => (
-                        <li key={idx} className="bg-white space-y-3 p-4 border rounded-lg">
+                        <li key={idx} className="bg-white space-y-3 p-4 border rounded-lg duration-150   active:bg-indigo-700 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
                             <div className="text-red-300 pb-3">
                                 {item.icon}
                             </div>
