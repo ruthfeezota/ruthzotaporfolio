@@ -1,9 +1,29 @@
 import { useState, useEffect } from "react";
 import Logo from '../assets/Logo.png'
 import Typed from 'react-typed';
+import { db } from "../firebase";
 
 function Hero() {
     const [state, setState] = useState(false)
+    const [email, setEmail] = useState("");
+
+    const handleSubmit = (e) => {
+      e.preventDefault();
+
+      db.collection('email')
+      .add({
+        email: email,
+      })
+
+      .then(() => {
+        alert('Email has be submitted 👍')
+      })
+      .catch((error) => {
+        alert(error.message);
+      });
+
+      setEmail("");
+    };
 
     // Replace javascript:void(0) path with your path
    // Replace javascript:void(0) paths with your paths
@@ -110,14 +130,14 @@ const Brand = () => (
                         I build accessible, inclusive products and digital experiences for the web.
                         </p>
                         <form
-                            onSubmit={(e) => e.preventDefault()}
+                             onSubmit={handleSubmit}
                             className="justify-center items-center gap-x-3 sm:flex">
                             <input
-                                type="text"
+                                type="email" value={email} onChange={(e) => setEmail(e.target.value)}
                                 placeholder="Enter your email"
                                 className="w-full px-3 py-2.5 text-gray-200 bg-gray-700 focus:bg-gray-900 duration-150 outline-none rounded-lg shadow sm:max-w-sm sm:w-auto"
                             />
-                            <button className="flex items-center justify-center gap-x-2 py-2.5 px-4 mt-3 w-full text-sm text-black font-medium bg-red-300 hover:bg-sky-400 active:bg-sky-600 duration-150 rounded-lg outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 ">
+                            <button type="submit" className="flex items-center justify-center gap-x-2 py-2.5 px-4 mt-3 w-full text-sm text-black font-medium bg-red-300 hover:bg-sky-400 active:bg-sky-600 duration-150 rounded-lg outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 ">
                                 Contact
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
                                     <path fillRule="evenodd" d="M2 10a.75.75 0 01.75-.75h12.59l-2.1-1.95a.75.75 0 111.02-1.1l3.5 3.25a.75.75 0 010 1.1l-3.5 3.25a.75.75 0 11-1.02-1.1l2.1-1.95H2.75A.75.75 0 012 10z" clipRule="evenodd" />
