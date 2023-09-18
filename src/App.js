@@ -21,8 +21,9 @@ function App() {
 		<Stats/>
 		<TestimonialNewFront/>
 		<ActionBanner/>
-		<Services/>
 		<Projects/>
+		<Services/>
+
 		<Contact/>
 		<Testimonial/>
 		<Footer/>
