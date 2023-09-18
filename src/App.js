@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Services from './components/Services';
 import Stats from './components/Stats';
 import Testimonial from './components/Testimonial';
+import TestimonialNewFront from './components/TestimonialNewFront';
 
 
 
@@ -18,6 +19,7 @@ function App() {
 		<Hero/>
 		<Brands/>
 		<Stats/>
+		<TestimonialNewFront/>
 		<ActionBanner/>
 		<Services/>
 		<Projects/>
