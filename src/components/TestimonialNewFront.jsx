@@ -21,7 +21,9 @@ function TestimonialNewFront() {
               <p class="mb-6 text-neutral-100 dark:text-neutral-300">
             The site now perfectly captures the cozy ambiance of our shop and is a breeze to navigate. The designer's attention to detail and aesthetics has made our online presence truly inviting. We couldn't be happier with the results. Thanks for a job well done!
 
+
               </p>
+              <p className='text-red-300'>~Maria Koya (Business Manager)</p>
               <ul class="flex justify-center lg:justify-start text-yellow-300">
                 <li>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960"
