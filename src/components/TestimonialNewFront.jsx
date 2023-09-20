@@ -61,6 +61,7 @@ function TestimonialNewFront() {
                   </svg>
                 </li>
               </ul>
+           
             </div>
           </div>
           <div class="md:mb-12 lg:mb-0">
