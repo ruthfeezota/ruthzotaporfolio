@@ -25,14 +25,12 @@ function Hero() {
       setEmail("");
     };
 
-    // Replace javascript:void(0) path with your path
-   // Replace javascript:void(0) paths with your paths
    const navigation = [
 
-    { title: "Testimonials", path: "#Testimonials" },
-    { title: "Tech Stacks", path: "#Tech" },
-    { title: "Portfolio", path: "#Project" },
-    { title: "About Me", path: "#About" },
+    { title: "About", path: "/About" },
+    { title: "Portfolio", path: "/Portfolio" },
+    { title: "Contact", path: "/Contact" },
+
 ]
 
 useEffect(() => {

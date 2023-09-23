@@ -1,35 +1,22 @@
-import React from 'react';
-import ActionBanner from './components/ActionBanner';
-import Brands from './components/Brands';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Hero from './components/Hero';
-import Projects from './components/Projects';
-import Services from './components/Services';
-import Stats from './components/Stats';
-import Testimonial from './components/Testimonial';
-import TestimonialNewFront from './components/TestimonialNewFront';
-
-
-
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 
 function App() {
-	return (
-	  <div>
-		<Hero/>
-		<Brands/>
-		<Stats/>
-		<TestimonialNewFront/>
-		<ActionBanner/>
-		<Projects/>
-		<Services/>
 
-		<Contact/>
-		<Testimonial/>
-		<Footer/>
-	  </div>
-	);
-  }
+  return (
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Portfolio" element={<Portfolio/>} />
+		<Route path="/Contact" element={<Contact />} />
 
-  export default App;
+      </Routes>
+    </div>
+  );
+}
 
+export default App;
