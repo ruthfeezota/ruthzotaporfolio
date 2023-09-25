@@ -12,6 +12,7 @@ import Footer from '../components/Footer';
 
 
 
+
 function Home() {
   return (
     <div>
@@ -22,6 +23,7 @@ function Home() {
         <ActionBanner/>
         <Projects/>
         <Services/>
+
         <Contact/>
         <Testimonial/>
         <Footer/>

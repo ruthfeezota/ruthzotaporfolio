@@ -4,8 +4,9 @@ import Typed from 'react-typed';
 import { db } from "../firebase";
 
 function Hero() {
-    const [state, setState] = useState(false)
+    const [state, setState] = useState(false);
     const [email, setEmail] = useState("");
+    const [isVideoPoppedUp, setVideoPopUp] = useState(false);
 
     const handleSubmit = (e) => {
       e.preventDefault();
@@ -73,6 +74,7 @@ const Brand = () => (
 
   return (
     <div  className="bg-gray-900 text-white h-full relative overflow-hidden bg-cover bg-no-repeat p-12 text-center" id='Hero'>
+        {/* bg-[url('https://i.ibb.co/0X2ybY9/pexels-cottonbro-studio-8721342.jpg')] */}
             <header>
                 <div className={`md:hidden ${state ? "mx-2 pb-5" : "hidden"}`}>
                     <Brand />
@@ -109,8 +111,13 @@ const Brand = () => (
             <section className="relative">
                 <div className="relative z-10 max-w-screen-xl mx-auto px-4 py-28 md:px-8">
                     <div className="space-y-5 max-w-4xl mx-auto text-center">
+
+
+                    <div class="relative w-24 h-24 space-y-5 max-w-4xl mx-auto text-center">
+    <img class="rounded-full border border-gray-100 shadow-sm" src="https://i.ibb.co/gPRHGwY/1667966710123.jpg" alt="Ruth Zota Image" />
+    </div>
                         <h2 className="text-4xl text-white font-extrabold mx-auto md:text-5xl">
-                            I'm Ruth! A Freelance
+                            Hello, I'm Ruth! A Freelance:
                         </h2>
                         <div className='flex justify-center items-center'>
           <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
@@ -154,8 +161,11 @@ const Brand = () => (
                             </div>
                             <p><span className="text-gray-100">5.0</span> by over 200 freelance clients</p>
                         </div>
+
                     </div>
+
                 </div>
+
 
             </section>
         </div>
