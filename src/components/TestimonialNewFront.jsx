@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import { Glow } from '@codaworks/react-glow'
+import { GlowCapture } from '@codaworks/react-glow'
 
 function TestimonialNewFront() {
   return (
@@ -61,14 +63,16 @@ function TestimonialNewFront() {
                   </svg>
                 </li>
               </ul>
-           
+
             </div>
           </div>
           <div class="md:mb-12 lg:mb-0">
+
             <img src="https://images.squarespace-cdn.com/content/v1/5b994c0e9f877027273bc99b/1553463512051-8Q4EFMGU0DL77WGSH0QS/Web-0434-2+-+Copy+-+Copy.jpg?format=2500w"
               class="lg:rotate-[6deg] w-full rounded-lg shadow-lg dark:shadow-black/20" alt="image" />
           </div>
         </div>
+
       </div>
     </div>
   </section>

@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        glow: 'color-mix(in srgb, var(--glow-color) calc(<alpha-value> * 100%), transparent)'
+    }
+    },
   },
-  plugins: [],
+  plugins: [ require('@codaworks/react-glow/tailwind')
+],
 }

@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Logo from '../assets/Logo.png'
 import Typed from 'react-typed';
 import { db } from "../firebase";
+import { Glow, GlowCapture } from "@codaworks/react-glow";
 
 function Hero() {
     const [state, setState] = useState(false);
@@ -111,14 +112,15 @@ const Brand = () => (
             <section className="relative">
                 <div className="relative z-10 max-w-screen-xl mx-auto px-4 py-28 md:px-8">
                     <div className="space-y-5 max-w-4xl mx-auto text-center">
-
-
                     <div class="relative w-24 h-24 space-y-5 max-w-4xl mx-auto text-center">
     <img class="rounded-full border border-gray-100 shadow-sm" src="https://i.ibb.co/gPRHGwY/1667966710123.jpg" alt="Ruth Zota Image" />
     </div>
+
                         <h2 className="text-4xl text-white font-extrabold mx-auto md:text-5xl">
                             Hello, I'm Ruth! A Freelance:
                         </h2>
+
+
                         <div className='flex justify-center items-center'>
           <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
 
@@ -135,6 +137,7 @@ const Brand = () => (
                         <p className="max-w-2xl mx-auto text-white">
                         I build accessible, inclusive products and digital experiences for the web.
                         </p>
+
                         <form
                              onSubmit={handleSubmit}
                             className="justify-center items-center gap-x-3 sm:flex">

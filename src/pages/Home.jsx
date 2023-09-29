@@ -13,9 +13,10 @@ import Footer from '../components/Footer';
 
 
 
+
 function Home() {
   return (
-    <div>
+    <div className='overscroll-auto bg-black'>
     <Hero/>
         <Brands/>
         <Stats/>
@@ -23,7 +24,6 @@ function Home() {
         <ActionBanner/>
         <Projects/>
         <Services/>
-
         <Contact/>
         <Testimonial/>
         <Footer/>

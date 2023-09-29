@@ -1,3 +1,4 @@
+import { Glow, GlowCapture } from '@codaworks/react-glow'
 import React from 'react'
 
 function Services() {
@@ -58,6 +59,7 @@ function Services() {
     <section className="py-14 bg-gray-900">
     <div className="max-w-screen-xl mx-auto px-4  md:px-8">
         <div className="relative max-w-2xl mx-auto sm:text-center">
+
             <div className="relative z-10">
                 <h3 className=" text-red-300 text-3xl font-semibold sm:text-4xl">
                     Services
@@ -88,7 +90,7 @@ function Services() {
                 }
             </ul>
         </div>
-       
+
     </div>
     {/* animate-pulse */}
 
