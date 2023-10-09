@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import Logo from '../assets/Logo.png'
 import Typed from 'react-typed';
 import { db } from "../firebase";
-import { Glow, GlowCapture } from "@codaworks/react-glow";
 
 function Hero() {
     const [state, setState] = useState(false);
@@ -45,7 +44,7 @@ useEffect(() => {
 
 const Brand = () => (
     <div className="flex items-center justify-between py-5 md:block">
-        <a href="javascript:void(0)">
+        <a href="/">
                         <img
                             src={Logo}
                             width={120}
@@ -73,9 +72,14 @@ const Brand = () => (
     </div>
 )
 
+
+
+
+
+
   return (
-    <div  className="bg-gray-900 text-white h-full relative overflow-hidden bg-cover bg-no-repeat p-12 text-center" id='Hero'>
-        {/* bg-[url('https://i.ibb.co/0X2ybY9/pexels-cottonbro-studio-8721342.jpg')] */}
+    <div  className="bg-[url('https://i.ibb.co/jHRFj45/pexels-photo-3560136.jpg')] text-white h-full relative overflow-hidden bg-cover bg-no-repeat p-12 text-center" id='Hero'>
+
             <header>
                 <div className={`md:hidden ${state ? "mx-2 pb-5" : "hidden"}`}>
                     <Brand />
@@ -109,12 +113,14 @@ const Brand = () => (
                     </div>
                 </nav>
             </header>
+
             <section className="relative">
+
                 <div className="relative z-10 max-w-screen-xl mx-auto px-4 py-28 md:px-8">
                     <div className="space-y-5 max-w-4xl mx-auto text-center">
-                    <div class="relative w-24 h-24 space-y-5 max-w-4xl mx-auto text-center">
+                    {/* <div class="relative w-24 h-24 space-y-5 max-w-4xl mx-auto text-center">
     <img class="rounded-full border border-gray-100 shadow-sm" src="https://i.ibb.co/gPRHGwY/1667966710123.jpg" alt="Ruth Zota Image" />
-    </div>
+    </div> */}
 
                         <h2 className="text-4xl text-white font-extrabold mx-auto md:text-5xl">
                             Hello, I'm Ruth! A Freelance:
@@ -164,10 +170,11 @@ const Brand = () => (
                             </div>
                             <p><span className="text-gray-100">5.0</span> by over 200 freelance clients</p>
                         </div>
-
                     </div>
 
                 </div>
+
+
 
 
             </section>

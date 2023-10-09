@@ -9,6 +9,8 @@ import Services from '../components/Services';
 import Contact from '../components/Contact';
 import Testimonial from '../components/Testimonial';
 import Footer from '../components/Footer';
+import HeroNew from '../components/HeroNew';
+import Navbar from '../components/Navbar';
 
 
 
@@ -17,7 +19,8 @@ import Footer from '../components/Footer';
 function Home() {
   return (
     <div className='overscroll-auto bg-black'>
-    <Hero/>
+
+        <Hero/>
         <Brands/>
         <Stats/>
         <TestimonialNewFront/>
