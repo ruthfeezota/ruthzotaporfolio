@@ -6,7 +6,8 @@ import Contact from "./pages/Contact";
 import ShepherdLaw from "./pages/ShepherdLaw";
 import Leaf from "./pages/Leaf";
 import Pause from "./pages/Pause";
-import Brillianetor from './pages/Brillianetor'
+import Cookbook from './pages/Cookbook'
+import Bahasa from "./pages/Bahasa";
 
 
 function App() {
@@ -20,7 +21,9 @@ function App() {
         <Route path="/ShepherdLaw" element={<ShepherdLaw/>} />
         <Route path="/Leaf" element={<Leaf/>} />
         <Route path="/Pause" element={<Pause/>} />
-        <Route path="/Brillianetor" element={<Brillianetor/>} />
+        <Route path="/Cookbook" element={<Cookbook/>} />
+        <Route path="/Bahasa" element={<Bahasa/>} />
+
 
 
 

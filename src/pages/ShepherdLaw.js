@@ -11,20 +11,20 @@ import Code from '../assets/CodeShot.png'
 function ShepherdLaw() {
     const stats = [
         {
-            data: "35K",
-            title: "Customers"
+            data: "5K",
+            title: "Customers Users on Site"
         },
         {
-            data: "10K+",
-            title: "Downloads"
+            data: "80+",
+            title: "Developer Hours"
         },
         {
-            data: "40+",
-            title: "Countries"
+            data: "30%",
+            title: "SEO Traffic Increase"
         },
         {
-            data: "30M+",
-            title: "Total revenue"
+            data: "40%",
+            title: "Increase in Weekly Calls"
         },
     ]
   return (
@@ -81,8 +81,8 @@ function ShepherdLaw() {
                 <div class="mb-6 max-w-[528px] md:mb-10 lg:mb-12">
                   <p class="text-xl text-[#636262]">The client was undergoing a rebranding effort and sought a website that would convey a sense of trust and confidence to their customers, characterized by a clean and concise design.</p>
                   <ul class="list-disc pl-10 mt-5 mb-6 max-w-[528px] md:mb-10 lg:mb-22  text-[#636262] ">
-                    <li>Include a one-sentence tagline - Start the page with a tagline that summarizes the site.</li>
-                    <li>Homepage offers users clear starting points for the main 1–4 tasks to undertake when visiting site.</li>
+                    <li>Included a one-sentence tagline - Start the page with a tagline that summarizes the site.</li>
+                    <li>Homepage provide users a clear starting points for the main 1–4 tasks to undertake when visiting site.</li>
                     <li>Meaningful graphics - Used images that are powerful communicators </li>
                 </ul>
 
@@ -98,7 +98,7 @@ function ShepherdLaw() {
 
 
     <section class="block">
-  <div class="py-16 md:py-24 lg:py-32 mx-auto w-full max-w-7xl px-5 md:px-10">
+  <div class="py-6 md:py-14 lg:py-12 mx-auto w-full max-w-7xl px-5 md:px-10">
     <div class="mx-auto flex-col flex max-w-3xl items-center text-center mb-8 md:mb-12 lg:mb-16">
       <div class="text-center">
         <h2 class="font-bold text-3xl md:text-5xl">Smooth Process. Transformative Outcomes.</h2>
@@ -107,8 +107,8 @@ function ShepherdLaw() {
     <div class="relative flex-col flex items-center justify-center bg-contain bg-center bg-no-repeat pt-10 " styles="background-image: url('https://assets.website-files.com/6458c625291a94a195e6cf3a/648825fca218588cb636c341_Group%2048114.png');">
       <div class="relative flex w-full justify-around gap-4">
         <a class="relative flex-1 flex flex-col max-w-full items-start gap-2 border border-solid border-[#d9d9d9] bg-[#2C3084] text-white p-6 text-left align-top max-[479px]:block rounded-md" href="#w-tabs-2-data-w-pane-0">
-          <h5 class="text-xl font-bold">1. Map Out Your Customer's Journeys</h5>
-          <div class="text-sm sm:text-sm">knowing how your customers interact with your website across various stages of the sales funnel is critical to creating better overall experiences that can increase engagement, brand loyalty and revenue. </div>
+          <h5 class="text-xl font-bold">1. Map Out Our Customer's Journeys</h5>
+          <div class="text-sm sm:text-sm">I mapped out how customers interact with the business's website across various stages of the sales funnel. It was critical to creating better overall experiences that can increase engagement, brand loyalty and revenue. </div>
         </a>
         <a class="relative flex-col flex-1 flex max-w-full items-start gap-2 border border-solid border-[#d9d9d9] bg-[#2C3084] text-white  p-6 text-left align-top max-[479px]:block rounded-md" tabindex="-1" href="#w-tabs-2-data-w-pane-1">
           <h5 class="text-xl font-bold">2. UX Very Accessible/UX Testing</h5>
@@ -116,7 +116,7 @@ function ShepherdLaw() {
         </a>
         <a class="relative flex-col flex-1 flex max-w-full items-start gap-2 border border-solid border-[#d9d9d9] bg-[#2C3084] text-white p-6 text-left align-top max-[479px]:block rounded-md" tabindex="-1" href="#w-tabs-2-data-w-pane-2">
           <h5 class="text-xl font-bold">3. Minimize The Number Of Clicks</h5>
-          <div class="text-sm sm:text-sm">Count the number of clicks it takes the user to get things done on your website and minimize it. Check your website on many devices—including PCs, phones, tablets and all types of browsers and operating systems. Ask your family (including your spouse, children, parents, etc.) to use your site and give you direct feedback.</div>
+          <div class="text-sm sm:text-sm">Counted the number of clicks it takes the user to get things done on out website and minimize it. Checked the website on many devices—including PCs, phones, tablets and all types of browsers and operating systems. </div>
         </a>
       </div>
       <section className="py-14">
@@ -142,13 +142,15 @@ function ShepherdLaw() {
           <div class="py-16 md:py-24 lg:py-32">
             <div class="grid grid-cols-1 items-center gap-8 max-[991px]:justify-items-start sm:gap-20 lg:grid-cols-2">
               <div class="max-[991px]:max-w-[720px]">
-                <h3 class="mb-4 mt-6 text-2xl font-bold md:text-3xl">About Us Page</h3>
+                <h3 class="mb-4 mt-6 text-2xl font-bold md:text-3xl">Our Mission Page</h3>
                 <div class="mb-6 max-w-[528px] md:mb-10 lg:mb-12">
                   <p class="text-xl text-[#636262]">This client wanted to display their core value of 'trust</p>
                   <ul class="list-disc pl-10 mt-5 mb-6 max-w-[528px] md:mb-10 lg:mb-22  text-[#636262] ">
-                    <li>Now this is a story all about how, my life got flipped-turned upside down</li>
-                    <li>Now this is a story all about how, my life got flipped-turned upside down</li>
-                    <li>Now this is a story all about how, my life got flipped-turned upside down</li>
+                    <li>Organizational goals shift: Reflect new objectives to keep design efforts focused. </li>
+                    <li>Industry trends change: Adapt to emerging technologies and user expectations. </li>
+                    <li>Team dynamics evolve: Accommodate new members or leadership changes. </li>
+                    <li>User needs expand: Stay responsive to shifting user preferences and requirements. </li>
+
                 </ul>
                 </div>
 
@@ -162,56 +164,6 @@ function ShepherdLaw() {
       </div>
     </div>
 
-    <section class="block bg-[#2C3084]">
-      <div class="px-5 md:px-10">
-        <div class="mx-auto w-full max-w-7xl">
-          <div class="py-16 md:py-24 lg:py-32">
-            <div class="mx-auto max-w-3xl text-center">
-              <h2 class="mb-8 mt-6 pb-16 text-3xl font-extrabold md:mb-12 md:text-5xl lg:mb-4 text-white">What Users Said About the Site</h2>
-            </div>
-            <div class="mb-5 grid grid-cols-1 justify-items-center gap-5 sm:grid-cols-2 sm:justify-items-stretch md:mb-6 md:grid-cols-3 md:gap-4 lg:mb-8 lg:gap-6">
-              <div class="grid grid-cols-1 gap-6 rounded-2xl border border-[#cdcdcd] bg-white px-6 pb-6 pt-10 max-[767px]:p-8">
-                <div class="text-[#636262]">I've been using this payment system for a few months now and I have to say it's been great. The interface is simple and easy to navigate, and transactions are fast and secure. I feel confident using this system to handle all of my financial transactions.</div>
-                <div class="mt-8 w-full border-[0.5px] border-solid border-[#eceae2]"></div>
-                <div class="flex flex-row items-start">
-                  <img src="https://assets.website-files.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a281_Ellipse%2010%402x-1.png" alt="Testimonial image" class="mr-4 inline-block h-16 w-16 max-w-full object-contain" />
-                  <div class="flex flex-col items-start">
-                    <h6 class="text-sm font-bold md:text-base">Laila Bahar</h6>
-                    <p class="text-sm text-[#636262]">Designer</p>
-                  </div>
-                </div>
-              </div>
-              <div class="grid grid-cols-1 gap-6 rounded-2xl border border-[#cdcdcd] bg-white px-6 pb-6 pt-10 max-[767px]:p-8">
-                <div class="text-[#636262]">I've been using this payment system for a few months now and I have to say it's been great. The interface is simple and easy to navigate, and transactions are fast and secure. I feel confident using this system to handle all of my financial transactions.</div>
-                <div class="mt-8 w-full border-[0.5px] border-solid border-[#eceae2]"></div>
-                <div class="flex flex-row items-start">
-                  <img src="https://assets.website-files.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a27f_Ellipse%2010%402x.png" alt="Testimonial image" class="mr-4 inline-block h-16 w-16 max-w-full object-contain" />
-                  <div class="flex flex-col items-start">
-                    <h6 class="text-sm font-bold md:text-base">Laila Bahar</h6>
-                    <p class="text-sm text-[#636262]">Designer</p>
-                  </div>
-                </div>
-              </div>
-              <div class="grid grid-cols-1 gap-6 rounded-2xl border border-[#cdcdcd] bg-white px-6 pb-6 pt-10 max-[767px]:p-8">
-                <div class="text-[#636262]">I've been using this payment system for a few months now and I have to say it's been great. The interface is simple and easy to navigate, and transactions are fast and secure. I feel confident using this system to handle all of my financial transactions.</div>
-                <div class="mt-8 w-full border-[0.5px] border-solid border-[#eceae2]"></div>
-                <div class="flex flex-row items-start">
-                  <img src="https://assets.website-files.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a27d_Group%2048096%402x.png" alt="Testimonial image" class="mr-4 inline-block h-16 w-16 max-w-full object-contain" />
-                  <div class="flex flex-col items-start">
-                    <h6 class="text-sm font-bold md:text-base">Laila Bahar</h6>
-                    <p class="text-sm text-[#636262]">Designer</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="flex flex-col items-center justify-center">
-              <a href="#" class="mx-auto font-bold text-white">Check all reviews</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
 
 
 
@@ -222,12 +174,11 @@ function ShepherdLaw() {
           <div class="py-16 md:py-24 lg:py-32">
             <div class="grid grid-cols-1 items-center gap-8 max-[991px]:justify-items-start sm:gap-20 lg:grid-cols-2">
               <div class="max-[991px]:max-w-[720px]">
-                <h2 class="mb-4 mt-6 pb-4 text-4xl font-bold text-white md:text-6xl">Never miss any payment</h2>
+                <h2 class="mb-4 mt-6 pb-4 text-4xl font-bold text-white md:text-6xl">"About Us" Page</h2>
                 <div class="mb-6 max-w-[480px] md:mb-10 lg:mb-12">
                 <ul class="list-disc pl-10 mt-5 mb-6 max-w-[528px] md:mb-10 lg:mb-22  text-white ">
-                    <li>Now this is a story all about how, my life got flipped-turned upside down</li>
-                    <li>Now this is a story all about how, my life got flipped-turned upside down</li>
-                    <li>Now this is a story all about how, my life got flipped-turned upside down</li>
+                    <li>I followed the Halo Effect in my design of the "About Us Page" and made it look as professional as the others pages. If users have a good first impression, the positive feelings permeate to other parts of the site.</li>
+
                 </ul>
                 </div>
               </div>

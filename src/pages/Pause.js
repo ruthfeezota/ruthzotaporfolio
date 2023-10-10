@@ -17,20 +17,20 @@ import PauseMini from '../assets/PauseMini.png'
 function Pause() {
     const stats = [
         {
-            data: "35K",
-            title: "Customers"
+            data: "2",
+            title: "UX Designers"
         },
         {
-            data: "10K+",
-            title: "Downloads"
+            data: "3",
+            title: "Web Developers"
         },
         {
-            data: "40+",
-            title: "Countries"
+            data: "100+",
+            title: "User Testers"
         },
         {
-            data: "30M+",
-            title: "Total revenue"
+            data: "2",
+            title: "Research Studies Conducted"
         },
     ]
   return (
@@ -87,7 +87,7 @@ function Pause() {
               <div class="max-[991px]:max-w-[720px]">
                 <h2 class="mb-4 mt-6 pb-4 text-3xl font-extrabold md:text-5xl">THE BRIEF</h2>
                 <div class="mb-6 max-w-[528px] md:mb-10 lg:mb-12">
-                  <p class="text-xl text-[#636262]">The aim of this activity is to design, prototype and test an application to support people managing long COVID , based on the analysis of user needs drawn from existing resources and theory. This brief was provided by the module leaders for the final coursework.</p>
+                  <p class="text-xl text-[#636262]">The aim of this activity is to design, prototype and test an application to support people managing long COVID , based on the analysis of user needs drawn from existing resources and theory.</p>
 
 
 
@@ -111,7 +111,7 @@ function Pause() {
         <h2 class="mb-4 mt-6 text-3xl font-extrabold md:text-5xl">
 Research + Ideation</h2>
         <div class="mx-auto mt-4 max-w-[1500px]">
-          <p class="text-[#636262]">The whole group of six did secondary research looking through papers on digital intervention and behaviour change theories as well as interviews and anecdotes from people who experienced long COVID. This is where we were finding a large group of women who had experienced long COVID, perimenopause, or both, and felt they were not supported nor provided with enough resources to understand what was going on in their body. Many women got misdiagnosed for one or the other, which exacerbated symptoms and often prolonged recovery. We felt that this issue was a gap in the existing pool of long COVID and COVID management applications. Thus, we decided to do a second round of secondary research but with a focus on this user group. We then collated our research into  major themes through an affinity diagram. We created an evaluation matrix of the various pain points and desired features that these women expressed. </p>
+          <p class="text-[#636262]">The group did secondary research looking through papers on digital intervention and behaviour change theories as well as interviews and anecdotes from people who experienced long COVID. This is where we were finding a large group of women who had experienced long COVID, perimenopause, or both, and felt they were not supported nor provided with enough resources to understand what was going on in their body. Many women got misdiagnosed for one or the other, which exacerbated symptoms and often prolonged recovery. We felt that this issue was a gap in the existing pool of long COVID and COVID management applications. Thus, we decided to do a second round of secondary research but with a focus on this user group. We then collated our research into  major themes through an affinity diagram. We created an evaluation matrix of the various pain points and desired features that these women expressed. </p>
         </div>
       </div>
 
@@ -151,41 +151,42 @@ Research + Ideation</h2>
   <div class="py-16 md:py-24 lg:py-32 mx-auto w-full max-w-7xl px-5 md:px-10">
     <div class="mx-auto flex-col flex max-w-3xl items-center text-center mb-8 md:mb-12 lg:mb-16">
       <div class="text-center">
-        <h2 class="font-bold text-3xl md:text-5xl">Smooth Process. Transformative Outcomes.</h2>
+        <h2 class="font-bold text-3xl md:text-4xl">Dialogue Support & Social Support</h2>
       </div>
     </div>
     <div class="relative flex-col flex items-center justify-center bg-contain bg-center bg-no-repeat pt-10 " styles="background-image: url('https://assets.website-files.com/6458c625291a94a195e6cf3a/648825fca218588cb636c341_Group%2048114.png');">
-      <div class="relative flex w-full justify-around gap-4">
-        <a class="relative flex-1 flex flex-col max-w-full items-start gap-2 border border-solid border-[#d9d9d9] bg-[#FBDDBF] text-white p-6 text-left align-top max-[479px]:block rounded-md" href="#w-tabs-2-data-w-pane-0">
-          <h5 class="text-xl font-bold">1. Map Out Your Customer's Journeys</h5>
-          <div class="text-sm sm:text-sm">knowing how your customers interact with your website across various stages of the sales funnel is critical to creating better overall experiences that can increase engagement, brand loyalty and revenue. </div>
+      <div class="relative flex w-full justify-around gap-4 py-4">
+        <a class="relative flex-1 flex flex-col max-w-full items-start gap-2 border border-solid border-[#d9d9d9] bg-[#FBDDBF] text-black p-6 text-left align-top max-[479px]:block rounded-md" href="#w-tabs-2-data-w-pane-0">
+          <h5 class="text-xl font-bold">1. Rewards</h5>
+          <div class="text-sm sm:text-sm"> Users can accumulate points and gain badges for logging their symptoms consistently, for completing courses and for engaging in community forums, and then use their points to grow their virtual garden </div>
         </a>
-        <a class="relative flex-col flex-1 flex max-w-full items-start gap-2 border border-solid border-[#d9d9d9] bg-[#FBDDBF] text-white  p-6 text-left align-top max-[479px]:block rounded-md" tabindex="-1" href="#w-tabs-2-data-w-pane-1">
-          <h5 class="text-xl font-bold">2. UX Very Accessible/UX Testing</h5>
-          <div class="text-sm sm:text-sm">Optimize the site speed, add an attractive call to action, use white space, etc. Our ultimate goal is to retain customers on our site and for that, we need to make the whole process functional.</div>
+        <a class="relative flex-col flex-1 flex max-w-full items-start gap-2 border border-solid border-[#d9d9d9] bg-[#FBDDBF] text-black  p-6 text-left align-top max-[479px]:block rounded-md" tabindex="-1" href="#w-tabs-2-data-w-pane-1">
+          <h5 class="text-xl font-bold">2. Reminders</h5>
+          <div class="text-sm sm:text-sm">Users receive scheduled notifications to ensure they log all their symptoms and menstrual cycle changes consistently</div>
         </a>
-        <a class="relative flex-col flex-1 flex max-w-full items-start gap-2 border border-solid border-[#d9d9d9] bg-[#FBDDBF] text-white p-6 text-left align-top max-[479px]:block rounded-md" tabindex="-1" href="#w-tabs-2-data-w-pane-2">
-          <h5 class="text-xl font-bold">3. Minimize The Number Of Clicks</h5>
-          <div class="text-sm sm:text-sm">Count the number of clicks it takes the user to get things done on your website and minimize it. Check your website on many devices—including PCs, phones, tablets and all types of browsers and operating systems. Ask your family (including your spouse, children, parents, etc.) to use your site and give you direct feedback.</div>
+        <a class="relative flex-col flex-1 flex max-w-full items-start gap-2 border border-solid border-[#d9d9d9] bg-[#FBDDBF] text-black p-6 text-left align-top max-[479px]:block rounded-md" tabindex="-1" href="#w-tabs-2-data-w-pane-2">
+          <h5 class="text-xl font-bold">3. Suggestion & Liking </h5>
+          <div class="text-sm sm:text-sm">The app provides suggestions for activities that could help alleviate symptoms. The application was designed to have an appealing and sleek colour scheme for women.</div>
         </a>
       </div>
-      <section className="py-14">
-            <div className="max-w-screen-xl mx-auto px-4 md:px-8">
-                <ul className="flex flex-col items-center justify-center gap-x-12 gap-y-10 sm:flex-row sm:flex-wrap md:gap-x-24">
-                    {
-                        stats.map((item, idx) => (
-                            <li key={idx} className="text-center">
-                                <h4 className="text-4xl text-gray-800 font-semibold">{item.data}</h4>
-                                <p className="mt-3 text-gray-600 font-medium">{item.title}</p>
-                            </li>
-                        ))
-                    }
-                </ul>
-            </div>
-        </section>
+      <div class="relative flex w-full justify-around gap-4">
+        <a class="relative flex-1 flex flex-col max-w-full items-start gap-2 border border-solid border-[#d9d9d9] bg-[#FBDDBF] text-black p-6 text-left align-top max-[479px]:block rounded-md" href="#w-tabs-2-data-w-pane-0">
+          <h5 class="text-xl font-bold">4. Normative influence</h5>
+          <div class="text-sm sm:text-sm"> The app provides a platform for women experiencing similar health conditions/symptoms of PM and LC, creating a community for sharing advice and personal stories. </div>
+        </a>
+        <a class="relative flex-col flex-1 flex max-w-full items-start gap-2 border border-solid border-[#d9d9d9] bg-[#FBDDBF] text-black  p-6 text-left align-top max-[479px]:block rounded-md" tabindex="-1" href="#w-tabs-2-data-w-pane-1">
+          <h5 class="text-xl font-bold">5. Cooperation</h5>
+          <div class="text-sm sm:text-sm">The ‘connect’ feature provides a hub for cooperation where women can post questions, blogs or stories about their health experiences and enter discussions</div>
+        </a>
+        <a class="relative flex-col flex-1 flex max-w-full items-start gap-2 border border-solid border-[#d9d9d9] bg-[#FBDDBF] text-black p-6 text-left align-top max-[479px]:block rounded-md" tabindex="-1" href="#w-tabs-2-data-w-pane-2">
+          <h5 class="text-xl font-bold">6. Recognition </h5>
+          <div class="text-sm sm:text-sm">Public recognition is implemented through the badge rewards system, where users can observe others’ levels of engagement</div>
+        </a>
+      </div>
     </div>
   </div>
 </section>
+
     <div class="bg-[#f7f6f2]">
       <div class="px-5 md:px-10">
         <div class="mx-auto w-full max-w-7xl">
@@ -194,7 +195,12 @@ Research + Ideation</h2>
               <div class="max-[991px]:max-w-[720px]">
                 <h3 class="mb-4 mt-6 text-2xl font-bold md:text-3xl">User Personas</h3>
                 <div class="mb-6 max-w-[528px] md:mb-10 lg:mb-12">
-                  <p class="text-xl text-[#636262]">We came up with three women who had varying lifestyles and personalities, which shape the way in which they may use the application and what their primary goal for using it would be. For example, Abigail is very introverted and feels quite isolated. Her main driving factor for using PAUSE would be to connect with others and talk or read about the experiences of people going through a similar situation. Sasha, on the other hand, is an extremely busy career-driven woman who wants simple and understandable data visualization so she can bring it to her doctor for a better understanding of the changes in her body. Michel is very health anxious and wants to know every detail on what is going on in her body and what she can do to manage her symptoms. </p>
+                  <p class="text-xl text-[#636262]">We came up with three women who had varying lifestyles and personalities, which shape the way in which they may use the application and what their primary goal for using it would be.
+
+                  <br/>For example, Abigail is very introverted and feels quite isolated. Her main driving factor for using PAUSE would be to connect with others and talk or read about the experiences of people going through a similar situation.
+
+                  <br/> <br/>  Sasha, on the other hand, is an extremely busy career-driven woman who wants simple and understandable data visualization so she can bring it to her doctor for a better understanding of the changes in her body.
+                  <br/>  <br/>Michel is very health anxious and wants to know every detail on what is going on in her body and what she can do to manage her symptoms. </p>
 
                 </div>
 
@@ -237,38 +243,45 @@ Research + Ideation</h2>
         <div class="mx-auto w-full max-w-7xl">
           <div class="py-16 md:py-24 lg:py-32">
             <div class="mx-auto max-w-3xl text-center">
-              <h2 class="mb-8 mt-6 pb-16 text-3xl font-extrabold md:mb-12 md:text-5xl lg:mb-4 text-gray-700">What Users Said About the Site</h2>
+              <h2 class="mb-3 mt-6 pb-6 text-2xl font-extrabold md:text-3xl lg:mb-4 text-gray-700">What Users Said About the Site</h2>
             </div>
-            <div class="mb-5 grid grid-cols-1 justify-items-center gap-5 sm:grid-cols-2 sm:justify-items-stretch md:mb-6 md:grid-cols-3 md:gap-4 lg:mb-8 lg:gap-6">
-              <div class="grid grid-cols-1 gap-6 rounded-2xl border border-[#cdcdcd] bg-white px-6 pb-6 pt-10 max-[767px]:p-8">
-                <div class="text-[#636262]">I've been using this payment system for a few months now and I have to say it's been great. The interface is simple and easy to navigate, and transactions are fast and secure. I feel confident using this system to handle all of my financial transactions.</div>
-                <div class="mt-8 w-full border-[0.5px] border-solid border-[#eceae2]"></div>
-                <div class="flex flex-row items-start">
-                  <img src="https://assets.website-files.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a281_Ellipse%2010%402x-1.png" alt="Testimonial image" class="mr-4 inline-block h-16 w-16 max-w-full object-contain" />
-                  <div class="flex flex-col items-start">
-                    <h6 class="text-sm font-bold md:text-base">Laila Bahar</h6>
-                    <p class="text-sm text-[#636262]">Designer</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="grid grid-cols-1 gap-6 rounded-2xl border border-[#cdcdcd] bg-white px-6 pb-6 pt-10 max-[767px]:p-8">
-                <div class="text-[#636262]">I've been using this payment system for a few months now and I have to say it's been great. The interface is simple and easy to navigate, and transactions are fast and secure. I feel confident using this system to handle all of my financial transactions.</div>
-                <div class="mt-8 w-full border-[0.5px] border-solid border-[#eceae2]"></div>
-                <div class="flex flex-row items-start">
-                  <img src="https://assets.website-files.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a27d_Group%2048096%402x.png" alt="Testimonial image" class="mr-4 inline-block h-16 w-16 max-w-full object-contain" />
-                  <div class="flex flex-col items-start">
-                    <h6 class="text-sm font-bold md:text-base">Laila Bahar</h6>
-                    <p class="text-sm text-[#636262]">Designer</p>
-                  </div>
-                </div>
-              </div>
+            <section className="py-6">
+            <div className="max-w-screen-xl mx-auto px-4 md:px-8">
+                <ul className="flex flex-col items-center justify-center gap-x-12 gap-y-10 sm:flex-row sm:flex-wrap md:gap-x-24">
+                    {
+                        stats.map((item, idx) => (
+                            <li key={idx} className="text-center">
+                                <h4 className="text-4xl text-gray-700 font-semibold">{item.data}</h4>
+                                <p className="mt-3 text-gray-600 font-medium">{item.title}</p>
+                            </li>
+                        ))
+                    }
+                </ul>
             </div>
+        </section>
 
           </div>
         </div>
       </div>
     </section>
+
+    <div class="">
+      <div class="px-5 md:px-10">
+        <div class="mx-auto w-full max-w-7xl">
+          <div class="py-16 md:py-24 lg:py-32">
+            <div class="grid grid-cols-1 items-center gap-8 max-[991px]:justify-items-start sm:gap-20 lg:grid-cols-2">
+              <div class="max-[1500px]:max-w-[1000px]">
+                <h2 class="mb-4 mt-6 pb-4 text-3xl font-extrabold md:text-5xl">User Testing</h2>
+
+              </div>
+              <div class="">
+                <img src={UserTest} alt="" class="mx-auto inline-block h-full w-full  object-cover" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
@@ -299,23 +312,7 @@ Research + Ideation</h2>
       </div>
     </div>
 
-    <div class="">
-      <div class="px-5 md:px-10">
-        <div class="mx-auto w-full max-w-7xl">
-          <div class="py-16 md:py-24 lg:py-32">
-            <div class="grid grid-cols-1 items-center gap-8 max-[991px]:justify-items-start sm:gap-20 lg:grid-cols-2">
-              <div class="max-[1500px]:max-w-[1000px]">
-                <h2 class="mb-4 mt-6 pb-4 text-3xl font-extrabold md:text-5xl">User Testing</h2>
 
-              </div>
-              <div class="">
-                <img src={UserTest} alt="" class="mx-auto inline-block h-full w-full  object-cover" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
    <Footer/>
   </div>
 </div>
