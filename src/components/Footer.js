@@ -1,7 +1,13 @@
-import React from 'react'
+import { useEffect } from 'react';
 import RuthLogo from '../assets/Logo.png'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Footer() {
+    useEffect(() => {
+        AOS.init({duration:1200})
+      })
+
     const footerNavs = [
         {
             href: '#About',
@@ -23,8 +29,8 @@ function Footer() {
     ]
 
   return (
-    <footer className="pt-10 bg-gray-900 text-gray-200 px-4 py-5  ">
-            <div className="max-w-lg sm:mx-auto sm:text-center">
+    <footer className="pt-10 bg-gray-900 text-gray-200 px-4 py-5">
+            <div className="max-w-lg sm:mx-auto sm:text-center" data-aos="fade-up" >
                 <img src={RuthLogo} className="w-32 sm:mx-auto " />
                 {/* <p className="leading-relaxed mt-2 text-[15px]">
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -41,11 +47,11 @@ function Footer() {
                     ))
                 }
             </ul>
-            <div className="mt-8 items-center justify-between sm:flex">
+            <div className="mt-8 items-center justify-between sm:flex" data-aos="fade-up" >
                 <div className="mt-4 sm:mt-0">
                     &copy; 2023 Ruth Zota All rights reserved.
                 </div>
-                <div className="mt-6 sm:mt-0">
+                <div className="mt-6 sm:mt-0"  data-aos="fade-up">
                     <ul className="flex items-center space-x-4">
                         <li className="w-10 h-10 border rounded-full flex items-center justify-center">
                             <a href="https://www.linkedin.com/in/ruthzota/">

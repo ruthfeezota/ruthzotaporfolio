@@ -1,7 +1,14 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
 import { db } from "../firebase";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Contact() {
+    useEffect(() => {
+        AOS.init({duration:1200})
+      })
+
     const [email, setEmail] = useState("");
     const [name, setName] = useState("");
     const [bname, setBname] = useState("");
@@ -36,9 +43,10 @@ function Contact() {
     setNumber("");
   };
 
+
   return (
     <main className="relative py-28 bg-gray-900" id="contact">
-            <div className="relative z-10 max-w-screen-xl mx-auto text-gray-600 sm:px-4 md:px-8">
+            <div className="relative z-10 max-w-screen-xl mx-auto text-gray-600 sm:px-4 md:px-8" data-aos="fade-up">
                 <div className="max-w-lg space-y-3 px-4 sm:mx-auto sm:text-center sm:px-0">
                     {/* <h3 className="text-red-300 font-semibold">
                         Contact
@@ -53,7 +61,7 @@ function Contact() {
                 <div className="mt-12 mx-auto px-4 p-8 bg-white sm:max-w-lg sm:px-8 sm:rounded-xl">
                 <form onSubmit={handleSubmit}
 
-className="space-y-5"
+className="space-y-5" data-aos="fade-up"
 >
 <div>
     <label className="font-medium">

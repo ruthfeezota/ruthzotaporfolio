@@ -1,4 +1,7 @@
 import { useState } from "react";
+import { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const tabsData = [
     {
@@ -15,14 +18,17 @@ const tabsData = [
 
 
 function WorkHistory() {
+  useEffect(() => {
+    AOS.init({duration:1200})
+  })
     const [activeTabIndex, setActiveTabIndex] = useState(0);
 
 
   return (
 
-    <div className="mt-12 mx-auto px-4 max-w-screen-xl md:px-8">
-        
-    <div className="flex space-x-3 border-b text-center">
+    <div className="mt-12 mx-auto px-4 max-w-screen-xl md:px-8" data-aos="fade-up">
+
+    <div className="flex space-x-3 border-b text-center" data-aos="fade-up">
       {/* Loop through tab data and render button for each. */}
       {tabsData.map((tab, idx) => {
         return (
@@ -41,7 +47,7 @@ function WorkHistory() {
       })}
     </div>
     {/* Show active tab content. */}
-    <div className="py-4">
+    <div className="py-4" data-aos="fade-up">
       <p>{tabsData[activeTabIndex].content}</p>
     </div>
   </div>

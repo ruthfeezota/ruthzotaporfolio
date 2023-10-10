@@ -2,8 +2,14 @@ import { useState, useEffect } from "react";
 import Logo from '../assets/Logo.png'
 import Typed from 'react-typed';
 import { db } from "../firebase";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Hero() {
+    useEffect(() => {
+        AOS.init({duration:1200})
+      })
+
     const [state, setState] = useState(false);
     const [email, setEmail] = useState("");
     const [isVideoPoppedUp, setVideoPopUp] = useState(false);
@@ -28,6 +34,7 @@ function Hero() {
 
    const navigation = [
 
+    { title: "Home", path: "/" },
     { title: "About", path: "/About" },
     { title: "Portfolio", path: "/Portfolio" },
     { title: "Contact", path: "/Contact" },
@@ -43,7 +50,7 @@ useEffect(() => {
 
 
 const Brand = () => (
-    <div className="flex items-center justify-between py-5 md:block">
+    <div className="flex items-center justify-between py-5 md:block" data-aos="fade-up">
         <a href="/">
                         <img
                             src={Logo}
@@ -52,7 +59,7 @@ const Brand = () => (
                             alt="Ruth logo"
                         />
                     </a>
-        <div className="md:hidden">
+        <div className="md:hidden" data-aos="fade-up">
             <button className="menu-btn text-white hover:text-gray-300"
                 onClick={() => setState(!state)}
             >
@@ -76,7 +83,7 @@ const Brand = () => (
 
 
   return (
-    <div  className="bg-gray-900 text-white h-full relative overflow-hidden bg-cover bg-no-repeat p-12 text-center" id='Hero'>
+    <div  className="bg-gray-900 text-white h-full relative overflow-hidden bg-cover bg-no-repeat p-12 text-center" id='Hero' data-aos="fade-up">
         {/* bg-[url('https://i.ibb.co/jHRFj45/pexels-photo-3560136.jpg')] */}
 
             <header>
@@ -119,7 +126,7 @@ const Brand = () => (
                     <div className="space-y-5 max-w-4xl mx-auto text-center">
                     <div class="relative w-24 h-24 space-y-5 max-w-4xl mx-auto text-center">
     <img class="rounded-full border border-gray-100 shadow-sm" src="https://i.ibb.co/gPRHGwY/1667966710123.jpg" alt="Ruth Zota Image" />
-    </div> 
+    </div>
 
                         <h2 className="text-4xl text-white font-extrabold mx-auto md:text-5xl">
                             Hello, I'm Ruth! A Freelance:

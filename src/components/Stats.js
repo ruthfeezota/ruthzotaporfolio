@@ -1,7 +1,12 @@
-import React from 'react'
+import { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 function Stats() {
+    useEffect(() => {
+        AOS.init({duration:1200})
+      })
     const stats = [
         {
             data: "200+",
@@ -19,7 +24,7 @@ function Stats() {
 
   return (
     <section className="py-28 bg-gray-900">
-            <div className="max-w-screen-xl mx-auto px-4 md:px-8">
+            <div className="max-w-screen-xl mx-auto px-4 md:px-8" data-aos="fade-up">
                 <div className="max-w-2xl mx-auto text-center">
 
                     <h3 className="text-red-300 text-3xl font-semibold sm:text-4xl">
@@ -29,7 +34,7 @@ function Stats() {
                         I've helped clients build user-friendly websites and applications in many different industry and countries.
                     </p>
                 </div>
-                <div className="mt-12">
+                <div className="mt-12" data-aos="fade-up">
                     <ul className="flex flex-col gap-4 items-center justify-center sm:flex-row">
                         {
                             stats.map((item, idx) => (

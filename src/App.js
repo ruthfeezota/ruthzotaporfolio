@@ -2,18 +2,19 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
+
 import ShepherdLaw from "./pages/ShepherdLaw";
 import Leaf from "./pages/Leaf";
 import Pause from "./pages/Pause";
 import Cookbook from './pages/Cookbook'
 import Bahasa from "./pages/Bahasa";
+import ContactPage from "./pages/ContactPage";
 
 
 function App() {
 
   return (
-    <div>
+    <div className="scroll-smooth">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
@@ -23,11 +24,12 @@ function App() {
         <Route path="/Pause" element={<Pause/>} />
         <Route path="/Cookbook" element={<Cookbook/>} />
         <Route path="/Bahasa" element={<Bahasa/>} />
+        <Route path="/Contact" element={<ContactPage/>} />
 
 
 
 
-		<Route path="/Contact" element={<Contact />} />
+
 
       </Routes>
     </div>

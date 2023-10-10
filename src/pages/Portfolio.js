@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react';
 import Footer from '../components/Footer'
 import Nav from '../components/Nav'
 import PauseLogo from '../assets/PauseHero.png'
@@ -6,8 +6,13 @@ import LawLady from '../assets/Lawyer1.png'
 import Leaf from '../assets/LeafPhoto.jpg'
 import Cookbook from '../assets/CookbookCover.jpg'
 import Bahasa from '../assets/BahasaCover.png'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Portfolio() {
+  useEffect(() => {
+    AOS.init({duration:1200})
+  })
 
   return (
     <div>
@@ -15,7 +20,7 @@ function Portfolio() {
     <Nav/>
 
 <section>
-  <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
+  <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32" data-aos="fade-up">
     <div class="flex flex-col items-center">
       <div class="mb-8 max-w-[800px] text-center md:mb-12 lg:mb-16">
         <h2 class="mb-4 mt-6 text-3xl font-extrabold md:text-5xl">Projects</h2>
@@ -23,7 +28,7 @@ function Portfolio() {
           <p class="text-[#636262]">View my UX/UI Design and development projects</p>
         </div>
       </div>
-      <div class="grid w-full grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+      <div class="grid w-full grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3" data-aos="fade-up">
         <div>
           <a href="/Pause" class="flex max-w-full flex-col gap-4 rounded-md px-4 md:px-2">
             <img alt="" src={PauseLogo} class="inline-block h-100 w-full rounded-2xl object-cover" />

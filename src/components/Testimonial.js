@@ -1,6 +1,12 @@
 import { useState } from "react"
+import { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Testimonial() {
+    useEffect(() => {
+        AOS.init({duration:1200})
+      })
     const testimonials = [
         {
             avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
@@ -23,7 +29,7 @@ function Testimonial() {
     ]
   return (
     <section className="py-14 bg-gray-900" id='Testimonials'>
-    <div className="max-w-screen-xl mx-auto px-4 md:px-8">
+    <div className="max-w-screen-xl mx-auto px-4 md:px-8" data-aos="fade-up">
         <div className="max-w-xl sm:text-center md:mx-auto">
             <h3 className="text-red-300 text-3xl font-semibold sm:text-4xl">
                 See what my clients are saying
@@ -32,7 +38,7 @@ function Testimonial() {
                 Past clients provides feedback from their experience with my professionalism and quality of my work.
             </p>
         </div>
-        <div className="mt-12">
+        <div className="mt-12" data-aos="fade-up">
             <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {
                     testimonials.map((item, idx) => (

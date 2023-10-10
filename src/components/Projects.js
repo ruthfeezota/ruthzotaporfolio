@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react';
 import LawyerPhoto from '../assets/Lawyersite.png'
 import LashesPhoto from '../assets/LashesPhoto.jpeg'
 import LeafPhoto from '../assets/LeafPhoto.jpg'
@@ -7,13 +7,18 @@ import Roseoil from '../assets/RoseOil.jpg'
 import NailPhoto from '../assets/NailPhoto.jpg'
 import Hempoil from '../assets/HempOil.jpg'
 import CoffeePhoto from '../assets/CoffeePhoto.jpg'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 
 function Projects() {
+  useEffect(() => {
+    AOS.init({duration:1200})
+  })
       return (
         <section className='py-4 text-white bg-gray-900' id='Project'>
-        <div className="max-w-screen-xl mx-auto px-4 md:px-8">
+        <div className="max-w-screen-xl mx-auto px-4 md:px-8" data-aos="fade-up">
             <div className='relative max-w-xl mx-auto sm:text-center'>
                 <h3 className='text-3xl font-semibold sm:text-4xl text-red-300'>
                     Portfolio
@@ -26,8 +31,8 @@ function Projects() {
 
         </div>
 
-        <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
-  <div class="-m-1 flex flex-wrap md:-m-2">
+        <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-24" data-aos="fade-up">
+  <div class="-m-1 flex flex-wrap md:-m-2" data-aos="fade-up">
     <div class="flex w-1/2 flex-wrap">
 
       <div class="w-1/2 p-1 md:p-2 group-hover:opacity-50 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300">

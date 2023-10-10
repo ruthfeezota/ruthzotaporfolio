@@ -1,8 +1,14 @@
 import { useState } from 'react'
+import { useEffect } from 'react';
 import Logo from '../assets/Logo.png'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 function Navbar() {
+    useEffect(() => {
+        AOS.init({duration:1200})
+      })
 
     const [state, setState] = useState(false)
     const navigation = [
@@ -14,7 +20,7 @@ function Navbar() {
 
   return (
     <nav className="bg-gray-900 w-full border-b md:border-0 md:static">
-          <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
+          <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8" data-aos="fade-up">
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <a href="/">
                         <img
@@ -42,7 +48,7 @@ function Navbar() {
                       </button>
                   </div>
               </div>
-              <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${ state ? 'block' : 'hidden'}`}>
+              <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${ state ? 'block' : 'hidden'}`} data-aos="fade-up">
                   <ul className="justify-center items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                       {
                           navigation.map((item, idx) => {
@@ -57,7 +63,7 @@ function Navbar() {
                       }
                   </ul>
               </div>
-              <div className="hidden md:inline-block">
+              <div className="hidden md:inline-block" data-aos="fade-up">
               <a href="#contact" className="flex items-center justify-center gap-x-1 py-2 px-4 text- font-medium bg-red-300 text-black  hover:bg-sky-400  duration-150 rounded-full md:inline-flex  active:bg-indigo-700 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
                                         Contact Me
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">

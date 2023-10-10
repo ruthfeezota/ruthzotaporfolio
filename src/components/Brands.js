@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect } from 'react';
 import RectLogo from '../assets/React-icon.png'
 import JavaScriptLogo from '../assets/JavaScript-Logo.svg'
 import TypeScriptLogo from '../assets/TypescriptLogo.png'
@@ -8,16 +8,23 @@ import AngularLogo from '../assets/Angular_logo.png'
 import HTMLLogo from '../assets/HTML.png'
 import CSSLogo from '../assets/CSS3_logo.png'
 import WordPressLogo from '../assets/WordPress_Logo.png'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 function Brands() {
+
+  useEffect(() => {
+    AOS.init({duration:1200})
+  })
+
   return (
     <div className="py-14 bg-gray-900" id='Tech'>
-    <div className="max-w-screen-xl mx-auto px-4 md:px-8">
+    <div className="max-w-screen-xl mx-auto px-4 md:px-8" data-aos="fade-up">
         <h3 className="font-bold text-md text-gray-200 text-center">
             Tech Stacks
         </h3>
-        <div className="mt-6">
+        <div className="mt-6" data-aos="fade-up">
             <ul className="flex gap-x-10 gap-y-6 flex-wrap items-center justify-center md:gap-x-16">
                 {/* LOGO 1 */}
               <li className="w-16">

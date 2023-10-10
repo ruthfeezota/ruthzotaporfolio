@@ -1,8 +1,9 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Nav from '../components/Nav'
+import Contact from '../components/Contact'
 
-function Contact() {
+function ContactPage() {
   return (
     <div>
       <Nav/>
@@ -12,4 +13,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default ContactPage

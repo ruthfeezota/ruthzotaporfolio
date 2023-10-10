@@ -1,12 +1,16 @@
-import React from 'react'
+import { useEffect } from 'react';
 import PhoteImage from '../assets/LeafPhoto.jpg'
 import LeafPhoto from '../assets/LeafPhoto.jpg'
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function ProjectsHero() {
+    useEffect(() => {
+        AOS.init({duration:1200})
+      })
   return (
     <section className='bg-gray-900'>
-            <div className="max-w-screen-xl mx-auto px-4 py-28 gap-12 text-gray-600 md:px-8">
+            <div className="max-w-screen-xl mx-auto px-4 py-28 gap-12 text-gray-600 md:px-8" data-aos="fade-up">
                 <div className="space-y-5 max-w-4xl mx-auto text-center">
 
                     <h2 className="text-4xl text-gray-200 font-extrabold mx-auto md:text-5xl">
@@ -24,7 +28,7 @@ function ProjectsHero() {
                         </a>
                     </div>
                 </div>
-                <div className="mt-14">
+                <div className="mt-14" data-aos="fade-up">
                     <img src={PhoteImage} className="w-full shadow-lg rounded-lg border h-200" alt="" />
                 </div>
             </div>

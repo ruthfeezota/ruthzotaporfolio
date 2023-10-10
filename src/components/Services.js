@@ -1,7 +1,11 @@
-import { Glow, GlowCapture } from '@codaworks/react-glow'
-import React from 'react'
+import { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Services() {
+    useEffect(() => {
+        AOS.init({duration:1200})
+      })
     const features = [
         {
             icon:
@@ -57,7 +61,7 @@ function Services() {
     ]
   return (
     <section className="py-14 bg-gray-900">
-    <div className="max-w-screen-xl mx-auto px-4  md:px-8">
+    <div className="max-w-screen-xl mx-auto px-4  md:px-8" data-aos="fade-up">
         <div className="relative max-w-2xl mx-auto sm:text-center">
 
             <div className="relative z-10">
@@ -71,7 +75,7 @@ function Services() {
             <div className="absolute inset-0 max-w-xs mx-auto h-44 blur-[118px]" ></div>
             {/* <div className="absolute inset-0 max-w-xs mx-auto h-44 blur-[118px]" style={{ background: "linear-gradient(152.92deg, rgba(192, 132, 252, 0.2) 4.54%, rgba(232, 121, 249, 0.26) 34.2%, rgba(192, 132, 252, 0.1) 77.55%)" }}></div> */}
         </div>
-        <div className="relative mt-12">
+        <div className="relative mt-12" data-aos="fade-up">
             <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 ">
                 {
                     features.map((item, idx) => (
