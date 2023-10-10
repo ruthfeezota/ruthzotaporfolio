@@ -52,7 +52,7 @@ const Brand = () => (
 )
 
   return (
-    <div  className="bg-gray-900 text-white h-full relative overflow-hidden bg-cover bg-no-repeat p-12 text-center" id='Hero'>
+    <div  className="bg-gray-900 text-white h-full relative overflow-hidden bg-cover bg-no-repeat  text-center" id='Hero'>
             <header>
                 <div className={`md:hidden ${state ? "mx-2 pb-5" : "hidden"}`}>
                     <Brand />
