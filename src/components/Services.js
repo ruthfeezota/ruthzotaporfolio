@@ -69,7 +69,7 @@ function Services() {
                     Services
                 </h3>
                 <p className="mt-3 text-white">
-                    I'm well versed in many frontend development tools and design technologies
+                I possess expertise in a wide range of frontend development tools and design technologies.
                 </p>
             </div>
             <div className="absolute inset-0 max-w-xs mx-auto h-44 blur-[118px]" ></div>

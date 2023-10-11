@@ -9,6 +9,7 @@ import Services from '../components/Services';
 import Contact from '../components/Contact';
 import Testimonial from '../components/Testimonial';
 import Footer from '../components/Footer';
+import NewContact from '../components/NewContact';
 
 
 
@@ -16,7 +17,7 @@ import Footer from '../components/Footer';
 
 function Home() {
   return (
-    <div className='overscroll-auto bg-black'>
+    <div className='overscroll-auto bg-gray-900'>
 
         <Hero/>
         <Brands/>
@@ -25,7 +26,8 @@ function Home() {
         <ActionBanner/>
         <Projects/>
         <Services/>
-        <Contact/>
+        <NewContact/>
+        {/* <Contact/> */}
         <Testimonial/>
         <Footer/>
     </div>

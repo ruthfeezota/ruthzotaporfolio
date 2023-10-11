@@ -1,2 +1,6 @@
 @import "/src/data/styles.css";
 
+
+#root {
+ @apply overflow-x-hidden;
+}
