@@ -39,7 +39,7 @@ function NewContact() {
       <div class="text-center">
         <h3 class="font-bold text-2xl md:text-3xl">Now Accepting New Clients!</h3>
         <div class="mx-auto mt-4 max-w-[480px] mb-5 md:mb-6 lg:mb-8">
-          <div class="text-sm text-[#647084]">Looking to develop a fresh website or application using React or Angular? Let's get in touch!</div>
+          <div class="text-sm text-[#647084]">Interested in creating a new custom coded website or application with React or Angular? Reach out to me today and let's bring your ideas to life!</div>
         </div>
         <div class="mx-auto w-full max-w-[400px]">
           <div class="mx-auto max-w-[400px] text-left mb-4">

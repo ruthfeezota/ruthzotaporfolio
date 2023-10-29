@@ -21,7 +21,7 @@ function HeroNew() {
 				<p class="text-sm md:text-base text-gray-50 mb-4">I build accessible, inclusive products and digital experiences for the web.</p>
 				<a href="#"
 					class="bg-transparent hover:bg-red-300 text-red-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-red-300 hover:border-transparent">
-					My Porfolio</a>
+					My Portfolio</a>
 			</div>
 			<div class="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
 				<div class="h-48 flex flex-wrap content-center">
