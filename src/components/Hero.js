@@ -98,7 +98,7 @@ const Brand = () => (
                                 {
                                     navigation.map((item, idx) => {
                                         return (
-                                            <li key={idx} className="text-white hover:text-red-300">
+                                            <li key={idx} className="text-white inline-block px-6 py-2 [border-bottom:1px_solid_rgba(0,_0,_0,_0)] hover:text-white hover:[border-bottom:1px_solid_rgb(254,178,178)]">
                                                 <a href={item.path} className="block">
                                                     {item.title}
                                                 </a>
@@ -107,7 +107,7 @@ const Brand = () => (
                                     })
                                 }
                                 <li>
-                                    <a href="/Contact" className="flex items-center justify-center gap-x-1 py-2 px-4 text- font-medium bg-red-300 text-black  hover:bg-sky-400  duration-150 rounded-full md:inline-flex  active:bg-indigo-700 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
+                                    <a href="/Contact" className="flex items-center justify-center gap-x-1 py-2 px-4 text- font-medium bg-red-300 text-black  hover:bg-white duration-150 rounded-full md:inline-flex  active:bg-indigo-700 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
                                         Contact Me
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
                                             <path fillRule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clipRule="evenodd" />
@@ -139,7 +139,7 @@ const Brand = () => (
           </p>
           <Typed
           className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-red-300'
-            strings={['UX/UI Developer', 'UX Designer', 'Product Marketer', 'Frontend Developer', 'Drupal Developer']}
+            strings={['UX/UI Developer', 'UX Designer', 'Frontend Developer', 'Drupal Developer']}
             typeSpeed={120}
             backSpeed={140}
             loop
@@ -158,7 +158,7 @@ const Brand = () => (
                                 placeholder="Enter your email"
                                 className="w-full px-3 py-2.5 text-gray-200 bg-gray-700 focus:bg-gray-900 duration-150 outline-none rounded-lg shadow sm:max-w-sm sm:w-auto"
                             />
-                            <button type="submit" className="flex items-center justify-center gap-x-2 py-2.5 px-4 mt-3 w-full text-sm text-black font-medium bg-red-300 hover:bg-sky-400 active:bg-sky-600 duration-150 rounded-lg outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 ">
+                            <button type="submit" className="flex items-center justify-center gap-x-2 py-2.5 px-4 mt-3 w-full text-sm text-black font-medium bg-red-300 hover:bg-white active:bg-white duration-150 rounded-lg outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 ">
                                 Contact
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
                                     <path fillRule="evenodd" d="M2 10a.75.75 0 01.75-.75h12.59l-2.1-1.95a.75.75 0 111.02-1.1l3.5 3.25a.75.75 0 010 1.1l-3.5 3.25a.75.75 0 11-1.02-1.1l2.1-1.95H2.75A.75.75 0 012 10z" clipRule="evenodd" />
