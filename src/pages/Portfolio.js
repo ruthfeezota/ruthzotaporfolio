@@ -5,6 +5,7 @@ import PauseLogo from '../assets/PauseHero.png'
 import LawLady from '../assets/Lawyer1.png'
 import Leaf from '../assets/LeafPhoto.jpg'
 import Cookbook from '../assets/CookbookCover.jpg'
+import Kongsberg from '../assets/Kongsberg.jpg'
 import Bahasa from '../assets/BahasaCover.png'
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -70,6 +71,19 @@ function Portfolio() {
             <div class="flex h-full w-full flex-col items-start justify-around px-0 py-4">
               <div class="mb-4 flex flex-col items-start gap-4">
                 <p class="text-xl font-bold md:text-2xl text-white">Cookbook</p>
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+
+        <div>
+          <a href="/Kongsberg" class="max-w-full flex flex-col gap-4 rounded-md px-4 md:px-2">
+            <img alt="" src={Kongsberg} class="inline-block h-60 w-full rounded-2xl object-cover" />
+            <div class="flex h-full w-full flex-col items-start justify-around px-0 py-4">
+              <div class="mb-4 flex flex-col items-start gap-4">
+                <p class="text-xl font-bold md:text-2xl text-white">Kongsberg Digital</p>
               </div>
 
             </div>

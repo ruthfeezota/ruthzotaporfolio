@@ -24,7 +24,7 @@ function ActionBanner() {
                     Army Veteran and Clean Aesthetic
                 </p>
                 <p className="mt-3 text-gray-200">
-                My name is Ruth Zota. A freelance UX/UI developer & UX Designer located in Austin Texas -- with roots in digital & product marketing. I spend 6 years in the US Army and loved every minute of it!
+                My name is Ruth Zota. A freelance UX/UI developer located in Austin Texas -- with roots in digital & product marketing. I spend 6 years in the US Army and loved every minute of it!
 
                 My freelance web development roots are in custom website/application development and CMS development (Drupal, Wordpress & Shopify).  In 2016, I started at the University of Washington to broaden my knowledge of the Node.js ecosystem. Since then, I fell in love with & have been primarily using React & Redux in web applications. I believe in clean design and my past work reflects that.
                 </p>

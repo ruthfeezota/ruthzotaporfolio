@@ -6,7 +6,6 @@ import TestimonialNewFront from '../components/TestimonialNewFront';
 import ActionBanner from '../components/ActionBanner';
 import Projects from '../components/Projects';
 import Services from '../components/Services';
-import Contact from '../components/Contact';
 import Testimonial from '../components/Testimonial';
 import Footer from '../components/Footer';
 import NewContact from '../components/NewContact';
@@ -28,7 +27,6 @@ function Home() {
         <Projects/>
         <Services/>
         <NewContact/>
-        {/* <Contact/> */}
         <Testimonial/>
 
         <Footer/>
