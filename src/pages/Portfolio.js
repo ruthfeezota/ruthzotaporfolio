@@ -79,7 +79,7 @@ function Portfolio() {
 
 
         <div>
-          <a href="/Kongsberg" class="max-w-full flex flex-col gap-4 rounded-md px-4 md:px-2">
+          <a href="/Kongberg" class="max-w-full flex flex-col gap-4 rounded-md px-4 md:px-2">
             <img alt="" src={Kongsberg} class="inline-block h-60 w-full rounded-2xl object-cover" />
             <div class="flex h-full w-full flex-col items-start justify-around px-0 py-4">
               <div class="mb-4 flex flex-col items-start gap-4">
