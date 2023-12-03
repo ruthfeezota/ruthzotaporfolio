@@ -9,7 +9,7 @@ function HeroNew() {
 		<div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
 			<div class="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
 				<h1 class="text-3xl md:text-3xl p-2 text-red-300 tracking-loose">Hello, I'm Ruth</h1>
-				<h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2 p-2">A Freelance: <Typed
+				<h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2 p-2">A <Typed
           className= 'md:text-5xl sm:text-4xl text-3xl md:pl-4 pl-2 text-red-300'
             strings={['UX/UI Developer', 'UX Designer', 'Product Marketer', 'Frontend Developer', 'Drupal Developer']}
             typeSpeed={120}

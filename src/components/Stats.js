@@ -41,7 +41,7 @@ function Stats() {
 
 
                                 <li key={idx} className="w-full text-center bg-gray-800 px-12 py-4 rounded-l duration-150   active:bg-indigo-700 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
-                                    <h4 className="text-4xl text-white font-semibold hover:text-black">{item.data}</h4>
+                                    <h4 className="text-4xl text-white font-semibold hover:text-red-300">{item.data}</h4>
                                     <p className="mt-3 text-gray-400 font-medium hover:text-white">{item.title}</p>
                                 </li>
 

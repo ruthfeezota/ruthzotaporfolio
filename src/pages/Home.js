@@ -15,6 +15,7 @@ import NewContact from '../components/NewContact';
 
 
 
+
 function Home() {
   return (
     <div className='overscroll-auto bg-gray-900'>
@@ -29,6 +30,7 @@ function Home() {
         <NewContact/>
         {/* <Contact/> */}
         <Testimonial/>
+
         <Footer/>
     </div>
 
