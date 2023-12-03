@@ -60,10 +60,10 @@ function Kongsberg() {
         <img src={Kongs6} alt="Features Image" class="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover" />
         </a>
         <div class="w-full max-w-xs max-[991px]:max-w-[560px]">
-          <h3 class="font-bold text-2xl md:text-3xl">Kongsberg Digital Twin (UX/UI Development</h3>
+          <h3 class="font-bold text-2xl md:text-3xl">Kongsberg Digital Twin (UX/UI Development)</h3>
           <div class="mb-6 mt-6 w-16 [border-top:1px_solid_rgb(0,_0,_0)]">
           </div>
-          <p class="text-[#636262] text-sm sm:text-lg">Kongsberg group announced it's increase investment in maritime digital solutions by combining Kongsberg Digital’s two maritime divisions into one brand: Digital Ocean. I was hired on as a UX/UI developer to facilitate this project and aide the Houston branch.
+          <p class="text-[#636262] text-sm sm:text-lg">Kongsberg group announced it's increase investment in maritime digital solutions by combining Kongsberg Digital’s two maritime divisions into one brand: Digital Ocean. I was hired as a UX/UI developer to facilitate this project and aide the Houston branch.
 
 </p>
         </div>
