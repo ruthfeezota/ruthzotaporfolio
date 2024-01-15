@@ -12,7 +12,7 @@ import Kongs1  from '../assets/Kongs1.jpg';
 import Kongs2  from '../assets/Kongs2.webp';
 import Kongs3  from '../assets/Kongs3.avif';
 import Kongs4  from '../assets/Kongs4.jpeg';
-import Kongs5  from '../assets/Kongs5.webp';
+
 import Kongs6  from '../assets/Kongs6.jpeg';
 import Kongs7  from '../assets/Kongs7.png';
 
@@ -63,7 +63,7 @@ function Kongsberg() {
           <h3 class="font-bold text-2xl md:text-3xl">Kongsberg Digital Twin (UX/UI Development)</h3>
           <div class="mb-6 mt-6 w-16 [border-top:1px_solid_rgb(0,_0,_0)]">
           </div>
-          <p class="text-[#636262] text-sm sm:text-lg">Kongsberg group announced it's increase investment in maritime digital solutions by combining Kongsberg Digital’s two maritime divisions into one brand: Digital Ocean. I was hired as a UX/UI developer to facilitate this project and aide the Houston branch.
+          <p class="text-[#636262] text-sm sm:text-lg"> In 2020, Kongsberg group announced it's increase investment in maritime digital solutions by combining Kongsberg Digital’s two maritime divisions into one brand: Digital Ocean. I was hired as a UX/UI developer to facilitate this project and aide the Houston branch in increasing the overall look/feel of the client facing application.
 
 </p>
         </div>
@@ -184,7 +184,7 @@ function Kongsberg() {
                 <h2 class="mb-4 mt-6 pb-4 text-4xl font-bold text-white md:text-6xl">Angular Based Application</h2>
                 <div class="mb-6 max-w-[480px] md:mb-10 lg:mb-12">
                 <ul class="list-disc pl-10 mt-5 mb-6 max-w-[528px] md:mb-10 lg:mb-22  text-white ">
-                    <li>Basic 3D representation for Digital Twin using Angular, Three.js, WebGL</li>
+                    <li>3D representation for Digital Twin using Angular, Three.js, WebGL</li>
 
                 </ul>
                 </div>
