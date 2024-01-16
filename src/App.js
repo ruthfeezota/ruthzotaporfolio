@@ -9,9 +9,10 @@ import Cookbook from './pages/Cookbook'
 import Bahasa from "./pages/Bahasa";
 import ContactPage from "./pages/ContactPage";
 import Kongsberg from "./pages/Kongsberg";
-import Cart from "./components/Cart";
-import Shop from "./components/shop/Shop";
 import { ShopContextProvider } from "./components/context/shop-context";
+import { Cart } from "./pages/cart/cart";
+import { ShopNew } from "./pages/shop/shop-new";
+
 
 
 
@@ -32,7 +33,7 @@ function App() {
         <Route path="/Bahasa" element={<Bahasa/>} />
         <Route path="/Contact" element={<ContactPage/>} />
         <Route path="/Cart" element={<Cart/>} />
-        <Route path="/Shop" element={<Shop/>} />
+        <Route path="/Shop" element={<ShopNew/>} />
       </Routes>
       </ShopContextProvider>
     </div>
