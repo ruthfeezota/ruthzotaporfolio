@@ -1,13 +1,7 @@
 import React from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
-import LadyLaw from '../assets/LadyLaw.jpeg';
-import LadyLaw1 from '../assets/LawLady1.png';
-import LadyLaw2 from '../assets/LawLady2.png';
-import LadyLaw3 from '../assets/LawLady3.png';
-import Sketch from '../assets/Site-sketch.png';
-import Code from '../assets/CodeShot.png';
-import Kongs  from '../assets/Kongs.jpg';
+
 import Kongs1  from '../assets/Kongs1.jpg';
 import Kongs2  from '../assets/Kongs2.webp';
 import Kongs3  from '../assets/Kongs3.avif';

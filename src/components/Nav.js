@@ -1,5 +1,8 @@
 import { useState, useEffect } from "react";
-import Logo from '../assets/Logo.png'
+import Logo from '../assets/Logo.png';
+import { ShoppingCart } from "phosphor-react"
+
+
 
 
 
@@ -8,11 +11,14 @@ function Nav() {
     const [state, setState] = useState(false)
 
 
+
    const navigation = [
     { title: "Home", path: "/" },
     { title: "About", path: "/About" },
     { title: "Portfolio", path: "/Portfolio" },
     { title: "Contact", path: "/Contact" },
+    { title: "Shop", path: "/Shop" },
+
 ]
 
 useEffect(() => {
@@ -69,11 +75,13 @@ const Brand = () => (
                                         return (
 
 
-                                            <li key={idx} className="text-white hover:text-red-300">
+                                            <li key={idx} className="text-white inline-block px-6 py-2 [border-bottom:1px_solid_rgba(0,_0,_0,_0)] hover:text-white hover:[border-bottom:1px_solid_rgb(254,178,178)]">
                                                 <a href={item.path} className="block">
                                                     {item.title}
                                                 </a>
+
                                             </li>
+
                                         )
                                     })
                                 }
@@ -85,6 +93,18 @@ const Brand = () => (
                                         </svg>
                                     </a>
                                 </li>
+
+                                <li>
+                                    <a href="/Cart" className="font-medium text-white hover:bg-white ">
+                                        <ShoppingCart size={28}/>
+                                    </a>
+                                </li>
+
+
+
+
+
+
                             </ul>
                         </div>
                     </div>

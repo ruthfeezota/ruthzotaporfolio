@@ -9,12 +9,17 @@ import Cookbook from './pages/Cookbook'
 import Bahasa from "./pages/Bahasa";
 import ContactPage from "./pages/ContactPage";
 import Kongsberg from "./pages/Kongsberg";
+import Cart from "./components/Cart";
+import Shop from "./components/shop/Shop";
+import { ShopContextProvider } from "./components/context/shop-context";
+
 
 
 function App() {
 
   return (
     <div className="scroll-smooth">
+    <ShopContextProvider>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
@@ -26,13 +31,10 @@ function App() {
         <Route path="/Kongberg" element={<Kongsberg/>} />
         <Route path="/Bahasa" element={<Bahasa/>} />
         <Route path="/Contact" element={<ContactPage/>} />
-
-
-
-
-
-
+        <Route path="/Cart" element={<Cart/>} />
+        <Route path="/Shop" element={<Shop/>} />
       </Routes>
+      </ShopContextProvider>
     </div>
   );
 }

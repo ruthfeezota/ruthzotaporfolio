@@ -5,6 +5,7 @@ import { db } from "../firebase";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ProfilePhoto from '../assets/ProfilePhoto.jpg'
+import { ShoppingCart } from "phosphor-react"
 
 function Hero() {
     useEffect(() => {
@@ -39,6 +40,7 @@ function Hero() {
     { title: "About", path: "/About" },
     { title: "Portfolio", path: "/Portfolio" },
     { title: "Contact", path: "/Contact" },
+    { title: "Shop", path: "/Shop" },
 
 ]
 
@@ -115,6 +117,14 @@ const Brand = () => (
                                         </svg>
                                     </a>
                                 </li>
+
+                                <li>
+                                    <a href="/Cart" className="font-medium text-white hover:bg-white ">
+                                        <ShoppingCart size={28}/>
+                                    </a>
+                                </li>
+
+
                             </ul>
                         </div>
                     </div>
