@@ -40,7 +40,7 @@ function Hero() {
     { title: "About", path: "/About" },
     { title: "Portfolio", path: "/Portfolio" },
     { title: "Contact", path: "/Contact" },
-    { title: "Shop", path: "/Shop" },
+    // { title: "Shop", path: "/Shop" },
 
 ]
 
@@ -118,11 +118,11 @@ const Brand = () => (
                                     </a>
                                 </li>
 
-                                <li>
+                                {/* <li>
                                     <a href="/Cart" className="font-medium text-white hover:bg-white ">
                                         <ShoppingCart size={28}/>
                                     </a>
-                                </li>
+                                </li> */}
 
 
                             </ul>

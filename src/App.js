@@ -9,9 +9,10 @@ import Cookbook from './pages/Cookbook'
 import Bahasa from "./pages/Bahasa";
 import ContactPage from "./pages/ContactPage";
 import Kongsberg from "./pages/Kongsberg";
-import { ShopContextProvider } from "./components/context/shop-context";
-import { Cart } from "./pages/cart/cart";
-import { ShopNew } from "./pages/shop/shop-new";
+import Success from "./pages/Success";
+import Cancel from "./pages/Cancel";
+import Store from "./pages/Store";
+
 
 
 
@@ -20,7 +21,6 @@ function App() {
 
   return (
     <div className="scroll-smooth">
-    <ShopContextProvider>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
@@ -32,10 +32,11 @@ function App() {
         <Route path="/Kongberg" element={<Kongsberg/>} />
         <Route path="/Bahasa" element={<Bahasa/>} />
         <Route path="/Contact" element={<ContactPage/>} />
-        <Route path="/Cart" element={<Cart/>} />
-        <Route path="/Shop" element={<ShopNew/>} />
+        <Route path="/Success" element={<Success/>} />
+        <Route path="/Cancel" element={<Cancel/>} />
+        <Route path="/Store" element={<Store/>} />
       </Routes>
-      </ShopContextProvider>
+
     </div>
   );
 }
