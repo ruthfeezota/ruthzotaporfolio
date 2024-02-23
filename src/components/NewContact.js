@@ -26,7 +26,7 @@ function NewContact() {
         <img src={Star} alt="" class="inline-block mr-1 w-5 pl-0"/>
       </div>
       <div class="mb-8 max-w-[480px]">
-        <p class="text-gray-300">Ruth have done an Amazing job with helping my business get it's digital strategy where it need to be! They have helped us get Google ranking. They analyze, do their Research, & provide Excellent Results... I would recommend Ruth to anyone who is in need of help with their small business website, marketing and sales funnel. Thanks so much Ruth, I look forward to continue working with you for years to come.</p>
+        <p class="text-gray-300">Ruth have done an Amazing job with helpbing my business get it's digital strategy where it need to be! They have helped us get Google ranking. They analyze, do their Research, & provide Excellent Results... I would recommend Ruth to anyone who is in need of help with their small business website, marketing and sales funnel. Thanks so much Ruth, I look forward to continue working with you for years to come.</p>
       </div>
       <div class="flex flex-row items-start">
         <img src={Man} alt="" class="inline-block h-16 w-16 object-cover mr-4"/>

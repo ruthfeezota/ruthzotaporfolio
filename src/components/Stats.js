@@ -31,7 +31,7 @@ function Stats() {
                         My Freelance Network Expands
                     </h3>
                     <p className="mt-3 text-gray-300">
-                        I've helped clients build user-friendly websites and applications in many different industry and countries.
+                        I've helped clients build user-friendly websites and applications in many different industries and countries.
                     </p>
                 </div>
                 <div className="mt-12" data-aos="fade-up">
