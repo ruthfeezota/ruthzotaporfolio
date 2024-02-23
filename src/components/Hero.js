@@ -39,6 +39,7 @@ function Hero() {
     { title: "Home", path: "/" },
     { title: "About", path: "/About" },
     { title: "Portfolio", path: "/Portfolio" },
+     { title: "Services", path: "#services" },
     // { title: "Contact", path: "/Contact" },
     // { title: "Shop", path: "/Shop" },
 
