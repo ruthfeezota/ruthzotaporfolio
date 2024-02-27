@@ -17,7 +17,7 @@ import NewContact from '../components/NewContact';
 
 function Home() {
   return (
-    <div className='overscroll-auto bg-gray-900'>
+    <div className='overscroll-none bg-gray-900'>
 
         <Hero/>
         <Brands/>
