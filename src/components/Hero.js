@@ -88,7 +88,7 @@ const Brand = () => (
 
 
   return (
-    <div  className="bg-[url('https://i.ibb.co/2YJGGjk/Main-Hero-Photo.png')] text-white h-full relative overflow-hidden bg-cover bg-no-repeat p-12 text-center" id='Hero' data-aos="fade-up">
+    <div  className="bg-[url('https://i.ibb.co/StqQPT2/Personal-Brand-Portfolio.png')] text-white h-full relative overflow-hidden bg-cover bg-no-repeat p-12 text-center" id='Hero' data-aos="fade-up">
         {/* bg-[url('https://i.ibb.co/jHRFj45/pexels-photo-3560136.jpg')] */}
 
             <header>
