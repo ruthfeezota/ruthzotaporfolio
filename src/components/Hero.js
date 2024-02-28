@@ -5,6 +5,7 @@ import { db } from "../firebase";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ProfilePhoto from '../assets/ProfilePhoto.jpg'
+import MainBackground from '../assets/MainHeroPhoto.png'
 import { ShoppingCart } from "phosphor-react"
 
 function Hero() {
@@ -87,7 +88,7 @@ const Brand = () => (
 
 
   return (
-    <div  className="bg-gray-900 text-white h-full relative overflow-hidden bg-cover bg-no-repeat p-12 text-center" id='Hero' data-aos="fade-up">
+    <div  className="bg-[url('https://i.ibb.co/2YJGGjk/Main-Hero-Photo.png')] text-white h-full relative overflow-hidden bg-cover bg-no-repeat p-12 text-center" id='Hero' data-aos="fade-up">
         {/* bg-[url('https://i.ibb.co/jHRFj45/pexels-photo-3560136.jpg')] */}
 
             <header>
@@ -127,6 +128,7 @@ const Brand = () => (
 
 
                             </ul>
+
                         </div>
                     </div>
                 </nav>
@@ -136,12 +138,12 @@ const Brand = () => (
 
                 <div className="relative z-10 max-w-screen-xl mx-auto px-4 py-28 md:px-8">
                     <div className="space-y-5 max-w-4xl mx-auto text-center">
-                    <div class="relative w-24 h-24 space-y-5 max-w-4xl mx-auto text-center">
+                    {/* <div class="relative w-24 h-24 space-y-5 max-w-4xl mx-auto text-center">
 
 
                     <img class="rounded-full border border-gray-100 shadow-sm" src={ProfilePhoto}
                         alt="Ruth Zota Image" />
-    </div>
+    </div> */}
 
                         <h2 className="text-4xl text-white font-extrabold mx-auto md:text-5xl pt-4">
                             Ruth Zota
@@ -199,6 +201,8 @@ const Brand = () => (
 
 
             </section>
+            {/* <div className='absolute inset-0 blur-[118px] max-w-lg h-[600px] mx- sm:max-w-1xl sm:h-[400px]' style={{ background: "linear-gradient(106.89deg, rgba(192, 132, 252, 0.11) 15.73%, rgba(14, 165, 233, 0.41) 15.74%, rgba(232, 121, 249, 0.26) 56.49%, rgba(79, 70, 229, 0.4) 115.91%)" }}></div> */}
+
         </div>
   )
 }

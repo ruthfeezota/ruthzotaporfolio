@@ -123,7 +123,7 @@ function NewContact() {
 									required
 									value={number}
 									placeholder="+1 (555) 000-000"
-                class="m-0 mb-4 block w-full bg-white align-middle text-[#333333] focus:border-[#3898ec] text-sm px-3 h-9 py-6 pl-4" maxlength="256" name="name-2" placeholder="" required=""/>
+                class="m-0 mb-4 block w-full bg-white align-middle text-[#333333] focus:border-[#3898ec] text-sm px-3 h-9 py-6 pl-4" maxlength="256" name="name-2" />
               </div>
 
 
