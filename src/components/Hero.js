@@ -4,7 +4,7 @@ import Typed from 'react-typed';
 import { db } from "../firebase";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import ProfilePhoto from '../assets/ProfilePhoto.jpg'
+import ProfilePhoto from '../assets/NewProfessionalRuth.png'
 import MainBackground from '../assets/MainHeroPhoto.png'
 import { ShoppingCart } from "phosphor-react"
 
@@ -88,8 +88,13 @@ const Brand = () => (
 
 
   return (
-    <div  className="bg-[url('https://i.ibb.co/StqQPT2/Personal-Brand-Portfolio.png')] text-white h-full relative overflow-hidden bg-cover bg-no-repeat p-12 text-center" id='Hero' data-aos="fade-up">
+    <div  className="bg-gray-900 text-white h-full relative overflow-hidden bg-cover bg-no-repeat text-center" id='Hero' data-aos="fade-up">
         {/* bg-[url('https://i.ibb.co/jHRFj45/pexels-photo-3560136.jpg')] */}
+        <div className="">
+        <img src={ProfilePhoto} className="flex w-80 absolute left-auto right-0 top-auto -z-10 ]
+
+         "/>
+        </div>
 
             <header>
                 <div className={`md:hidden ${state ? "mx-2 pb-5" : "hidden"}`}>
