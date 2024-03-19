@@ -11,10 +11,10 @@ function Testimonial() {
 
   return (
 
-<section class="bg-gray-900 text-white">
+<section class="bg-gray-900 text-white" data-aos="fade-up">
 
   <div class="mx-auto w-full max-w-5xl px-5 py-8 md:px-10 md:py-6 lg:py-5">
-<div class="flex flex-col items-center" data-aos="fade-up">
+<div class="flex flex-col items-center" >
       <div class="mb-8 w-full md:mb-12 lg:mb-16">
         <div class="max-w-[800px] text-center">
           <h2 class="mb-5 text-3xl font-bold md:text-5xl">See what my clients are saying</h2>

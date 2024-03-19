@@ -46,8 +46,8 @@ function NewContact() {
 
   return (
 
-<div class="py-24 md:py-24 lg:py-32 mx-auto w-full max-w-7xl px-5 md:px-10 bg-gray-900" data-aos="fade-up">
-  <div class="grid items-center max-[991px]:justify-items-start grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-20" data-aos="fade-up">
+<div class="py-24 md:py-24 lg:py-32 mx-auto w-full max-w-7xl px-5 md:px-10 bg-gray-900" data-aos="fade-up-left">
+  <div class="grid items-center max-[991px]:justify-items-start grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-20" data-aos="fade-up-left">
     <div class="flex flex-col items-start max-[991px]:max-w-[720px]">
       <h2 class="font-bold mb-2 text-3xl md:text-5xl text-gray-200">Let's build something exciting together!</h2>
       <div class="ml-0 mr-0 mt-4 max-w-[528px] mb-5 md:mb-6 lg:mb-8 pb-4">
@@ -72,7 +72,7 @@ function NewContact() {
         </div>
       </div>
     </div>
-    <div class="mx-auto max-w-[608px] bg-[#f2f2f7] px-8 max-[991px]:ml-0 max-[991px]:mr-0 pt-[2em] pb-8" data-aos="fade-up">
+    <div class="mx-auto max-w-[608px] bg-[#f2f2f7] px-8 max-[991px]:ml-0 max-[991px]:mr-0 pt-[2em] pb-8" data-aos="fade-up-right">
       <div class="text-center">
         <h3 class="font-bold text-2xl md:text-3xl">Now Accepting New Clients!</h3>
         <div class="mx-auto mt-4 max-w-[480px] mb-5 md:mb-6 lg:mb-8">
@@ -83,7 +83,7 @@ function NewContact() {
 
             <form  onSubmit={handleSubmit}
 						className="space-y-5"
-						data-aos="fade-up"
+
             name="wf-form-password"
             method="get">
               <div class="relative">

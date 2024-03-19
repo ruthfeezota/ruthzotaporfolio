@@ -11,12 +11,12 @@ function ActionBanner() {
 
   return (
     <section className="py-14 bg-gray-900" id='About'>
-    <div className="max-w-screen-xl mx-auto md:px-8" data-aos="fade-up">
+    <div className="max-w-screen-xl mx-auto md:px-8" data-aos="fade-down-right">
         <div className="items-center gap-x-12 sm:px-4 md:px-0 lg:flex">
             <div className="flex-1 sm:hidden lg:block">
                 <img src={RuthPhoto} className="md:max-w-md sm:rounded-lg" alt="" />
             </div>
-            <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-3xl" data-aos="fade-up">
+            <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-3xl" data-aos="fade-down-left">
                 <h3 className="text-white font-semibold">
                     About Me
                 </h3>
