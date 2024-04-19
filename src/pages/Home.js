@@ -9,6 +9,7 @@ import Services from '../components/Services';
 import Testimonial from '../components/Testimonial';
 import Footer from '../components/Footer';
 import NewContact from '../components/NewContact';
+import Calendly from '../components/Calendly';
 
 
 
@@ -28,6 +29,7 @@ function Home() {
         <Services/>
         <NewContact/>
         <Testimonial/>
+        <Calendly/>
 
         <Footer/>
     </div>

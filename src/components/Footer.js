@@ -15,6 +15,7 @@ function Footer() {
       <a href="#">
         <img src={RuthLogo} alt="" class="inline-block max-h-10" />
       </a>
+      <p>ruthzota@gmail.com</p>
       <div class="mt-10 text-center font-semibold">
         <a href="/" class="inline-block px-6 py-2 text-white transition [border-bottom:1px_solid_rgba(0,_0,_0,_0)] hover:text-white hover:[border-bottom:1px_solid_rgb(254,178,178)]">Home</a>
         <a href="/About" class="inline-block px-6 py-2 text-white transition [border-bottom:1px_solid_rgba(0,_0,_0,_0)] hover:text-white hover:[border-bottom:1px_solid_rgb(254,178,178)]">About</a>
