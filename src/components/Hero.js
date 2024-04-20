@@ -5,8 +5,7 @@ import { db } from "../firebase";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ProfilePhoto from '../assets/NewProfessionalRuth.png'
-import MainBackground from '../assets/MainHeroPhoto.png'
-import { ShoppingCart } from "phosphor-react"
+
 
 function Hero() {
     useEffect(() => {
@@ -15,7 +14,6 @@ function Hero() {
 
     const [state, setState] = useState(false);
     const [email, setEmail] = useState("");
-    const [isVideoPoppedUp, setVideoPopUp] = useState(false);
 
     const handleSubmit = (e) => {
       e.preventDefault();
@@ -93,7 +91,7 @@ const Brand = () => (
         <div className="">
         <img src={ProfilePhoto} className="flex w-80 absolute left-auto right-0 top-auto -z-10 ]
 
-         "/>
+         " alt="Profile"/>
         </div>
 
             <header>
