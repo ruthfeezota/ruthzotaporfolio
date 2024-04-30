@@ -52,10 +52,10 @@ function Contact() {
                         Contact
                     </h3> */}
 					<p className="text-white text-3xl font-semibold sm:text-4xl">
-						Get in touch with me.
+						Please contact me for new projects
 					</p>
-					<p className="text-white font-medium animate-bounce">
-						Currently Accepting New Clients!
+					<p className="text-white font-medium">
+						Or email me directly: ruthzota@gmail.com
 					</p>
 				</div>
 				<div className="mt-12 mx-auto px-4 p-8 bg-white sm:max-w-lg sm:px-8 sm:rounded-xl">

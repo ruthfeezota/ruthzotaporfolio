@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import ProfilePhoto from '../assets/NewProfessionalRuth.png'
 
 
+
 function Hero() {
     useEffect(() => {
         AOS.init({duration:1200})
@@ -123,13 +124,6 @@ const Brand = () => (
                                     </a>
                                 </li>
 
-                                {/* <li>
-                                    <a href="/Cart" className="font-medium text-white hover:bg-white ">
-                                        <ShoppingCart size={28}/>
-                                    </a>
-                                </li> */}
-
-
                             </ul>
 
                         </div>
@@ -159,7 +153,7 @@ const Brand = () => (
           </p>
           <Typed
           className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-red-300'
-            strings={['UX/UI Developer', 'Frontend Developer', ]}
+            strings={['UX/UI Developer', 'UX Designer', 'Product Designer', ]}
             typeSpeed={120}
             backSpeed={140}
             loop
@@ -167,7 +161,7 @@ const Brand = () => (
         </div>
 
                         <p className="max-w-2xl mx-auto text-white">
-                        I build accessible, inclusive products and digital experiences for the web.
+                        I specialize in designing inclusive digital experiences for the web.
                         </p>
 
                         <form
@@ -186,7 +180,7 @@ const Brand = () => (
                             </button>
 
                         </form>
-                        <div className="flex justify-center items-center gap-x-4 text-red-300 text-sm">
+                        <div className="flex justify-center items-center gap-x-4 text-red-300 text-sm mr-2">
                             <div className="flex">
                                 <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20"><path d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" /></svg>
                                 <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20"><path d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" /></svg>
@@ -194,8 +188,10 @@ const Brand = () => (
                                 <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20"><path d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" /></svg>
                                 <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20"><path d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" /></svg>
                             </div>
-                            <p><span className="text-gray-100">5.0</span> by over 200 freelance clients</p>
+                            <p><span className="text-gray-100 mr-1">5.0</span> by over 200 freelance clients</p>
+
                         </div>
+
                     </div>
 
                 </div>

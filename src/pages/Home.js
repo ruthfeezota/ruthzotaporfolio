@@ -10,16 +10,13 @@ import Testimonial from '../components/Testimonial';
 import Footer from '../components/Footer';
 import NewContact from '../components/NewContact';
 import Calendly from '../components/Calendly';
-
-
-
-
+import ContactPage from './ContactPage';
+import Contact from '../components/Contact';
 
 
 function Home() {
   return (
     <div className='overscroll-none bg-gray-900'>
-
         <Hero/>
         <Brands/>
         <Stats/>
@@ -30,7 +27,6 @@ function Home() {
         <NewContact/>
         <Testimonial/>
         <Calendly/>
-
         <Footer/>
     </div>
 

@@ -17,7 +17,7 @@ function Testimonial() {
 <div class="flex flex-col items-center" >
       <div class="mb-8 w-full md:mb-12 lg:mb-16">
         <div class="max-w-[800px] text-center">
-          <h2 class="mb-5 text-3xl font-bold md:text-5xl">See what my clients are saying</h2>
+          <h2 class="text-3xl font-semibold sm:text-4xl text-red-300">See what my clients are saying</h2>
           <div class="mx-auto w-full max-w-lg" >
             <p class="tracking-[0.2px] text-[#7c8aaa]"> Past clients provides feedback from their experience with my professionalism and quality of my work.</p>
           </div>

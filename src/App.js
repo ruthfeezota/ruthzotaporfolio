@@ -21,6 +21,7 @@ function App() {
 
   return (
     <div className="scroll-smooth">
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
@@ -36,6 +37,7 @@ function App() {
         <Route path="/Cancel" element={<Cancel/>} />
         <Route path="/Store" element={<Store/>} />
       </Routes>
+
 
     </div>
   );
