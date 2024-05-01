@@ -38,7 +38,7 @@ function Hero() {
 
     { title: "Home", path: "/" },
     { title: "About", path: "/About" },
-    { title: "Portfolio", path: "/Portfolio" },
+    { title: "Figma", path: "/figma" },
      { title: "Services", path: "#services" },
     // { title: "Contact", path: "/Contact" },
     // { title: "Shop", path: "/Shop" },
@@ -193,6 +193,7 @@ const Brand = () => (
                         </div>
 
                     </div>
+
 
                 </div>
 

@@ -17,7 +17,7 @@ function Nav() {
     { title: "About", path: "/About" },
     { title: "Portfolio", path: "/Portfolio" },
     { title: "Contact", path: "/Contact" },
-    { title: "Shop", path: "/Shop" },
+    { title: "Figma", path: "/Figma" },
 
 ]
 

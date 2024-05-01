@@ -12,6 +12,7 @@ import Kongsberg from "./pages/Kongsberg";
 import Success from "./pages/Success";
 import Cancel from "./pages/Cancel";
 import Store from "./pages/Store";
+import Figma from "./pages/Figma";
 
 
 
@@ -36,6 +37,7 @@ function App() {
         <Route path="/Success" element={<Success/>} />
         <Route path="/Cancel" element={<Cancel/>} />
         <Route path="/Store" element={<Store/>} />
+        <Route path="/Figma" element={<Figma/>} />
       </Routes>
 
 
