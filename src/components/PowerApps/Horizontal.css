@@ -1,23 +1,4 @@
-@import "/src/data/styles.css";
 
-
-#root {
- @apply overflow-x-hidden;
-}
-
-
-html {
-    overscroll-behavior: none
-  }
-
-  img-spin {
-    animation-name: rotate;
-      animation-duration: 5s;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
-  }
-
-  
   @keyframes rotate{
     from{ transform: rotate(-360deg); }
     to{ transform: rotate(360deg); }

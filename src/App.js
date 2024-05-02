@@ -13,6 +13,7 @@ import Success from "./pages/Success";
 import Cancel from "./pages/Cancel";
 import Store from "./pages/Store";
 import Figma from "./pages/Figma";
+import PowerApps from "./pages/PowerApps";
 
 
 
@@ -38,6 +39,7 @@ function App() {
         <Route path="/Cancel" element={<Cancel/>} />
         <Route path="/Store" element={<Store/>} />
         <Route path="/Figma" element={<Figma/>} />
+        <Route path="/PowerApps" element={<PowerApps/>} />
       </Routes>
 
 

@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import RectLogo from '../assets/React-icon.png'
+
 import JavaScriptLogo from '../assets/JavaScript-Logo.svg'
 import TypeScriptLogo from '../assets/TypescriptLogo.png'
 import VueLogo from '../assets/VueLogo.png'
@@ -28,7 +28,7 @@ function Brands() {
             <ul className="flex gap-x-10 gap-y-6 flex-wrap items-center justify-center md:gap-x-16">
                 {/* LOGO 1 */}
               <li className="w-16">
-              <img src={RectLogo}/>
+            
               </li>
 
                 {/* LOGO 2 */}
