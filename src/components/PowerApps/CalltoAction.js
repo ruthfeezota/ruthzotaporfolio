@@ -7,7 +7,7 @@ function CalltoAction() {
         AOS.init({duration:1200})
       })
   return (
-<section className="relative overflow-hidden py-28 px-4 bg-gray-900 md:px-8">
+<section className="relative overflow-hidden py-20 px-4 bg-gray-900 md:px-8">
             <div className="w-full h-full rounded-full  absolute -top-12 -right-14 blur-2xl opacity-10"></div>
             <div className="max-w-2xl mx-auto text-center relative"  data-aos="fade-up">
                 <div className="py-4">
