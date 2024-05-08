@@ -61,7 +61,7 @@ function Services() {
     ]
   return (
     <section className="py-14 bg-gray-900" id='services'>
-    <div className="max-w-screen-xl mx-auto px-4  md:px-8" data-aos="fade-up">
+    <div className="max-w-screen-xl mx-auto px-4  md:px-8" data-aos="zoom-in-down">
         <div className="relative max-w-2xl mx-auto sm:text-center">
 
             <div className="relative z-10">

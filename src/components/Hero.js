@@ -37,6 +37,7 @@ function Hero() {
    const navigation = [
 
     { title: "Home", path: "/" },
+    { title: "Portfolio", path: "/Portfolio" },
     { title: "About", path: "/About" },
     { title: "Figma", path: "/figma" },
      { title: "Services", path: "#services" },

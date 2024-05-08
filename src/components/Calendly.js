@@ -10,7 +10,7 @@ function Calendly() {
         AOS.init({duration:1200})
       })
   return (
-<div data-aos="fade-up">
+<div data-aos="zoom-in-down">
 <div class="text-center">
           <h2 class="mb-5 text-3xl font-bold sm:text-4xl text-center text-red-300">Book a Consultation Call</h2>
 

@@ -1,8 +1,13 @@
 import RuthLogo from '../assets/Logo.png'
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 function Footer() {
-
+  useEffect(() => {
+    AOS.init({duration:1200})
+  })
 
   return (
 
@@ -11,7 +16,7 @@ function Footer() {
   <img src={RuthLogo} alt="" class="absolute inset-[0%] -z-[1] inline-block h-full w-full object-cover" />
 
   <div class="mx-auto w-full max-w-3xl px-5 py-6 md:px-5 md:py-4 lg:py-5">
-    <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center" data-aos="fade-up">
       <a href="#">
         <img src={RuthLogo} alt="" class="inline-block max-h-10" />
       </a>

@@ -11,7 +11,7 @@ function Testimonial() {
 
   return (
 
-<section class="bg-gray-900 text-white" data-aos="fade-up">
+<section class="bg-gray-900 text-white"  data-aos="zoom-in-down">
 
   <div class="mx-auto w-full max-w-5xl px-5 py-8 md:px-10 md:py-6 lg:py-5">
 <div class="flex flex-col items-center" >
