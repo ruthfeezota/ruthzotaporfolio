@@ -13,7 +13,7 @@ function TestimonialPower() {
     <section class="py-4 bg-gray-900">
     <div className="max-w-screen-xl mx-auto px-4 md:px-8 relative sm:text-center my-6"  data-aos="fade-up">
       <div class="container mx-auto xl:px-32">
-        <div class="flex grid items-center lg:grid-cols-2">
+        <div class="grid items-center lg:grid-cols-2">
           <div class="mb-12 md:mt-12 lg:mt-0 lg:mb-0">
             <div
               class="relative z-[1] block rounded-lg  px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[25px] dark:bg-[hsla(0,0%,5%,0.4)] dark:shadow-black/20 md:px-12 lg:-mr-14"  data-aos="fade-up-left">
