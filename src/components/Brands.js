@@ -19,9 +19,9 @@ function Brands() {
   })
 
   return (
-    <div className="py-14 bg-gray-900" id='Tech'>
+    <div className="py-14 bg-black" id='Tech'>
     <div className="max-w-screen-xl mx-auto px-4 md:px-8" data-aos="fade-up">
-        <h3 className="font-bold text-md text-gray-200 text-center">
+        <h3 className="font-extrabold syne text-md text-gray-200 text-center">
             Tech Stacks
         </h3>
         <div className="mt-6" data-aos="fade-up">

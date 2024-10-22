@@ -5,7 +5,7 @@ function HeroNew() {
   return (
 
 <section>
-	<div class="bg-gray-900 text-white py-20">
+	<div class="bg-black text-white py-20">
 		<div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
 			<div class="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
 				<h1 class="text-3xl md:text-3xl p-2 text-red-300 tracking-loose">Hello, I'm Ruth</h1>

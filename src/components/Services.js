@@ -60,12 +60,12 @@ function Services() {
 
     ]
   return (
-    <section className="py-14 bg-gray-900" id='services'>
+    <section className="py-14 bg-black syne" id='services'>
     <div className="max-w-screen-xl mx-auto px-4  md:px-8" data-aos="zoom-in-down">
         <div className="relative max-w-2xl mx-auto sm:text-center">
 
             <div className="relative z-10">
-                <h3 className=" text-red-300 text-3xl font-semibold sm:text-4xl">
+                <h3 className=" text-[#E4A4BD] text-3xl font-extrabold sm:text-4xl">
                     Services
                 </h3>
                 <p className="mt-3 text-white">
@@ -79,14 +79,14 @@ function Services() {
             <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 ">
                 {
                     features.map((item, idx) => (
-                        <li key={idx} className="bg-white space-y-3 p-4 border rounded-lg duration-150   active:bg-indigo-700 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
-                            <div className="text-red-300 pb-3">
+                        <li key={idx} className="bg-black border-2 space-y-3 p-4 border rounded-lg duration-150   active:bg-indigo-700 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
+                            <div className="text-[#E4A4BD] pb-3">
                                 {item.icon}
                             </div>
-                            <h4 className="text-lg text-gray-800 font-semibold">
+                            <h4 className="text-lg text-[#E4A4BD] font-semibold">
                                 {item.title}
                             </h4>
-                            <p>
+                            <p className='text-white'>
                                 {item.desc}
                             </p>
                         </li>

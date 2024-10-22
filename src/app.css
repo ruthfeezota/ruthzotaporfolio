@@ -1,6 +1,7 @@
 @import "/src/data/styles.css";
 
 
+
 #root {
  @apply overflow-x-hidden;
 }
@@ -31,3 +32,4 @@ html {
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
   }
+

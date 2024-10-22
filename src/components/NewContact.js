@@ -46,10 +46,10 @@ function NewContact() {
 
   return (
 
-<div class="py-24 md:py-24 lg:py-32 mx-auto w-full max-w-7xl px-5 md:px-10 bg-gray-900" data-aos="fade-up-left">
+<div class="py-24 md:py-24 lg:py-28 mx-auto w-full max-w-7xl px-5 md:px-10 bg-black syne" data-aos="fade-up-left">
   <div class="grid items-center max-[991px]:justify-items-start grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-20" data-aos="fade-up-left">
     <div class="flex flex-col items-start max-[991px]:max-w-[720px]">
-      <h2 class="text-3xl font-semibold sm:text-4xl text-red-300">Let's build something exciting together!</h2>
+      <h2 class="text-3xl font-extrabold sm:text-4xl text-[#E4A4BD]">Let's build something exciting together!</h2>
       <div class="ml-0 mr-0 mt-4 max-w-[528px] mb-5 md:mb-6 lg:mb-8 pb-4">
         <p class="text-[#636262]"></p>
       </div>
@@ -72,11 +72,11 @@ function NewContact() {
         </div>
       </div>
     </div>
-    <div class="mx-auto max-w-[608px] bg-[#f2f2f7] px-8 max-[991px]:ml-0 max-[991px]:mr-0 pt-[2em] pb-8" data-aos="fade-up-right">
+    <div class="mx-auto max-w-[608px] bg-black border-2 px-8 max-[991px]:ml-0 max-[991px]:mr-0 pt-[2em] pb-8" data-aos="fade-up-right">
       <div class="text-center">
-        <h3 class="font-bold text-2xl md:text-3xl">Now Accepting New Clients!</h3>
+        <h3 class="font-extrabold text-1xl md:text-2xl text-[#E4A4BD]">New Project Request</h3>
         <div class="mx-auto mt-4 max-w-[480px] mb-5 md:mb-6 lg:mb-8">
-          <div class="text-sm text-[#647084]">Interested in creating a new custom coded website or application with React or Angular? Reach out to me today and let's bring your ideas to life!</div>
+          <div class="text-sm text-white">Interested in creating a new custom coded website or application with React or Angular? Reach out to me today and let's bring your ideas to life!</div>
         </div>
         <div class="mx-auto w-full max-w-[400px]">
           <div class="mx-auto max-w-[400px] text-left mb-4">
@@ -87,35 +87,35 @@ function NewContact() {
             name="wf-form-password"
             method="get">
               <div class="relative">
-                <label for="name-2" class="mb-1 font-medium">Full Name</label>
+                <label for="name-2" class="mb-1 font-medium text-white">Full Name</label>
                 <input
                 type="text"
 								onChange={(e) => setName(e.target.value)}
 								required
 								value={name}
-                type="text" class="m-0 mb-4 block w-full bg-white align-middle text-[#333333] focus:border-[#3898ec] text-sm px-3 h-9 py-6 pl-4" maxlength="256" name="name-2" placeholder="" required=""/>
+                type="text" class="m-0 mb-4 block w-full bg-black border-2 text-white align-middle focus:border-[#E4A4BD] text-sm px-3 h-9 py-6 pl-4" maxlength="256" name="name-2" placeholder="your name" required/>
               </div>
 
-              <div class="relative mb-2">
+              <div class="relative mb-2 text-white">
                 <label for="name-2" class="mb-1 font-medium">Business Name</label>
                 <input
                 type="bname"
 								onChange={(e) => setBname(e.target.value)}
 								required
 								value={bname}
-                type="text" class="m-0 mb-4 block w-full bg-white align-middle text-[#333333] focus:border-[#3898ec] text-sm px-3 h-9 py-6 pl-4" maxlength="256" name="name-2" placeholder="" required=""/>
+                type="text" class="m-0 mb-4 block w-full bg-black border-2 text-white  align-middle focus:border-[#E4A4BD] text-sm px-3 h-9 py-6 pl-4" maxlength="256" name="name-2" placeholder="business name" required/>
               </div>
 
-              <div class="relative mb-2">
+              <div class="relative mb-2 text-white">
                 <label for="name-2" class="mb-1 font-medium">Business Email</label>
                 <input type="email"
 								onChange={(e) => setEmail(e.target.value)}
 								required
 								value={email}
-                class="m-0 mb-4 block w-full bg-white align-middle text-[#333333] focus:border-[#3898ec] text-sm px-3 h-9 py-6 pl-4" maxlength="256" name="name-2" placeholder="" required=""/>
+                class="m-0 mb-4 block w-full bg-black border-2 text-white align-middle focus:border-[#E4A4BD] text-sm px-3 h-9 py-6 pl-4" maxlength="256" name="name-2" placeholder="email@business.com" />
               </div>
 
-              <div class="relative mb-2">
+              <div class="relative mb-2 text-white">
                 <label for="name-2" class="mb-1 font-medium">Phone Number</label>
 
                 <input type="number"
@@ -123,19 +123,19 @@ function NewContact() {
 									required
 									value={number}
 									placeholder="+1 (555) 000-000"
-                class="m-0 mb-4 block w-full bg-white align-middle text-[#333333] focus:border-[#3898ec] text-sm px-3 h-9 py-6 pl-4" maxlength="256" name="name-2" />
+                class="m-0 mb-4 block w-full bg-black border-2 text-white align-middle focus:border-[#E4A4BD] text-sm px-3 h-9 py-6 pl-4" maxlength="256" name="name-2" />
               </div>
 
 
               <div class="relative mb-5 md:mb-6 lg:mb-8">
-                <label for="field-3" class="mb-1 font-medium">Project Brief</label>
+                <label for="field-3" class="mb-1 font-medium text-white">Project Brief</label>
                 <textarea type="text"
 								onChange={(e) => setMessage(e.target.value)}
 								required
 								value={message}
-                placeholder="" maxlength="5000" name="field" class="m-0 block h-auto min-h-[128px] w-full overflow-auto bg-white align-middle text-[#333333] focus:border-[#3898ec] text-sm mb-2.5 px-3 py-2 pl-4"> </textarea>
+                placeholder="project details" maxlength="5000" name="field" class="m-0 block h-auto min-h-[128px] w-full overflow-auto bg-black border-2 text-white align-middle focus:border-[#E4A4BD] text-sm mb-2.5 px-3 py-2 pl-4"> </textarea>
               </div>
-              <input type="submit" value="Get free quote" class="flex items-center justify-center gap-x-1 py-2 px-4 text- font-medium bg-red-300 text-black  hover:bg-sky-400  duration-150 rounded-full md:inline-flex  active:bg-indigo-700 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"/>
+              <input type="submit" value="Send Request" class="flex items-center justify-center gap-x-1 py-2 px-4 font-medium bg-[#E4A4BD] text-black  hover:bg-black hover:border-2 hover:text-white duration-150 rounded-full md:inline-flex  active:bg-indigo-700 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"/>
             </form>
           </div>
         </div>

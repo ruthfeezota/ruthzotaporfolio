@@ -11,20 +11,20 @@ function Testimonial() {
 
   return (
 
-<section class="bg-gray-900 text-white"  data-aos="zoom-in-down">
+<section class="bg-black text-white"  data-aos="zoom-in-down">
 
-  <div class="mx-auto w-full max-w-5xl px-5 py-8 md:px-10 md:py-6 lg:py-5">
+  <div class="mx-auto w-full max-w-5xl px-5 py-8 md:px-10 md:py-6 lg:py-5 syne">
 <div class="flex flex-col items-center" >
       <div class="mb-8 w-full md:mb-12 lg:mb-16">
         <div class="max-w-[800px] text-center">
-          <h2 class="text-3xl font-semibold sm:text-4xl text-red-300">See what my clients are saying</h2>
-          <div class="mx-auto w-full max-w-lg" >
+          <h2 class="text-2xl font-extrabold sm:text-3xl text-[#E4A4BD]">See what my clients are saying</h2>
+          <div class="mx-auto w-full max-w-lg py-2" >
             <p class="tracking-[0.2px] text-[#7c8aaa]"> Past clients provides feedback from their experience with my professionalism and quality of my work.</p>
           </div>
         </div>
       </div>
-      <div class="mb-12 grid grid-cols-1 justify-items-center gap-5 sm:grid-cols-2 md:mb-16 md:grid-cols-3 lg:mb-20">
-        <div class="grid gap-6 rounded-lg bg-[#07132d] p-8">
+      <div class="mb-12 grid grid-cols-1 justify-items-center gap-10 sm:grid-cols-2 md:mb-16 md:grid-cols-3 lg:mb-20">
+        <div class="grid gap-6 rounded-lg bg-black border-2 p-8">
           <div class="flex items-center justify-between text-[#fff49b]">
             <div class="flex text-[#fff49b]">
               <div class="mr-1 w-3.5 flex-none">
@@ -60,11 +60,11 @@ function Testimonial() {
             <img src="https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg" alt="" class="inline-block h-14 w-14 min-w-[60px]" />
             <div class="flex flex-col items-start text-sm">
               <h6 class="font-bold md:text-base">Martin Breken</h6>
-              <p class="tracking-[0.2px] text-[#7c8aaa]">Founder - JOSYS</p>
+              <p class="tracking-[0.2px] text-[#E4A4BD]">Founder - JOSYS</p>
             </div>
           </div>
         </div>
-        <div class="grid gap-6 rounded-lg bg-[#07132d] p-8">
+        <div class="grid gap-6 rounded-lg bg-black border-2 p-8">
           <div class="flex items-center justify-between text-[#fff49b]">
             <div class="flex text-[#fff49b]">
               <div class="mr-1 w-3.5 flex-none">
@@ -99,11 +99,11 @@ function Testimonial() {
             <img src="https://www.littlesphotography.com/wp-content/uploads/2019/02/Seasy-2117-819x1024.jpg" alt="" class="inline-block h-14 w-14 min-w-[60px]" />
             <div class="flex flex-col items-start text-sm">
               <h6 class="font-bold md:text-base">Elizabeth Soto</h6>
-              <p class="tracking-[0.2px] text-[#7c8aaa]">Business Owner - Bettersheabutter.com</p>
+              <p class="tracking-[0.2px] text-[#E4A4BD]">Business Owner - Bettersheabutter.com</p>
             </div>
           </div>
         </div>
-        <div class="grid gap-6 rounded-lg bg-[#07132d] p-8">
+        <div class="grid gap-6 rounded-lg bg-black border-2 p-8">
           <div class="flex items-center justify-between text-[#fff49b]">
             <div class="flex text-[#fff49b]">
               <div class="mr-1 w-3.5 flex-none">
@@ -138,7 +138,7 @@ function Testimonial() {
             <img src="https://images.squarespace-cdn.com/content/v1/5cfb0f8783523500013c5639/1684363549672-2HO6BQNQJF9V65TJNGDC/Professional-headshots-vancouver--2.jpg" alt="" class="inline-block h-14 w-14 min-w-[60px]" />
             <div class="flex flex-col items-start text-sm">
               <h6 class="font-bold md:text-base">Karim Smith</h6>
-              <p class="tracking-[0.2px] text-[#7c8aaa]">Senior UI engineer - TechCrunch</p>
+              <p class="tracking-[0.2px] text-[#E4A4BD]">Senior UI Engineer - TechCrunch</p>
             </div>
           </div>
         </div>

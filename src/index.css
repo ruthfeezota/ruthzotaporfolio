@@ -6,3 +6,22 @@
 #root {
  @apply overflow-x-hidden;
 }
+
+
+@font-face {
+    font-family: 'Syne';
+    src: url('./fonts/Syne/Syne-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.syne {
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 40px;
+  font-style: normal;
+
+
+}

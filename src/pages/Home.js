@@ -16,7 +16,7 @@ import Contact from '../components/Contact';
 
 function Home() {
   return (
-    <div className='overscroll-none bg-gray-900'>
+    <div className='overscroll-none bg-black'>
         <Hero/>
         <Brands/>
         <Stats/>
