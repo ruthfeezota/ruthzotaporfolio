@@ -1,3 +1,19 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
+Allow: /About
+Allow: /Portfolio
+Allow: /ShepherdLaw
+Allow: /Leaf
+Allow: /Pause
+Allow: /Cookbook
+Allow: /Kongberg
+Allow: /Bahasa
+Allow: /Contact
+Allow: /Success
+Allow: /Cancel
+Allow: /Store
+Allow: /Figma
+Allow: /PowerApps
 Disallow:
+
+Sitemap: https://www.ruthfee.com/sitemap.xml
