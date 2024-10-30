@@ -79,7 +79,7 @@ function Services() {
             <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 ">
                 {
                     features.map((item, idx) => (
-                        <li key={idx} className="bg-black border-2 space-y-3 p-4 border rounded-lg duration-150   active:bg-indigo-700 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
+                        <li key={idx} className="bg-black border-2 space-y-3 p-4 border rounded-lg duration-150   active:bg-black outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-lime-400 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
                             <div className="text-[#E4A4BD] pb-3">
                                 {item.icon}
                             </div>

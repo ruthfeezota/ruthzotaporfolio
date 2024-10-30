@@ -14,6 +14,7 @@ import Cancel from "./pages/Cancel";
 import Store from "./pages/Store";
 import Figma from "./pages/Figma";
 import PowerApps from "./pages/PowerApps";
+import AnimCursor from "./components/AnimCursor";
 
 
 
@@ -22,7 +23,8 @@ import PowerApps from "./pages/PowerApps";
 function App() {
 
   return (
-    <div className="scroll-smooth">
+    <div className="scroll-smooth bg-black">
+    <AnimCursor/>
 
       <Routes>
         <Route path="/" element={<Home />} />
