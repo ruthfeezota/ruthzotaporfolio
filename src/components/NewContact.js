@@ -72,7 +72,7 @@ function NewContact() {
         </div>
       </div>
     </div>
-    <div class="mx-auto max-w-[608px] bg-[#CBC7C1] border-2 border-black px-8 max-[991px]:ml-0 max-[991px]:mr-0 pt-[2em] pb-8" data-aos="fade-up-right">
+    <div class="mx-auto max-w-[608px] bg-[#CBC7C1] px-8 max-[991px]:ml-0 max-[991px]:mr-0 pt-[2em] pb-8" data-aos="fade-up-right">
       <div class="text-center">
         <h3 class="font-extrabold text-1xl md:text-3xl text-black">New Project Request</h3>
         <div class="mx-auto mt-4 max-w-[480px] mb-5 md:mb-6 lg:mb-8">

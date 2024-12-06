@@ -11,14 +11,14 @@ function Footer() {
 
   return (
 
-<div class='inset-x-0 bottom-0 bg-black syne'>
+<div class='inset-x-0 bottom-0 bg-black questrial-regular uppercase'>
 <footer class="relative text-white bg-black bottom-0">
   <img src={RuthLogo} alt="" class="absolute inset-[0%] -z-[1] inline-block h-full w-full object-cover" />
 
   <div class="mx-auto w-full max-w-3xl px-5 py-6 md:px-5 md:py-4 lg:py-5">
-    <div class="flex flex-col items-center" data-aos="fade-up">
+    <div class="flex flex-col items-center">
       <a href="/">
-        <img src={RuthLogo} alt="" class="inline-block max-h-24" />
+        <h1 className='text-[25px] text-center'>Ruth Zota <br/> Creative Developer</h1>
       </a>
       <div class="mt-10 text-center font-semibold">
         <a href="/" class="inline-block px-6 py-2 text-white transition [border-bottom:1px_solid_rgba(0,_0,_0,_0)] hover:text-white hover:[border-bottom:1px_solid_rgb(228,164,189)]">Home</a>
