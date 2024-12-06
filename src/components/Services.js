@@ -60,15 +60,15 @@ function Services() {
 
     ]
   return (
-    <section className="py-14 bg-black syne" id='services'>
+    <section className="py-14 bg-[#CBC7C1] questrial-regular" id='services'>
     <div className="max-w-screen-xl mx-auto px-4  md:px-8" data-aos="zoom-in-down">
         <div className="relative max-w-2xl mx-auto sm:text-center">
 
             <div className="relative z-10">
-                <h3 className=" text-[#E4A4BD] text-3xl font-extrabold sm:text-4xl">
+                <h3 className=" text-black text-3xl uppercase font-extrabold sm:text-4xl">
                     Services
                 </h3>
-                <p className="mt-3 text-white">
+                <p className="mt-3 text-black uppercase">
                 I possess expertise in a wide range of frontend development tools and design technologies.
                 </p>
             </div>
@@ -79,14 +79,14 @@ function Services() {
             <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 ">
                 {
                     features.map((item, idx) => (
-                        <li key={idx} className="bg-black border-2 space-y-3 p-4 border rounded-lg duration-150   active:bg-black outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-lime-400 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
-                            <div className="text-[#E4A4BD] pb-3">
+                        <li key={idx} className="bg-[#CBC7C1] border-2 space-y-3 p-4 border-black duration-150  active:bg-black outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-lime-400 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 uppercase">
+                            <div className="text-black pb-3">
                                 {item.icon}
                             </div>
-                            <h4 className="text-lg text-[#E4A4BD] font-semibold">
+                            <h4 className="text-[20px] text-black font-semibold">
                                 {item.title}
                             </h4>
-                            <p className='text-white'>
+                            <p className='text-black'>
                                 {item.desc}
                             </p>
                         </li>

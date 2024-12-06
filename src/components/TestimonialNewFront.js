@@ -8,7 +8,7 @@ function TestimonialNewFront() {
 		AOS.init({ duration: 1200 });
 	});
 	return (
-		<section class="py-4 bg-black">
+		<section class="py-4 bg-[#CBC7C1]">
 			<div
 				className="max-w-screen-xl mx-auto px-4 md:px-8 relative sm:text-center my-6"
 				data-aos="fade-up-right"
@@ -17,21 +17,21 @@ function TestimonialNewFront() {
 					<div class="grid items-center lg:grid-cols-2">
 						<div class="mb-12 md:mt-12 lg:mt-0 lg:mb-0">
 							<div
-								class="relative z-[1] block rounded-lg  px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[25px] dark:bg-[hsla(0,0%,5%,0.4)] dark:shadow-black/20 md:px-12 lg:-mr-14"
+								class="relative z-[1] block uppercase   px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[25px] dark:bg-[hsla(0,0%,5%,0.4)] dark:shadow-black/20 md:px-12 lg:-mr-14 questrial-regular"
 								data-aos="fade-up-left"
 							>
-								<h2 class="mb-2 text-3xl text-primary dark:text-primary-400 text-white font-extrabold syne">
+								<h2 class="mb-2 text-3xl text-primary dark:text-primary-400 text-white font-extrabold questrial-regular">
 									Boomtown Coffee
 								</h2>
-								<p class="mb-4 font-semibold text-[#E4A4BD] syne">
+								<p class="mb-4 font-semibold text-[#E4A4BD] questrial-regular">
 									Coffee Shop Houston
 								</p>
-								<p class="mb-6 text-neutral-100 dark:text-neutral-300 syne">
+								<p class="mb-6 text-neutral-100 dark:text-neutral-300">
 									Our coffee shop's website got a fantastic
 									makeover, thanks to Ruth and her design and
 									development skills!
 								</p>
-								<p class="mb-6 text-neutral-100 dark:text-neutral-300 syne">
+								<p class="mb-6 text-neutral-100 dark:text-neutral-300">
 									The site now perfectly captures the cozy
 									ambiance of our shop and is a breeze to
 									navigate. The designer's attention to detail
@@ -39,7 +39,7 @@ function TestimonialNewFront() {
 									truly inviting. We couldn't be happier with
 									the results. Thanks for a job well done!
 								</p>
-								<p className="text-[#E4A4BD] syne">
+								<p className="text-[#E4A4BD]">
 									~Maria Koya (Business Manager)
 								</p>
 								<ul class="flex lg:justify-center text-yellow-300">
@@ -109,8 +109,8 @@ function TestimonialNewFront() {
 						<div class="md:mb-12 lg:mb-0" data-aos="zoom-in-down">
 							<img
 								src="https://images.squarespace-cdn.com/content/v1/5b994c0e9f877027273bc99b/1553463512051-8Q4EFMGU0DL77WGSH0QS/Web-0434-2+-+Copy+-+Copy.jpg?format=2500w"
-								class="lg:rotate-[6deg] w-full rounded-lg shadow-lg dark:shadow-black/20"
-								alt="image"
+								class="lg:rotate-[6deg] w-full shadow-lg dark:shadow-black/20 grayscale"
+								alt="coffee"
 							/>
 						</div>
 					</div>

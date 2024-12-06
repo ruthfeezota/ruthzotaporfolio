@@ -12,11 +12,14 @@ import NewContact from '../components/NewContact';
 import Calendly from '../components/Calendly';
 import ContactPage from './ContactPage';
 import Contact from '../components/Contact';
+import Nav from '../components/Nav';
+import TopBanner from '../components/TopBanner';
 
 
 function Home() {
   return (
-    <div className='overscroll-none bg-black'>
+    <div className='overscroll-none bg-[#CBC7C1]'>
+        <Nav/>
         <Hero/>
         <Brands/>
         <Stats/>
@@ -26,7 +29,7 @@ function Home() {
         <Services/>
         <NewContact/>
         <Testimonial/>
-        <Calendly/>
+         <TopBanner/>
         <Footer/>
     </div>
 

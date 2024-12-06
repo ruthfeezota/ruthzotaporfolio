@@ -19,9 +19,9 @@ function Brands() {
   })
 
   return (
-    <div className="py-14 bg-black" id='Tech'>
+    <div className="py-14 bg-[#CBC7C1]" id='Tech'>
     <div className="max-w-screen-xl mx-auto px-4 md:px-8" data-aos="fade-up">
-        <h3 className="font-extrabold syne text-md text-gray-200 text-center">
+        <h3 className="questrial-regular text-5xl text-black text-center uppercase">
             Tech Stacks
         </h3>
         <div className="mt-6" data-aos="fade-up">
@@ -33,45 +33,45 @@ function Brands() {
 
                 {/* LOGO 2 */}
                 <li className="w-14">
-                <img src={JavaScriptLogo}/>
+                <img src={JavaScriptLogo} alt='logo'/>
               </li>
 
                 {/* LOGO 3 */}
                 <li className="w-14">
-              <img src={TypeScriptLogo}/>
+              <img src={TypeScriptLogo} alt='logo'/>
               </li>
 
                 {/* LOGO 4 */}
                 <li className="w-14">
-              <img src={VueLogo}/>
+              <img src={VueLogo} alt='logo'/>
               </li>
 
 
 
               {/* LOGO 4 */}
               <li className="w-16">
-              <img src={AngularLogo}/>
+              <img src={AngularLogo} alt='logo'/>
               </li>
 
               {/* LOGO 4 */}
               <li className="w-14">
-              <img src={HTMLLogo}/>
+              <img src={HTMLLogo} alt='logo'/>
               </li>
 
               {/* LOGO 4 */}
               <li className="w-14">
-              <img src={CSSLogo}/>
+              <img src={CSSLogo} alt='logo'/>
               </li>
 
 
               {/* LOGO 4 */}
                <li className="w-10">
-              <img src={FigmaLogo}/>
+              <img src={FigmaLogo} alt='logo'/>
               </li>
 
               {/* LOGO 4 */}
               <li className="w-14">
-              <img src={WordPressLogo}/>
+              <img src={WordPressLogo} alt='logo'/>
               </li>
             </ul>
         </div>
