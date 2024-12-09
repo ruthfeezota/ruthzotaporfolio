@@ -8,7 +8,7 @@ function TestimonialNewFront() {
 		AOS.init({ duration: 1200 });
 	});
 	return (
-		<section class="py-4 bg-[#CBC7C1]">
+		<section class="py-4 bg-[#E0DFDD]">
 			<div
 				className="max-w-screen-xl mx-auto px-4 md:px-8 relative sm:text-center my-6"
 				data-aos="fade-up-right"
@@ -20,10 +20,10 @@ function TestimonialNewFront() {
 								class="relative z-[1] block uppercase   px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[25px] dark:bg-[hsla(0,0%,5%,0.4)] dark:shadow-black/20 md:px-12 lg:-mr-14 questrial-regular"
 								data-aos="fade-up-left"
 							>
-								<h2 class="mb-2 text-3xl text-primary dark:text-primary-400 text-white font-extrabold questrial-regular">
+								<h2 class="mb-2 text-3xl text-primary dark:text-primary-400 text-white font-extrabold">
 									Boomtown Coffee
 								</h2>
-								<p class="mb-4 font-semibold text-[#E4A4BD] questrial-regular">
+								<p class="mb-4 font-semibold text-[#E4A4BD]">
 									Coffee Shop Houston
 								</p>
 								<p class="mb-6 text-neutral-100 dark:text-neutral-300">

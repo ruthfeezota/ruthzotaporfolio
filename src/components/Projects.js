@@ -19,7 +19,7 @@ import styled from 'styled-components';
      AOS.init({duration:1200})
    })
        return (
-        <section className='py-4 text-white bg-[#CBC7C1] questrial-regular' id='Project'>
+        <section className='py-4 text-white bg-[#E0DFDD] questrial-regular' id='Project'>
          <div className="max-w-screen-xl mx-auto px-4 md:px-8" data-aos="fade-up">
              <div className='relative max-w-xl mx-auto sm:text-center uppercase'>
                  <h3 className='text-5xl text-black mt-10'>

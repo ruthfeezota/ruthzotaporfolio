@@ -60,7 +60,7 @@ function Services() {
 
     ]
   return (
-    <section className="py-14 bg-[#CBC7C1] questrial-regular" id='services'>
+    <section className="py-14 bg-[#E0DFDD] questrial-regular" id='services'>
     <div className="max-w-screen-xl mx-auto px-4  md:px-8" data-aos="zoom-in-down">
         <div className="relative max-w-2xl mx-auto sm:text-center">
 
@@ -73,20 +73,20 @@ function Services() {
                 </p>
             </div>
             <div className="absolute inset-0 max-w-xs mx-auto h-44 blur-[118px]" ></div>
-            {/* <div className="absolute inset-0 max-w-xs mx-auto h-44 blur-[118px]" style={{ background: "linear-gradient(152.92deg, rgba(192, 132, 252, 0.2) 4.54%, rgba(232, 121, 249, 0.26) 34.2%, rgba(192, 132, 252, 0.1) 77.55%)" }}></div> */}
+            <div className="absolute inset-0 max-w-xs mx-auto h-44 blur-[118px]" style={{ background: "linear-gradient(152.92deg, rgba(192, 132, 252, 0.2) 4.54%, rgba(232, 121, 249, 0.26) 34.2%, rgba(192, 132, 252, 0.1) 77.55%)" }}></div>
         </div>
         <div className="relative mt-12" data-aos="fade-up">
             <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 ">
                 {
                     features.map((item, idx) => (
-                        <li key={idx} className="bg-[#CBC7C1] border-2 space-y-3 p-4 border-black duration-150  active:bg-black outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-lime-400 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 uppercase">
-                            <div className="text-black pb-3">
+                        <li key={idx} className="bg-[#E0DFDD] border-[1px] space-y-3 p-4 border-[#E4A4BD] duration-150 outline-none shadow-sm focus:ring-2 ring-offset-2 ring-lime-400 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 uppercase">
+                            <div className="text-[#E4A4BD] pb-3">
                                 {item.icon}
                             </div>
                             <h4 className="text-[20px] text-black font-semibold">
                                 {item.title}
                             </h4>
-                            <p className='text-black'>
+                            <p className='text-black text-[16px]'>
                                 {item.desc}
                             </p>
                         </li>

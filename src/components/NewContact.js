@@ -46,8 +46,8 @@ function NewContact() {
 
   return (
 
-<div class="py-24 md:py-24 lg:py-28 mx-auto w-full max-w-7xl px-5 md:px-10 bg-[#CBC7C1] questrial-regular uppercase" data-aos="fade-up-left">
-  <div class="grid items-center max-[991px]:justify-items-start grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-20" data-aos="fade-up-left">
+<div class="py-24 md:py-24 lg:py-28 mx-auto w-full max-w-7xl px-5 md:px-10 bg-[#E0DFDD] questrial-regular uppercase" data-aos="fade-up-left">
+  <div class="grid max-[991px]:justify-items-start grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-16" data-aos="fade-up-left">
     <div class="flex flex-col items-start max-[991px]:max-w-[720px]">
       <h2 class="text-3xl font-extrabold sm:text-4xl text-black">Let's build something exciting together!</h2>
       <div class="ml-0 mr-0 mt-4 max-w-[528px] mb-5 md:mb-6 lg:mb-8 pb-4">
@@ -72,7 +72,7 @@ function NewContact() {
         </div>
       </div>
     </div>
-    <div class="mx-auto max-w-[608px] bg-[#CBC7C1] px-8 max-[991px]:ml-0 max-[991px]:mr-0 pt-[2em] pb-8" data-aos="fade-up-right">
+    <div class="mx-auto max-w-[608px] bg-[#E0DFDD] px-8 max-[991px]:ml-0 max-[991px]:mr-0 pt-[1px]" data-aos="fade-up-right">
       <div class="text-center">
         <h3 class="font-extrabold text-1xl md:text-3xl text-black">New Project Request</h3>
         <div class="mx-auto mt-4 max-w-[480px] mb-5 md:mb-6 lg:mb-8">
@@ -93,7 +93,7 @@ function NewContact() {
 								onChange={(e) => setName(e.target.value)}
 								required
 								value={name}
-                class="m-0 mb-4 block w-full bg-[#CBC7C1] border-2 text-black border-black align-middle focus:border-[#E4A4BD] text-sm px-3 h-9 py-6 pl-4 uppercase" maxlength="256" name="name-2" placeholder="your name" required/>
+                class="m-0 mb-4 block w-full bg-[#E0DFDD] border-[1px] text-black border-black align-middle focus:border-[#E4A4BD] text-sm px-3 h-9 py-6 pl-4 uppercase" maxlength="256" name="name-2" placeholder="your name" required/>
               </div>
 
               <div class="relative mb-2 text-black">
@@ -103,7 +103,7 @@ function NewContact() {
 								onChange={(e) => setBname(e.target.value)}
 								required
 								value={bname} 
-                class="m-0 mb-4 block w-full bg-[#CBC7C1] border-2 text-white align-middle  border-black focus:border-[#E4A4BD] text-sm px-3 h-9 py-6 pl-4 uppercase" maxlength="256" name="name-2" placeholder="business name"/>
+                class="m-0 mb-4 block w-full bg-[#E0DFDD] border-[1px] text-black align-middle  border-black focus:border-[#E4A4BD] text-sm px-3 h-9 py-6 pl-4 uppercase" maxlength="256" name="name-2" placeholder="business name"/>
               </div>
 
               <div class="relative mb-2 text-black">
@@ -112,7 +112,7 @@ function NewContact() {
 								onChange={(e) => setEmail(e.target.value)}
 								required
 								value={email}
-                class="m-0 mb-4 block w-full bg-[#CBC7C1] border-2 text-black border-black align-middle focus:border-[#E4A4BD] text-sm px-3 h-9 py-6 pl-4 uppercase" maxlength="256" name="name-2" placeholder="email@business.com" />
+                class="m-0 mb-4 block w-full bg-[#E0DFDD] border-[1px] text-black border-black align-middle focus:border-[#E4A4BD] text-sm px-3 h-9 py-6 pl-4 uppercase" maxlength="256" name="name-2" placeholder="email@business.com" />
               </div>
 
               <div class="relative mb-2 text-black">
@@ -123,9 +123,8 @@ function NewContact() {
 									required
 									value={number}
 									placeholder="+1 (555) 000-000"
-                class="m-0 mb-4 block w-full bg-[#CBC7C1] border-2 border-black text-black align-middle focus:border-[#E4A4BD] text-sm px-3 h-9 py-6 pl-4 uppercase" maxlength="256" name="name-2" />
+                class="m-0 mb-4 block w-full bg-[#E0DFDD] border-[1px] border-black text-black align-middle focus:border-[#E4A4BD] text-sm px-3 h-9 py-6 pl-4 uppercase" maxlength="256" name="name-2" />
               </div>
-
 
               <div class="relative mb-5 md:mb-6 lg:mb-8">
                 <label for="field-3" class="mb-1 font-medium text-black">Project Brief</label>
@@ -133,9 +132,9 @@ function NewContact() {
 								onChange={(e) => setMessage(e.target.value)}
 								required
 								value={message}
-                placeholder="project details" maxlength="5000" name="field" class="m-0 block h-auto min-h-[128px] w-full overflow-auto bg-[#CBC7C1] border-2 border-black text-white align-middle focus:border-[#E4A4BD] text-sm mb-2.5 px-3 py-2 pl-4 uppercase"> </textarea>
+                placeholder="project details" maxlength="5000" name="field" class="m-0 block h-auto min-h-[128px] w-full overflow-auto bg-[#E0DFDD] border-[1px] border-black text-black align-middle focus:border-[#E4A4BD] text-sm mb-2.5 px-3 py-2 pl-4 uppercase"> </textarea>
               </div>
-              <input type="submit" value="Send Request" class="flex items-center justify-center gap-x-1 py-2 px-4 font-medium bg-[#E4A4BD] text-black  hover:bg-black hover:border-2 hover:text-white duration-150 rounded-full md:inline-flex  active:bg-indigo-700 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"/>
+              <input type="submit" value="Send Request" class="flex items-center justify-center gap-x-1 py-2 px-4 font-medium bg-[#E4A4BD] text-black  hover:bg-black hover:border-[1px] hover:text-white duration-150 md:inline-flex  active:bg-black active:text-white  outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"/>
             </form>
           </div>
         </div>

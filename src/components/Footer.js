@@ -11,8 +11,8 @@ function Footer() {
 
   return (
 
-<div class='inset-x-0 bottom-0 bg-black questrial-regular uppercase'>
-<footer class="relative text-white bg-black bottom-0">
+<div class='inset-x-0 bottom-0 questrial-regular uppercase'>
+<footer class="relative text-black bg-[#E0DFDD] bottom-0">
   <img src={RuthLogo} alt="" class="absolute inset-[0%] -z-[1] inline-block h-full w-full object-cover" />
 
   <div class="mx-auto w-full max-w-3xl px-5 py-6 md:px-5 md:py-4 lg:py-5">
@@ -21,20 +21,20 @@ function Footer() {
         <h1 className='text-[25px] text-center'>Ruth Zota <br/> Creative Developer</h1>
       </a>
       <div class="mt-10 text-center font-semibold">
-        <a href="/" class="inline-block px-6 py-2 text-white transition [border-bottom:1px_solid_rgba(0,_0,_0,_0)] hover:text-white hover:[border-bottom:1px_solid_rgb(228,164,189)]">Home</a>
-        <a href="/About" class="inline-block px-6 py-2 text-white transition [border-bottom:1px_solid_rgba(0,_0,_0,_0)] hover:text-white hover:[border-bottom:1px_solid_rgb(228,164,189)]">About</a>
-        <a href="/Portfolio" class="inline-block px-6 py-2 text-white transition [border-bottom:1px_solid_rgba(0,_0,_0,_0)] hover:text-white hover:[border-bottom:1px_solid_rgb(228,164,189)]">Portfolio</a>
-        <a href="/Contact" class="inline-block px-6 py-2 text-white transition [border-bottom:1px_solid_rgba(0,_0,_0,_0)] hover:text-white hover:[border-bottom:1px_solid_rgb(228,164,189)]">Contact Me</a>
+        <a href="/" class="inline-block px-6 py-2 text-black transition [border-bottom:1px_solid_rgba(0,_0,_0,_0)] hover:text-black hover:[border-bottom:1px_solid_rgb(228,164,189)]">Home</a>
+        <a href="/About" class="inline-block px-6 py-2 text-black transition [border-bottom:1px_solid_rgba(0,_0,_0,_0)] hover:text-black hover:[border-bottom:1px_solid_rgb(228,164,189)]">About</a>
+        <a href="/Portfolio" class="inline-block px-6 py-2 text-black transition [border-bottom:1px_solid_rgba(0,_0,_0,_0)] hover:text-black hover:[border-bottom:1px_solid_rgb(228,164,189)]">Portfolio</a>
+        <a href="/Contact" class="inline-block px-6 py-2 text-black transition [border-bottom:1px_solid_rgba(0,_0,_0,_0)] hover:text-black hover:[border-bottom:1px_solid_rgb(228,164,189)]">Contact Me</a>
 
       </div>
       <div class="mb-16 mt-10 flex gap-7 px-6 py-2.5">
-        <a href="/" class="max-w-[24px] text-gray-900 transition hover:text-white">
+        <a href="/" class="max-w-[24px] text-gray-900 transition hover:text-black">
           <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 20.0176C0 31.0633 8.95431 40.0176 20 40.0176C31.0457 40.0176 40 31.0633 40 20.0176C40 8.97188 31.0457 0.0175781 20 0.0175781C8.95431 0.0175781 0 8.97188 0 20.0176Z" fill="#E4A4BD"></path>
             <path d="M12.5938 13.0019C12.9629 12.9588 13.3255 13.1241 13.5352 13.4309C15.0105 15.5897 16.7826 16.4878 18.7489 16.6921C18.8454 15.8509 19.0724 15.0197 19.4991 14.288C20.125 13.2143 21.143 12.4239 22.5972 12.1318C24.6066 11.7282 26.1366 12.4559 27.0244 13.3471L28.8162 13.0122C29.199 12.9406 29.5884 13.0977 29.8144 13.4148C30.0403 13.7319 30.0617 14.1513 29.8691 14.4897L28.1496 17.5118C28.3064 21.8732 27.0944 24.9169 24.5103 27.0139C23.1395 28.1262 21.178 28.7571 19.0249 28.9519C16.855 29.1482 14.4021 28.9108 11.9638 28.1988C11.536 28.0739 11.2425 27.681 11.2441 27.2354C11.2457 26.7897 11.542 26.3989 11.9706 26.277C13.1968 25.9283 14.1301 25.6268 14.9738 25.1003C13.7753 24.464 12.8923 23.6322 12.2673 22.6839C11.3986 21.3658 11.0765 19.8964 11.0125 18.5711C10.9486 17.2459 11.1401 16.0185 11.3418 15.1327C11.4566 14.6285 11.5907 14.1218 11.7755 13.6379C11.9098 13.2891 12.2246 13.0449 12.5938 13.0019Z" fill="currentColor"></path>
           </svg>
         </a>
-        <a href="/" class="max-w-[24px] text-gray-900 transition hover:text-white">
+        <a href="/" class="max-w-[24px] text-gray-900 transition hover:text-black">
           <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 20.0176C0 31.0633 8.9543 40.0176 20 40.0176C31.0457 40.0176 40 31.0633 40 20.0176C40 8.97188 31.0457 0.0175781 20 0.0175781C8.9543 0.0175781 0 8.97188 0 20.0176Z" fill="#E4A4BD"></path>
             <path d="M21.0642 14.2002L21.8087 13.8944C22.4141 13.6533 23.1955 13.409 24.1192 13.5643C26.01 13.8821 27.3145 14.9031 28.0914 16.2573C28.3908 16.7791 28.1489 17.4666 27.5887 17.686C26.6569 18.0509 25.9999 18.9575 25.9999 20.015C25.9999 21.1227 26.7211 22.0647 27.7222 22.3919C28.2405 22.5614 28.5317 23.1367 28.3615 23.6547C27.9201 24.9974 27.2836 26.2363 26.5305 27.2363C25.7871 28.2236 24.879 29.0446 23.868 29.4448C23.2088 29.7058 22.5002 29.6083 21.8227 29.4402L21.4206 29.3332L20.8237 29.1598C20.5528 29.0815 20.2747 29.0133 19.9999 29.0133C19.7251 29.0133 19.447 29.0815 19.1761 29.1598L18.5793 29.3332L18.1772 29.4402C17.4996 29.6083 16.7911 29.7058 16.1319 29.4448C14.8586 28.9408 13.7355 27.7648 12.8874 26.3784C12.0242 24.9673 11.3701 23.2178 11.1034 21.3925C10.8762 19.838 10.9988 18.0935 11.7181 16.6169C12.4589 15.0962 13.8138 13.9117 15.8806 13.5643C16.7204 13.4231 17.4426 13.6121 18.0218 13.8288L18.352 13.9597L18.9357 14.2002C19.3354 14.3568 19.6515 14.449 19.9999 14.449C20.3484 14.449 20.6645 14.3568 21.0642 14.2002ZM19.7677 10.2828C20.744 9.30649 22.2426 9.22214 22.5961 9.5757C22.9497 9.92925 22.8653 11.4278 21.889 12.4041C20.9127 13.3804 19.4141 13.4648 19.0606 13.1112C18.707 12.7577 18.7914 11.2591 19.7677 10.2828Z" fill="currentColor"></path>

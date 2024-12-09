@@ -1,38 +1,39 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import RuthFace from "../assets/Ruth'sFace.png"
 
 function Hero() {
 	return (
-		<section className="bg-[#CBC7C1] py-14 questrial-regular pl-10">
+		<section className="bg-[#E0DFDD] py-14 questrial-regular pl-10">
 			<div className="container mx-auto px-4">
-				<h1 className="uppercase font-extrabold text-[180px] leading-[180px]">
+				<h1 className="uppercase font-extrabold leading-[100px] sm:text-[180px] text-[75px] sm:leading-[180px]">
 					Creative <br />
 					Developer
 				</h1>
 				<div class="md:mb-10 lg:mb-0 py-6">
 					<img
-						src="https://images.squarespace-cdn.com/content/v1/5b994c0e9f877027273bc99b/1553463512051-8Q4EFMGU0DL77WGSH0QS/Web-0434-2+-+Copy+-+Copy.jpg?format=2500w"
-						class="w-80 shadow-lg "
-						alt="ruthzota phot"
+						img src={RuthFace} 
+						class="w-96 shadow-lg grayscale "
+						alt="ruthzota phote"
 					/>
 				</div>
 
 				<div className="container mx-auto px-4">
 					<section className="py-8">
 						<div className="container mx-auto px-4">
-							<div className="grid grid-cols-3 gap-4">
+							<div className="grid grid-cols-3 gap-8">
 								<div className="flex items-center justify-center">
 									<FontAwesomeIcon
 										icon={faArrowDown}
-										className="text-8xl text-black mr-96"
+										className="text-[80px] text-black sm:mr-96 mr-40 sm:text-[190px]"
 									/>
 								</div>
-								<div className="text-[20px] uppercase py-24 font-bold">
+								<div className=" uppercase sm:py-24 font-bold leading-[20px] sm:text-[20px] text-[18px] sm:leading-[25px]">
 									I Support Designers <br /> and Agencies with{" "}
 									<br /> Creative Development
 								</div>
-								<div className="text-9xl font-bold">
+								<div className="text-[150px] font-bold leading-[50px] sm:text-[180px] text-[55px] sm:leading-[180px]">
 									Ruth <br /> Zota
 								</div>
 							</div>

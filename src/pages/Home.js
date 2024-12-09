@@ -18,13 +18,15 @@ import TopBanner from '../components/TopBanner';
 
 function Home() {
   return (
-    <div className='overscroll-none bg-[#CBC7C1]'>
+    <div className='overscroll-none bg-[#E0DFDD]'>
+ 
+       <TopBanner/>
         <Nav/>
         <Hero/>
         <Brands/>
-        <Stats/>
-        <TestimonialNewFront/>
         <ActionBanner/>
+        <TestimonialNewFront/>
+        <Stats/>
         <Projects/>
         <Services/>
         <NewContact/>
