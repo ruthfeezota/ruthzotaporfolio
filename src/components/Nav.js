@@ -6,7 +6,7 @@ function Nav() {
     <header>
 				<nav className="bg-[#E0DFDD] text-black questrial-regular">
 					<div className="container mx-auto px-4 py-6 flex justify-between items-center">
-						<div className="flex flex-1 justify-between text-[22px] pl-10 font-bold">
+						<div className="flex flex-1 justify-between text-[22px] pl-10 font-regular">
 							<a
 								href="/"
 								className="px-4 max-w-56 py-2 hover:[border-bottom:1px_solid_rgb(0,17,0)] sm:text-[20px] text-[14px]"

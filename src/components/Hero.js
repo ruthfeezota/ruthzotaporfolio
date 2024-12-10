@@ -29,7 +29,7 @@ function Hero() {
 										className="text-[80px] text-black sm:mr-96 mr-40 sm:text-[190px]"
 									/>
 								</div>
-								<div className=" uppercase sm:py-24 font-bold leading-[20px] sm:text-[20px] text-[18px] sm:leading-[25px]">
+								<div className=" uppercase sm:py-24 leading-[20px] sm:text-[20px] text-[18px] sm:leading-[25px]">
 									I Support Designers <br /> and Agencies with{" "}
 									<br /> Creative Development
 								</div>
