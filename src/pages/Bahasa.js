@@ -7,9 +7,9 @@ function Bahasa() {
   return (
         <section>
             <Nav/>
-            <div className="max-w-screen-1xl mx-auto px-4 py-8 gap-12 text-white md:px-8 bg-gray-900">
-                <div className="space-y-5 max-w-4xl mx-auto text-center ">
-                    <h1 className="text-4xl text-white font-extrabold mx-auto md:text-5xl">
+            <div className="max-w-screen-1xl mx-auto px-4 py-8 gap-12 md:px-8 bg-[#E0DFDD] questrial-regular">
+                <div className="space-y-5 max-w-4xl mx-auto text-center">
+                    <h1 className="text-3xl font-extrabold mx-auto md:text-4xl uppercase">
                     Bahasa - Realtime Translation Website
                     </h1>
 
@@ -18,8 +18,8 @@ function Bahasa() {
                     </p>
 
                 </div>
-                <div className="mt-14 p-24">
-                    <img src={LongList} className="w-full shadow-lg rounded-lg border" alt="" />
+                <div className="mt-10 p-14 bg-[#E4A4BD]">
+                    <img src={LongList} className="w-full shadow-lg border" alt="" />
                 </div>
             </div>
             <Footer/>
