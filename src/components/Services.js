@@ -25,7 +25,7 @@ function Services() {
 				</svg>
 			),
 			title: "Custom App Development (React/Angular)",
-			desc: "Develop full-stack web applications with Firebase backend.",
+			desc: "Develop frontend web applications with Firebase backend.",
 		},
 		{
 			icon: (
@@ -104,8 +104,8 @@ function Services() {
 					/>
 				</svg>
 			),
-			title: "Code Analytics Tools to Websites",
-			desc: "Add custom coded analytics tools to website. Google Analytics and ATLAS.it ",
+			title: "Add Analytics Tools to Websites",
+			desc: "Add custom analytics tools to website. Google Analytics and ATLAS.it",
 		},
 		{
 			icon: (
@@ -129,7 +129,7 @@ function Services() {
 		},
 	];
 	return (
-		<section className="py-14 bg-[#E0DFDD] questrial-regular" id="services">
+		<section className="py-14 bg-[#E0DFDD] questrial-regular" id="services" data-aos="fade-up">
 			<div
 				className="max-w-screen-xl mx-auto px-4  md:px-8"
 				data-aos="zoom-in-down"

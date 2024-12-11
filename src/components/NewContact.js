@@ -45,7 +45,7 @@ function NewContact() {
 	return (
 		<div
 			class="py-24 md:py-24 lg:py-28 mx-auto w-full max-w-7xl px-5 md:px-10 bg-[#E0DFDD] questrial-regular"
-			data-aos="fade-up-left"
+			data-aos="fade-up"
 		>
 			<div
 				class="grid max-[991px]:justify-items-start grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-16"
@@ -86,7 +86,7 @@ function NewContact() {
 							class="inline-block mr-1 w-5 pl-0"
 						/>
 					</div>
-					<div class="mb-8 max-w-[480px]">
+					<div class="mb-8 max-w-[480px]" data-aos="fade-up">
 						<p class="text-black">
 							Ruth have done an Amazing job with helping my
 							business get it's digital strategy where it need to
