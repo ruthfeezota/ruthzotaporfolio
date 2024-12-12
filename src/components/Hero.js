@@ -31,7 +31,7 @@ function Hero() {
 								</div>
 								<div className=" uppercase sm:py-24 leading-[20px] sm:text-[20px] text-[18px] sm:leading-[25px]">
 									I Support Designers <br /> and Agencies with{" "}
-									<br /> Creative Development
+									<br /> Creative Development and 3D Designs
 								</div>
 								<div className="text-[150px] font-bold leading-[50px] sm:text-[180px] text-[55px] sm:leading-[180px]">
 									Ruth <br /> Zota

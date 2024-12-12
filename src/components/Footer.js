@@ -20,7 +20,7 @@ function Footer() {
       <a href="/">
         <h1 className='text-[25px] text-center'>Ruth Zota <br/> Creative Developer</h1>
       </a>
-      <div class="mt-10 text-center font-semibold">
+      <div class="mt-10 text-center">
         <a href="/" class="inline-block px-6 py-2 text-black transition [border-bottom:1px_solid_rgba(0,_0,_0,_0)] hover:text-black hover:[border-bottom:1px_solid_rgb(228,164,189)]">Home</a>
         <a href="/About" class="inline-block px-6 py-2 text-black transition [border-bottom:1px_solid_rgba(0,_0,_0,_0)] hover:text-black hover:[border-bottom:1px_solid_rgb(228,164,189)]">About</a>
         <a href="/Portfolio" class="inline-block px-6 py-2 text-black transition [border-bottom:1px_solid_rgba(0,_0,_0,_0)] hover:text-black hover:[border-bottom:1px_solid_rgb(228,164,189)]">Portfolio</a>

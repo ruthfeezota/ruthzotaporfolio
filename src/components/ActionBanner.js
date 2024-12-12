@@ -27,18 +27,17 @@ function ActionBanner() {
 						data-aos="zoom-in-down"
 					>
 						<p className="text-black text-3xl font-bold sm:text-4xl uppercase">
-							Austin-Based UX Designer & Frontend Developer
+							Austin-Based 3D Designer & Creative Developer
 						</p>
 						<p className="mt-3 text-black">
 							Hello, I am Ruth Zota, a passionate creative developer
-							with a keen eye for design and a knack for crafting
+							with a keen eye for 3D design and a knack for crafting
 							intuitive user interfaces. With a strong background
 							in user experience design and frontend programming,
 							Ruth specializes in bringing digital visions to life
 							using React, Angular, and Vue.js. Whether you need a
 							stunning website, a complex web application, or a
-							captivating user interface, My expertise in Figma
-							and Adobe Creative Suite ensures that your project
+							captivating user interface, My expertise in Figma, Adobe Creative Suite and Blender ensures that your project
 							will be both visually appealing and functionally
 							superior.
 							<span className="font-medium uppercase">
@@ -64,7 +63,7 @@ function ActionBanner() {
 								/>
 							</svg>
 						</a>
-						<a
+						{/* <a
 							href="https://cal.com/ruthzota/30min"
 							className="inline-flex gap-x-1 items-center text-black hover:text-red-400 font-medium duration-150 active:bg-[#E0DFDD] outline-none shadow-md focus:shadow-none sm:mt-0 sm:ml-3 sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 border-2 border-red-200 p-2"
 						>
@@ -81,7 +80,7 @@ function ActionBanner() {
 									clipRule="evenodd"
 								/>
 							</svg>
-						</a>
+						</a> */}
 					</div>
 				</div>
 			</div>

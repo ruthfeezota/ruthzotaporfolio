@@ -24,8 +24,8 @@ function Services() {
 					/>
 				</svg>
 			),
-			title: "Custom App Development (React/Angular)",
-			desc: "Develop frontend web applications with Firebase backend.",
+			title: "Creative Development (React/Angular/Vue.js)",
+			desc: "Develop frontend of web applications and Design using Figma/Adobe Creative Suite",
 		},
 		{
 			icon: (
@@ -44,28 +44,9 @@ function Services() {
 					/>
 				</svg>
 			),
-			title: "E-commerce Website Development (Shopify/Square/Bigcommerce)",
-			desc: "Build full e-commerce website with payment system and integrations.",
-		},
-		{
-			icon: (
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					fill="none"
-					viewBox="0 0 24 24"
-					strokeWidth={1.5}
-					stroke="currentColor"
-					className="w-6 h-6"
-				>
-					<path
-						strokeLinecap="round"
-						strokeLinejoin="round"
-						d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"
-					/>
-				</svg>
-			),
-			title: "UX Design and Figma Prototype",
-			desc: "Design user-friendly prototype that followers WCAG compliance. Tools experienced with: Figma, Illustrator, and Sketch",
+			
+			title: "3D Design and Rendering",
+			desc: "3D Designs prototypes that followers WCAG compliance. Tools experienced with: Blender and SketchUp",
 		},
 		{
 			icon: (
@@ -84,49 +65,10 @@ function Services() {
 					/>
 				</svg>
 			),
-			title: "CMS Web Maintenance (WordPress/Drupal)",
-			desc: "Maintain CMS website for businesses and create custom coded components. ",
+			title: "E-commerce Web Design (WordPress, Shopify, Wix)",
+			desc: "Creates custom e-commerce website for businesses.",
 		},
-		{
-			icon: (
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					fill="none"
-					viewBox="0 0 24 24"
-					strokeWidth={1.5}
-					stroke="currentColor"
-					className="w-6 h-6"
-				>
-					<path
-						strokeLinecap="round"
-						strokeLinejoin="round"
-						d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"
-					/>
-				</svg>
-			),
-			title: "Add Analytics Tools to Websites",
-			desc: "Add custom analytics tools to website. Google Analytics and ATLAS.it",
-		},
-		{
-			icon: (
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					fill="none"
-					viewBox="0 0 24 24"
-					strokeWidth={1.5}
-					stroke="currentColor"
-					className="w-6 h-6"
-				>
-					<path
-						strokeLinecap="round"
-						strokeLinejoin="round"
-						d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"
-					/>
-				</svg>
-			),
-			title: "Application Testing, QA and Documentation (Storybook/Jest Testing)",
-			desc: "Perform QA functions using Jest testing and document UI components using StoryBook ",
-		},
+		
 	];
 	return (
 		<section className="py-14 bg-[#E0DFDD] questrial-regular" id="services" data-aos="fade-up">
@@ -144,9 +86,8 @@ function Services() {
 							development tools and design technologies.
 						</p>
 					</div>
-					<div className="absolute inset-0 max-w-xs mx-auto h-44 blur-[118px]"></div>
 					<div
-						className="absolute inset-0 max-w-xs mx-auto h-44 blur-[118px]"
+						className="absolute inset-0 max-w-md mx-auto h-44 blur-[118px]"
 						style={{
 							background:
 								"linear-gradient(152.92deg, rgba(228 , 173 , 199, 0.9) 4.54%, rgba(228 , 173 , 199, 0.5)  34.2%, rgbargba(228 , 173 , 199, 0.1)  77.55%)",

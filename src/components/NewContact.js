@@ -118,11 +118,11 @@ function NewContact() {
 					data-aos="fade-up-right"
 				>
 					<div class="text-center">
-						<h3 class="font-extrabold text-1xl md:text-3xl text-black">
+						<h3 class="font-bold text-1xl md:text-3xl text-black">
 							New Project Request
 						</h3>
 						<div class="mx-auto mt-4 max-w-[480px] mb-5 md:mb-6 lg:mb-8">
-							<div class="text-sm text-black">
+							<div class="text-md text-black">
 								Interested in creating a new custom coded
 								website or application with React or Angular?
 								Reach out to me today and let's bring your ideas
