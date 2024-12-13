@@ -19,7 +19,7 @@ function ActionBanner() {
 						<img
 							src={RuthPhoto}
 							className="md:max-w-md grayscale"
-							alt=""
+							alt="Digital Product Design Austin"
 						/>
 					</div>
 					<div

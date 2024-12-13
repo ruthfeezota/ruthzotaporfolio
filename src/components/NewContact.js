@@ -61,28 +61,28 @@ function NewContact() {
 					<div class="mb-4 flex items-center max-[991px]:mb-px py-4">
 						<img
 							src={Star}
-							alt=""
+							alt="Mobile App Developer Austin"
 							class="inline-block mr-1 w-5 pl-0 "
 						/>
 
 						<img
 							src={Star}
-							alt=""
+							alt="UI/UX Designer for Startups Austin"
 							class="inline-block mr-1 w-5 pl-0"
 						/>
 						<img
 							src={Star}
-							alt=""
+							alt="Webflow Developer Austin"
 							class="inline-block mr-1 w-5 pl-0"
 						/>
 						<img
 							src={Star}
-							alt=""
+							alt="Figma Designer Austin"
 							class="inline-block mr-1 w-5 pl-0"
 						/>
 						<img
 							src={Star}
-							alt=""
+							alt="Best Web Developers in Austin"
 							class="inline-block mr-1 w-5 pl-0"
 						/>
 					</div>
@@ -102,7 +102,7 @@ function NewContact() {
 					<div class="flex flex-row items-start">
 						<img
 							src={Man}
-							alt=""
+							alt="Top-Rated Web Designers Austin"
 							class="inline-block h-16 w-16 object-cover mr-4 rounded-full"
 						/>
 						<div class="flex flex-col items-start mt-2">

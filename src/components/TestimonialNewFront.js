@@ -113,7 +113,7 @@ function TestimonialNewFront() {
 							<img
 								src="https://images.squarespace-cdn.com/content/v1/5b994c0e9f877027273bc99b/1553463512051-8Q4EFMGU0DL77WGSH0QS/Web-0434-2+-+Copy+-+Copy.jpg?format=2500w"
 								class="lg:rotate-[6deg] w-full shadow-lg dark:shadow-black/20 grayscale"
-								alt="coffee"
+								alt="UX/UI Design Austin"
 							/>
 						</div>
 					</div>

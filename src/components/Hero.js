@@ -15,7 +15,7 @@ function Hero() {
 					<img
 						img src={RuthFace} 
 						class="w-96 shadow-lg grayscale "
-						alt="ruthzota phote"
+						alt="Web Developer Austin"
 					/>
 				</div>
 
@@ -23,12 +23,14 @@ function Hero() {
 					<section className="py-8">
 						<div className="container mx-auto px-4">
 							<div className="grid grid-cols-3 gap-8">
-								<div className="flex items-center justify-center">
+						
+								<a href="#Tech" className="flex items-center justify-center">
 									<FontAwesomeIcon
 										icon={faArrowDown}
 										className="text-[80px] text-black sm:mr-96 mr-40 sm:text-[190px]"
 									/>
-								</div>
+								</a>
+								
 								<div className=" uppercase sm:py-24 leading-[20px] sm:text-[20px] text-[18px] sm:leading-[25px]">
 									I Support Designers <br /> and Agencies with{" "}
 									<br /> Creative Development and 3D Designs

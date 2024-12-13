@@ -13,7 +13,7 @@ function Footer() {
 
 <div class='inset-x-0 bottom-0 questrial-regular uppercase'>
 <footer class="relative text-black bg-[#E0DFDD] bottom-0">
-  <img src={RuthLogo} alt="" class="absolute inset-[0%] -z-[1] inline-block h-full w-full object-cover" />
+  <img src={RuthLogo} alt="Experienced Web Developers Austin" class="absolute inset-[0%] -z-[1] inline-block h-full w-full object-cover" />
 
   <div class="mx-auto w-full max-w-3xl px-5 py-6 md:px-5 md:py-4 lg:py-5">
     <div class="flex flex-col items-center">

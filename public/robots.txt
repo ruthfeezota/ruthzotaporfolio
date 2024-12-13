@@ -17,4 +17,5 @@ Allow: /Figma
 Allow: /PowerApps
 Disallow:
 
-Sitemap: https://www.ruthfee.com/sitemap.xml
+
+

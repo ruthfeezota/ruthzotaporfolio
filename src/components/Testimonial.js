@@ -116,7 +116,7 @@ function Testimonial() {
 							<div class="flex items-center gap-4">
 								<img
 									src="https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg"
-									alt=""
+									alt="Hire a Web Developer Austin"
 									class="inline-block h-14 w-14 min-w-[60px] rounded-full"
 								/>
 								<div class="flex flex-col items-start text-sm">
@@ -215,7 +215,7 @@ function Testimonial() {
 							<div class="flex items-center gap-4">
 								<img
 									src="https://www.littlesphotography.com/wp-content/uploads/2019/02/Seasy-2117-819x1024.jpg"
-									alt=""
+									alt="Web Development Services Austin"
 									class="inline-block h-14 w-14 min-w-[60px] rounded-full"
 								/>
 								<div class="flex flex-col items-start text-sm">
@@ -316,7 +316,7 @@ function Testimonial() {
 							<div class="flex items-center gap-4">
 								<img
 									src="https://images.squarespace-cdn.com/content/v1/5cfb0f8783523500013c5639/1684363549672-2HO6BQNQJF9V65TJNGDC/Professional-headshots-vancouver--2.jpg"
-									alt=""
+									alt="Affordable Web Development Austin"
 									class="inline-block h-14 w-14 min-w-[60px] rounded-full"
 								/>
 								<div class="flex flex-col items-start text-sm">

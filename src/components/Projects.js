@@ -46,7 +46,7 @@ function Projects() {
 								rel="noreferrer"
 							>
 								<img
-									alt="gallery"
+									alt="React Developer Austin"
 									class="block h-full w-full object-cover object-center"
 									src={CBDoil}
 								/>
@@ -60,7 +60,7 @@ function Projects() {
 								rel="noreferrer"
 							>
 								<img
-									alt="gallery"
+									alt="Vue.js Developer Austin"
 									class="block h-full w-full object-cover object-center"
 									src={Roseoil}
 								/>
@@ -73,7 +73,7 @@ function Projects() {
 								rel="noreferrer"
 							>
 								<img
-									alt="gallery"
+									alt="JavaScript Developer Austin"
 									class="block h-full w-full object-cover object-center"
 									src={CoffeePhoto}
 								/>
@@ -88,7 +88,7 @@ function Projects() {
 								rel="noreferrer"
 							>
 								<img
-									alt="gallery"
+									alt="WordPress Developer Austin"
 									class="block h-full w-full object-cover object-center"
 									src={Hempoil}
 								/>
@@ -101,7 +101,7 @@ function Projects() {
 								rel="noreferrer"
 							>
 								<img
-									alt="gallery"
+									alt="Shopify Developer Austin"
 									class="block h-full w-full object-cover object-center"
 									src={NailPhoto}
 								/>
@@ -115,7 +115,7 @@ function Projects() {
 								rel="noreferrer"
 							>
 								<img
-									alt="gallery"
+									alt="E-commerce Developer Austin"
 									class="block h-full w-full object-cover object-center"
 									src={LeafPhoto}
 								/>

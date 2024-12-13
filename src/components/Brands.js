@@ -33,45 +33,45 @@ function Brands() {
 
                 {/* LOGO 2 */}
                 <li className="w-14">
-                <img src={JavaScriptLogo} alt='logo'/>
+                <img src={JavaScriptLogo} alt='Creative Developer Austin'/>
               </li>
 
                 {/* LOGO 3 */}
                 <li className="w-14">
-              <img src={TypeScriptLogo} alt='logo'/>
+              <img src={TypeScriptLogo} alt='Front-End Developer Austin'/>
               </li>
 
                 {/* LOGO 4 */}
                 <li className="w-14">
-              <img src={VueLogo} alt='logo'/>
+              <img src={VueLogo} alt='UI/UX Developer Austin'/>
               </li>
 
 
 
               {/* LOGO 4 */}
               <li className="w-16">
-              <img src={AngularLogo} alt='logo'/>
+              <img src={AngularLogo} alt='Web Developer Austin'/>
               </li>
 
               {/* LOGO 4 */}
               <li className="w-14">
-              <img src={HTMLLogo} alt='logo'/>
+              <img src={HTMLLogo} alt='Freelance Web Developer Austin'/>
               </li>
 
               {/* LOGO 4 */}
               <li className="w-14">
-              <img src={CSSLogo} alt='logo'/>
+              <img src={CSSLogo} alt='Contract Web Developer Austin'/>
               </li>
 
 
               {/* LOGO 4 */}
                <li className="w-10">
-              <img src={FigmaLogo} alt='logo'/>
+              <img src={FigmaLogo} alt='Austin Web Design'/>
               </li>
 
               {/* LOGO 4 */}
               <li className="w-14">
-              <img src={WordPressLogo} alt='logo'/>
+              <img src={WordPressLogo} alt='Austin Web Development'/>
               </li>
             </ul>
         </div>
