@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
-import RuthFace from "../assets/Ruth'sFace.png"
+import RuthFace from "../assets/Ruth'sFace.png";
 
 function Hero() {
 	return (
@@ -13,7 +13,8 @@ function Hero() {
 				</h1>
 				<div class="md:mb-10 lg:mb-0 py-6">
 					<img
-						img src={RuthFace} 
+						img
+						src={RuthFace}
 						class="w-96 shadow-lg grayscale "
 						alt="React developer Austin TX"
 					/>
@@ -23,14 +24,16 @@ function Hero() {
 					<section className="py-8">
 						<div className="container mx-auto px-4">
 							<div className="grid grid-cols-3 gap-8">
-						
-								<a href="#Tech" className="flex items-center justify-center">
+								<a
+									href="#Tech"
+									className="flex items-center justify-center"
+								>
 									<FontAwesomeIcon
 										icon={faArrowDown}
 										className="text-[80px] text-black sm:mr-96 mr-40 sm:text-[190px]"
 									/>
 								</a>
-								
+
 								<div className=" uppercase sm:py-24 leading-[20px] sm:text-[20px] text-[18px] sm:leading-[25px]">
 									I Support Designers <br /> and Agencies with{" "}
 									<br /> Creative Development and 3D Designs
@@ -39,6 +42,27 @@ function Hero() {
 									Ruth <br /> Zota
 								</div>
 							</div>
+						</div>
+						<div className="hidden">
+							black creative developer Austin TX, Austin TX app
+							developer, freelance UI/UX designer Austin TX, 3D
+							modeler Austin TX, VR developer Austin TX,
+							full-stack developer Austin TX, React developer
+							Austin TX, Angular developer Austin TX, Vue.js
+							developer Austin TX, Figma UI/UX designer Austin TX,
+							Blender 3D modeler Austin TX, Unity VR developer
+							Austin TX, Unreal Engine VR developer Austin TX,
+							JavaScript developer Austin TX, HTML5 CSS3 developer
+							Austin TX, Bootstrap Tailwind CSS developer Austin
+							TX, Git GitHub developer Austin TX, app development
+							services Austin TX, UI/UX design services Austin TX,
+							3D modeling services Austin TX, VR development
+							services Austin TX, web development services Austin
+							TX, freelance developer Austin TX, app developer for
+							startups Austin TX, UI/UX designer for small
+							businesses Austin TX, VR developer for tech
+							companies Austin TX, web developer for nonprofits
+							Austin TX,
 						</div>
 					</section>
 				</div>
