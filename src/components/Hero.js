@@ -15,7 +15,7 @@ function Hero() {
 					<img
 						img src={RuthFace} 
 						class="w-96 shadow-lg grayscale "
-						alt="Web Developer Austin"
+						alt="React developer Austin TX"
 					/>
 				</div>
 
