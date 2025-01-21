@@ -4,6 +4,7 @@ import Nav from "../components/Nav";
 import PauseLogo from "../assets/PauseHero.png";
 import LawLady from "../assets/Lawyer1.png";
 import Bahasa from "../assets/BahasaCover.png";
+import CanDrop from "../assets/candrop.png"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -56,6 +57,34 @@ function Portfolio() {
 									</div>
 								</a>
 							</div>
+
+								
+							<div>
+								<a
+									href="https://candropsproject1.web.app/" target="_blank"  rel="noreferrer"
+									class="h-ax-w-full flex flex-col gap-4 rounded-md px-4 md:px-2"
+								>
+									<img
+										alt=""
+										src={CanDrop}
+										class="inline-block h-[300px] w-[400px] rounded-2xl object-cover"
+									/>
+									<div class="flex h-full w-full flex-col items-start justify-around px-0 py-4">
+										<div class="mb-4 flex flex-col items-start gap-4">
+											<p class="text-xl font-bold md:text-2xl text-black">
+											Blazing Energy (3D Frontend Project)
+											</p>
+										</div>
+									</div>
+								</a>
+							</div>
+
+
+
+
+
+
+
 							<div>
 								<a
 									href="/ShepherdLaw"
@@ -75,6 +104,10 @@ function Portfolio() {
 									</div>
 								</a>
 							</div>
+
+
+
+
 							<div>
 								<a
 									href="/Bahasa"
@@ -124,7 +157,8 @@ export default Portfolio;
         </div> */
 }
 
-{/* <div>
+{
+	/* <div>
 								<a
 									href="/Kongberg"
 									class="max-w-full flex flex-col gap-4 rounded-md px-4 md:px-2"
@@ -142,4 +176,5 @@ export default Portfolio;
 										</div>
 									</div>
 								</a>
-							</div> */}
+							</div> */
+}

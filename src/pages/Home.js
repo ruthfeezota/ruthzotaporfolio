@@ -14,6 +14,7 @@ import ContactPage from './ContactPage';
 import Contact from '../components/Contact';
 import Nav from '../components/Nav';
 import TopBanner from '../components/TopBanner';
+import Navbar from '../components/Navbar';
 
 
 function Home() {
