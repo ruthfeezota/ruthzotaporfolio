@@ -31,10 +31,10 @@ function ActionBanner() {
 						</p>
 						<p className="mt-3 text-black">
 							Hello, I am Ruth Zota, a passionate creative developer
-							with a keen eye for 3D design and a knack for crafting
+							with a keen eye for ux design and a knack for programming
 							intuitive user interfaces. With a strong background
 							in user experience design and frontend programming,
-							Ruth specializes in bringing digital visions to life
+							I specializes in bringing digital visions to life
 							using React, Angular, and Vue.js. Whether you need a
 							stunning website, a complex web application, or a
 							captivating user interface, My expertise in Figma, Adobe Creative Suite and Blender ensures that your project

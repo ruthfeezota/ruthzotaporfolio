@@ -45,8 +45,8 @@ function Services() {
 				</svg>
 			),
 			
-			title: "3D Design and Rendering",
-			desc: "3D Designs prototypes that followers WCAG compliance. Tools experienced with: Blender and SketchUp",
+			title: "UX Design and 3D Rendering",
+			desc: "UX designs prototypes that followers WCAG compliance. 3D render tools experienced with: Blender and SketchUp",
 		},
 		{
 			icon: (
@@ -66,7 +66,7 @@ function Services() {
 				</svg>
 			),
 			title: "E-commerce Web Design (WordPress, Shopify, Wix)",
-			desc: "Creates custom e-commerce website for businesses.",
+			desc: "Creates custom e-commerce and basic website for businesses.",
 		},
 		
 	];

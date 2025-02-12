@@ -29,13 +29,12 @@ function TopBanner() {
 						</svg>
 					</div>
 					<p className="py-2 font-medium">
-						I have pre-made Shopify e-commerce templates and social
-						media templates!{" "}
+						I Have Pre-made WordPress, React and Shopify Website Templates!{" "}
 						<a
 							href="https://www.etsy.com/shop/WoaomSmallBusiness?ref=seller-platform-mcnav"
 							className=" duration-150 hover:text-black"
 						>
-							Shop Templates
+							Let's Build Your Website.
 						</a>
                         
 					</p>

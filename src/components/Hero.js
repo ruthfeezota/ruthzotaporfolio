@@ -35,16 +35,16 @@ function Hero() {
 								</a>
 
 								<div className=" uppercase sm:py-24 leading-[20px] sm:text-[20px] text-[18px] sm:leading-[25px]">
-									I Support Designers <br /> and Agencies with{" "}
-									<br /> Creative Development and 3D Designs
+									I Support Businesses <br /> and Agencies with{" "}
+									<br /> Creative Development and UX Designs
 								</div>
-								<div className="text-[150px] font-bold leading-[50px] sm:text-[180px] text-[55px] sm:leading-[180px]">
+								<div className="font-bold leading-[50px] sm:text-[180px] text-[55px] sm:leading-[180px]">
 									Ruth <br /> Zota
 								</div>
 							</div>
 						</div>
 						<div className="hidden">
-							black creative developer Austin TX, Austin TX app
+							ux developer Austin TX, Austin TX app
 							developer, freelance UI/UX designer Austin TX, 3D
 							modeler Austin TX, VR developer Austin TX,
 							full-stack developer Austin TX, React developer

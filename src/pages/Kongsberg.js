@@ -29,6 +29,22 @@ function Kongsberg() {
 
     ]
   return (
+
+    <main>
+    <title> Kongsberg Page | Austin web designer specializing in Figma, Adobe XD, and custom coding. Crafting pixel-perfect, responsive websites.</title>
+  <meta
+      name="description"
+      content="Top-rated website design company in Austin. Serving small businesses with affordable and effective web solutions."
+  />
+  <meta
+      name="keywords"
+      content="Austin website design, Austin web design company, Austin website development, Austin web developer, Website design Austin TX, Web design services Austin, Website development Austin, Austin website design agency
+Small business website design Austin, Ecommerce website design Austin, WordPress website design Austin, Shopify website design Austin, Wix website design Austin, Custom website design Austin, WordPress developer Austin
+Shopify expert Austin, Wix designer Austin, Figma web design Austin, Adobe XD design Austin, Illustrator web design Austin
+Website wireframing Austin, Responsive web design Austin, Mobile-friendly, website design Austin, Website redesign Austin, Website maintenance Austin, SEO friendly website design Austin , Website accessibility Austin, Website designer near me Austin, Web design companies in Austin, Best, website designers Austin, Top web developers Austin, Austin web design services, North Austin website design, Ecommerce Shopify website design Austin, WordPress website development for small business Austin, Figma and Adobe XD website design Austin, Custom coded website design Austin TX"
+  /> 
+
+
 <div class="overflow-visible">
     <Nav/>
   <div class="">
@@ -40,14 +56,14 @@ function Kongsberg() {
     <div class="py-16 md:py-24 lg:py-32 px-5 md:px-10">
       <div class="max-w-[800px] mb-6 md:mb-10 lg:mb-12 mx-auto w-full max-w-7xl">
         <h1 class="font-bold text-4xl md:text-6xl">Kongsberg Digital</h1>
-        <p className='text-center py-5'>UX/UI Developer (Fulltime)</p>
+        <p className='text-center py-5'>UX/UI Developer (Freelance)</p>
 
 
       </div>
 
     </div>
   </div>
-  <div class="">
+  <div class=" bg-[#E0DFDD]">
     <div class="py-12 md:py-16 lg:py-20 px-5 md:px-10">
       <div class="relative grid w-full items-start justify-start max-[991px]:flex-col max-[991px]:flex grid-cols-[480px] lg:grid-cols-[0.5fr_0.75fr_480px] gap-4 mx-auto max-w-7xl">
         <a href="#" class="inline-block max-w-full text-black">
@@ -69,15 +85,15 @@ function Kongsberg() {
 
 
 
-    <div class="">
+    <div class=" bg-[#E0DFDD]">
       <div class="px-5 md:px-10">
         <div class="mx-auto w-full max-w-7xl">
           <div class="py-16 md:py-24 lg:py-32">
             <div class="grid grid-cols-1 items-center gap-8 max-[991px]:justify-items-start sm:gap-20 lg:grid-cols-2">
               <div class="flex flex-col items-center justify-center rounded-xl bg-[#f7f6f2] p-6 max-[991px]:[grid-area:2/1/3/2]">
-                <img src={Kongs2} alt="Features Image" class="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover" />
+                <img src={Kongs2} alt="Features" class="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover" />
               </div>
-              <div class="max-[991px]:max-w-[720px]">
+              <div class="max-[991px]:max-w-[720px] ">
                 <h2 class="mb-4 mt-6 pb-4 text-3xl font-extrabold md:text-5xl">Environment and Dashboards</h2>
                 <div class="mb-6 max-w-[528px] md:mb-10 lg:mb-12">
                   <p class="text-xl text-[#636262]">Kongsberg Digital has delivered highly realistic maritime simulation technology for decades and our experience from the energy sector has shown us how valuable simulation technology is in bringing about functional dynamic digital twins,</p>
@@ -98,7 +114,7 @@ function Kongsberg() {
     </div>
 
 
-    <section class="block">
+    <section class="block bg-[#E0DFDD] ">
   <div class="py-6 md:py-14 lg:py-12 mx-auto w-full max-w-7xl px-5 md:px-10">
     <div class="mx-auto flex-col flex max-w-3xl items-center text-center mb-8 md:mb-12 lg:mb-16">
       <div class="text-center">
@@ -177,10 +193,9 @@ function Kongsberg() {
               <div class="max-[991px]:max-w-[720px]">
                 <h2 class="mb-4 mt-6 pb-4 text-4xl font-bold text-white md:text-6xl">Angular Based Application</h2>
                 <div class="mb-6 max-w-[480px] md:mb-10 lg:mb-12">
-                <ul class="list-disc pl-10 mt-5 mb-6 max-w-[528px] md:mb-10 lg:mb-22  text-white ">
-                    <li>3D representation for Digital Twin using Angular, Three.js, WebGL</li>
+                <p class="list-disc mt-5 mb-6 max-w-[528px]  text-white ">
+                    3D representation for Digital Twin using Angular, Three.js, WebGL</p>
 
-                </ul>
                 </div>
               </div>
               <div class="">
@@ -200,7 +215,7 @@ function Kongsberg() {
               <div class="max-[991px]:max-w-[720px]">
                 <h2 class="mb-4 mt-6 pb-4 text-3xl font-extrabold md:text-5xl">Digital Twin Platform<span class="bg-contain bg-[50%_100%] bg-no-repeat" styles="background-image: url('https://assets.website-files.com/646f65e37fe0275cfb808405/6475d891098dee07b3371c01_634378b098f0f6cc605dc2bb_Vector%204.svg');"></span></h2>
                 <div class="mb-6 max-w-[480px] md:mb-10 lg:mb-6">
-                  <p class="text-[#636262]">The Digital Twin Platform is an web application that allows it's users to navigate the interior of designated buildings that go through the process of digital representation.
+                  <p class="text-white">The Digital Twin Platform is an web application that allows it's users to navigate the interior of designated buildings that go through the process of digital representation.
 
 The process consists of creating a digital twin of the real-life interior of the designated building and is offered as a custom solution for each client.</p>
                 </div>
@@ -217,6 +232,7 @@ The process consists of creating a digital twin of the real-life interior of the
    <Footer/>
   </div>
 </div>
+</main>
   )
 }
 

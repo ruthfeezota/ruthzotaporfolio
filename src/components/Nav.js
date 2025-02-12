@@ -11,13 +11,13 @@ function Nav() {
 								href="/"
 								className="px-4 max-w-56 py-2 hover:[border-bottom:1px_solid_rgb(0,17,0)] sm:text-[20px] text-[14px]"
 							>
-								Ruth Zota
+								Home
 							</a>
 							<a
 								href="/about"
 								className="px-4 py-2 max-w-56 hover:[border-bottom:1px_solid_rgb(0,17,0)] sm:text-[20px] text-[14px]"
 							>
-								Current freelance ux engineer
+								Current Freelance UX Engineer
 							</a>
 							<a
 								href="/about"
