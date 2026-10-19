@@ -55,7 +55,7 @@
 
 
 
-import React, { useEffect } from "react";
+import React, { useEffect, useState  } from "react";
 import RuthPhoto from "../assets/RuthPhoto.jpg";
 import RuthFace from "../assets/Ruth'sFace.png";
 import WoaomLogo from "../assets/WoaomLogo.png";
@@ -65,6 +65,8 @@ import RuthBuildsBrandsLogo from "../assets/RuthBuildsBrandsLogo.png";
 const pink = "#E4A4BD";
 
 function Home() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   useEffect(() => {
     document.title =
       "Ruth Zota | E-commerce Entrepreneur & Brand Builder";
@@ -78,6 +80,7 @@ function Home() {
       description:
         "A product-driven company focused on developing, manufacturing, and growing consumer brands.",
       status: "OPERATING",
+      href: "https://woaom.com"
     },
     {
       number: "02",
@@ -86,6 +89,7 @@ function Home() {
       description:
         "A hair accessories and beauty brand serving cheerleaders, teams, and beauty customers.",
       status: "ESTABLISHED BRAND",
+      href: "https://lilylocks.com"
     },
     {
       number: "03",
@@ -116,107 +120,176 @@ function Home() {
       </div>
 
       {/* NAVIGATION */}
-      <header className="px-5 md:px-10">
-        <nav className="mx-auto flex max-w-screen-xl items-center justify-between gap-4 py-6">
+<header className="relative z-50 px-5 md:px-10">
+  <nav className="mx-auto flex max-w-screen-xl items-center justify-between gap-4 py-6">
+    {/* LOGO */}
+    <a
+      href="#home"
+      onClick={() => setMenuOpen(false)}
+      className="shrink-0 text-lg font-bold tracking-tight sm:text-xl"
+    >
+      RUTH ZOTA.
+    </a>
+
+    {/* DESKTOP NAVIGATION */}
+    <div className="hidden items-center gap-8 text-sm md:flex">
+      <a href="#ventures" className="transition-opacity hover:opacity-50">
+        Ventures
+      </a>
+      <a href="#experiments" className="transition-opacity hover:opacity-50">
+        Experiments
+      </a>
+      <a href="#about" className="transition-opacity hover:opacity-50">
+        About
+      </a>
+      <a href="#method" className="transition-opacity hover:opacity-50">
+        The Method
+      </a>
+      <a href="#contact" className="transition-opacity hover:opacity-50">
+        Contact
+      </a>
+    </div>
+
+    {/* MOBILE HAMBURGER BUTTON */}
+    <button
+      type="button"
+      className="flex h-11 w-11 items-center justify-center md:hidden"
+      onClick={() => setMenuOpen((open) => !open)}
+      aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
+      aria-expanded={menuOpen}
+      aria-controls="mobile-navigation"
+    >
+      {menuOpen ? (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="26"
+          height="26"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="1.8"
+          strokeLinecap="round"
+        >
+          <path d="M18 6 6 18" />
+          <path d="m6 6 12 12" />
+        </svg>
+      ) : (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="26"
+          height="26"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="1.8"
+          strokeLinecap="round"
+        >
+          <path d="M4 7h16" />
+          <path d="M4 12h16" />
+          <path d="M4 17h16" />
+        </svg>
+      )}
+    </button>
+  </nav>
+
+  {/* MOBILE DROPDOWN MENU */}
+  {menuOpen && (
+    <div
+      id="mobile-navigation"
+      className="absolute left-0 right-0 top-full border-t border-black/10 bg-[#E0DFDD] px-5 pb-6 pt-3 shadow-lg md:hidden"
+    >
+      <div className="mx-auto flex max-w-screen-xl flex-col">
+        {[
+          ["Ventures", "#ventures"],
+          ["Experiments", "#experiments"],
+          ["About", "#about"],
+          ["The Method", "#method"],
+          ["Contact", "#contact"],
+        ].map(([label, href], index) => (
           <a
-            href="#home"
-            className="shrink-0 text-lg font-bold tracking-tight sm:text-md md:text-lg lg:text-xl"
+            key={href}
+            href={href}
+            onClick={() => setMenuOpen(false)}
+            className="border-b border-black/10 py-4 text-base transition-colors hover:pl-2 hover:text-[#B75D83]"
           >
-            RUTH ZOTA.
+            <span className="mr-3 text-sm text-[#B75D83]">
+              0{index + 1}
+            </span>
+            {label}
           </a>
+        ))}
+      </div>
+    </div>
+  )}
+</header>
 
-          <div className="flex flex-wrap items-center justify-end gap-x-3 gap-y-2 text-sm sm:gap-x-6 md:gap-x-8">
-            <a href="#ventures" className="hover:opacity-50">
-              Ventures
-            </a>
-            <a href="#experiments" className="hover:opacity-50">
-              Experiments
-            </a>
-            <a href="#about" className="hover:opacity-50">
-              About
-            </a>
-            <a href="#method" className="hover:opacity-50">
-  The Method
-</a>
-            <a href="#contact" className="hover:opacity-50">
-              Contact
-            </a>
 
-            
-          </div>
-        </nav>
-      </header>
 
-      {/* HERO */}
-      <section
-        id="home"
-        className="px-5 pb-20 pt-10 md:px-10 md:pb-24 md:pt-14"
-      >
-        <div className="mx-auto max-w-screen-xl">
-          <p className="mb-6 text-xs uppercase tracking-[0.2em] sm:text-sm sm:tracking-[0.25em]">
-            Entrepreneur · Founder · Brand Builder
-          </p>
 
-          <h1 className="text-[16vw] font-medium uppercase leading-[0.87] tracking-[-0.075em] sm:text-8xl md:text-9xl lg:text-[212px]">
-            I BUILD
-            <br />
-            BRANDS<span style={{ color: pink }}>.</span>
-          </h1>
 
-          <div className="mt-8 grid grid-cols-2 items-end gap-5 md:grid-cols-3 md:gap-8">
-            <div>
-              <img
-                src={RuthFace}
-                alt="Ruth Zota"
-                className="aspect-[1.35/1] w-full max-w-[600px] object-cover object-center grayscale shadow-md"
-              />
-            </div>
+{/* HERO */}
+<section
+  id="home"
+  className="px-5 pb-20 pt-10 md:px-10 md:pb-24 md:pt-14"
+>
+  <div className="mx-auto max-w-screen-xl">
+    <p className="mb-8 text-xs uppercase tracking-[0.2em] sm:text-sm sm:tracking-[0.25em]">
+      Entrepreneur · Founder · Brand Builder
+    </p>
 
-            <div className="hidden items-center justify-center md:flex">
-              <p className="max-w-[260px] text-sm uppercase leading-9 lg:text-[40px]">
-                I build consumer brands, test product opportunities,
-                and turn promising ideas into real businesses.
-              </p>
-            </div>
+    {/* THREE EQUAL COLUMNS */}
+    <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-3 md:gap-8 lg:gap-12">
 
-            <div className="text-right">
-              <h2 className="text-6xl font-medium leading-[0.95] tracking-[-0.06em] sm:text-7xl md:text-8xl">
-                Ruth
-                <br />
-                Zota
-              </h2>
-              <p className="mt-4 text-xs uppercase tracking-[0.12em] sm:text-sm">
-                Dallas, Texas
-              </p>
-            </div>
+      {/* COLUMN 1: HEADLINE */}
+      <div className="min-w-0">
+        <h1 className="text-[17vw] font-medium uppercase leading-[0.85] tracking-[-0.075em] sm:text-7xl md:text-6xl lg:text-8xl xl:text-[100px]">
+          I BUILD
+          <br /> BRANDS THAT SCALE<span style={{ color: pink }}>.</span>
+        </h1>
+      </div>
 
-            <div className="col-span-2 md:hidden">
-              <p className="max-w-sm text-base leading-7">
-                I build consumer brands, test product opportunities,
-                and turn promising ideas into real businesses.
-                Founder of Woaom LLC and the creator behind
-                RuthBuildsBrands.
-              </p>
-            </div>
-          </div>
+      {/* COLUMN 2: IMAGE */}
+      <div className="min-w-0">
+        <img
+          src={RuthFace}
+          alt="Ruth Zota"
+          className="aspect-[4/5] w-full object-cover object-center grayscale shadow-md"
+        />
+      </div>
 
-          <div className="mt-8 flex flex-wrap items-center justify-between gap-4">
-            <a
-              href="#ventures"
-              className="border-b border-black pb-2 text-sm uppercase"
-            >
-              Explore my ventures ↓
-            </a>
+      {/* COLUMN 3: INTRODUCTION */}
+      <div className="flex min-w-0 flex-col justify-center">
+        <h2 className="text-5xl font-medium leading-[0.9] tracking-[-0.06em] sm:text-6xl md:text-5xl lg:text-7xl">
+          Ruth
+          <br />
+          Zota<span style={{ color: pink }}>.</span>
+        </h2>
 
-            <a
-              href="#experiments"
-              className="text-sm uppercase tracking-wide"
-            >
-              The next chapter ↗
-            </a>
-          </div>
+        <p className="mt-4 text-xs uppercase tracking-[0.12em] sm:text-sm">
+          Dallas, Texas
+        </p>
+
+        <p className="mt-6 max-w-sm text-base leading-7 lg:text-2xl lg:leading-8">
+          I build consumer brands, test product opportunities,
+          and turn promising ideas into real businesses.
+          Founder of Woaom LLC and the creator behind
+          RuthBuildsBrands.
+        </p>
+
+        <div className="mt-6 flex flex-col items-start gap-4">
+          <a
+            href="#ventures"
+            className="border-b border-black pb-2 text-sm uppercase transition-opacity hover:opacity-50"
+          >
+            Explore my ventures ↓
+          </a>
         </div>
-      </section>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
   
 {/* BUSINESS ECOSYSTEM */}
@@ -310,19 +383,21 @@ function Home() {
               creativity.
             </h2>
 
-            <p className="mt-5 text-base leading-7 sm:text-lg sm:leading-8">
-              I'm Ruth Zota, an e-commerce entrepreneur with a
-              background in UX engineering and digital product
-              development. I use that combination of technical
-              knowledge, customer experience, and hands-on product
-              development to build and grow consumer brands.
-            </p>
+            
+<p className="mt-5 text-base leading-7 sm:text-lg sm:leading-8">
+  I'm Ruth Zota, a U.S. Army veteran, MBA candidate, and
+  e-commerce entrepreneur with a background in UX engineering
+  and digital product development. I combine technical
+  expertise, customer experience, and hands-on product
+  development to build and grow consumer brands.
+</p>
 
-            <p className="mt-4 text-base leading-7 sm:text-lg sm:leading-8">
-              Through Woaom LLC, LilyLocks, and RuthBuildsBrands,
-              I'm building a portfolio of businesses designed for
-              long-term growth.
-            </p>
+<p className="mt-4 text-base leading-7 sm:text-lg sm:leading-8">
+  Through Woaom LLC, LilyLocks, and RuthBuildsBrands,
+  I'm building a portfolio of businesses designed for
+  long-term growth.
+</p>
+
 
             <a
               href="#experiments"
@@ -484,88 +559,95 @@ function Home() {
       </section>
 
       
-      {/* VENTURE PORTFOLIO */}
-      <section
-        id="ventures"
-        className="px-5 py-16 md:px-10 md:py-20"
-      >
-        <div className="mx-auto max-w-screen-xl">
-          <h2 className="text-center text-3xl font-medium uppercase sm:text-4xl">
-            The Portfolio
-          </h2>
 
-          <p className="mt-4 text-center text-base leading-7 sm:text-lg">
-            The companies and brands I'm building.
-          </p>
+{/* VENTURE PORTFOLIO */}
+<section
+  id="ventures"
+  className="px-5 py-16 md:px-10 md:py-20"
+>
+  <div className="mx-auto max-w-screen-xl">
+    <h2 className="text-center text-3xl font-medium uppercase sm:text-4xl">
+      The Portfolio
+    </h2>
 
-          <div className="mt-10 grid gap-4 md:grid-cols-3">
-            {ventures.map((venture, index) => (
-              <article key={venture.number} className="group">
-                <div
-                  className={`relative flex min-h-[340px] flex-col justify-between p-6 transition-colors duration-300 group-hover:bg-[#D4D0CE] sm:min-h-[380px] sm:p-8 ${
-                    index === 1
-                      ? "bg-[#D4D0CE]"
-                      : index === 2
-                      ? "bg-[#E9D4DC]"
-                      : "bg-[#D9D8D6]"
-                  }`}
-                >
-                  <div className="flex items-start justify-between gap-3">
-                    <span className="text-xs uppercase tracking-wider sm:text-sm">
-                      {venture.label}
-                    </span>
+    <p className="mt-4 text-center text-base leading-7 sm:text-lg">
+      The companies and brands I'm building.
+    </p>
 
-                    <span className="text-sm">
-                      {venture.number}
-                    </span>
-                  </div>
+    <div className="mt-10 grid items-stretch gap-4 md:grid-cols-3">
+      {ventures.map((venture, index) => (
+        <a
+          key={venture.number}
+          href={venture.href}
+          className="group block h-full"
+          aria-label={`Explore ${venture.label}`}
+        >
+          <article
+            className={`relative flex h-full min-h-[380px] flex-col justify-between p-6 transition-colors duration-300 group-hover:bg-[#D4D0CE] sm:min-h-[420px] sm:p-8 ${
+              index === 1
+                ? "bg-[#D4D0CE]"
+                : index === 2
+                ? "bg-[#E9D4DC]"
+                : "bg-[#D9D8D6]"
+            }`}
+          >
+            <div className="flex items-start justify-between gap-3">
+              <span className="text-xs uppercase tracking-wider sm:text-sm">
+                {venture.label}
+              </span>
 
-                  <div className="my-8">
-                    <p className="text-sm uppercase tracking-wider sm:text-base">
-                      {index === 0
-                        ? "The company"
-                        : index === 1
-                        ? "The flagship"
-                        : "Coming soon"}
-                    </p>
+              <span className="text-sm">
+                {venture.number}
+              </span>
+            </div>
 
-                    {index === 0 ? (
-                      <img
-                        src={WoaomLogo}
-                        alt="Woaom LLC"
-                        className="mt-4 h-auto max-h-16 max-w-full object-contain object-left"
-                      />
-                    ) : index === 1 ? (
-                      <img
-                        src={LilyLocksLogo}
-                        alt="LilyLocks"
-                        className="mt-4 h-auto max-h-20 max-w-full object-contain object-left"
-                      />
-                    ) : (
-                      <h3 className="mt-4 text-3xl font-medium leading-tight tracking-tight sm:text-4xl">
-                        The Next
-                        <br />
-                        Brand.
-                      </h3>
-                    )}
+            <div className="my-8">
+              <p className="text-sm uppercase tracking-wider sm:text-base">
+                {index === 0
+                  ? "The company"
+                  : index === 1
+                  ? "The flagship"
+                  : "Coming soon"}
+              </p>
 
-                    <p className="mt-5 text-base leading-7 sm:text-lg sm:leading-8">
-                      {venture.description}
-                    </p>
-                  </div>
+              {index === 0 ? (
+                <img
+                  src={WoaomLogo}
+                  alt="Woaom LLC"
+                  className="mt-4 h-auto max-h-16 max-w-full object-contain object-left"
+                />
+              ) : index === 1 ? (
+                <img
+                  src={LilyLocksLogo}
+                  alt="LilyLocks"
+                  className="mt-4 h-auto max-h-20 max-w-full object-contain object-left"
+                />
+              ) : (
+                <h3 className="mt-4 text-3xl font-medium leading-tight tracking-tight sm:text-4xl">
+                  The Next
+                  <br />
+                  Brand.
+                </h3>
+              )}
 
-                  <div
-                    className="mt-auto border-t pt-4 text-xs uppercase tracking-wider sm:text-sm"
-                    style={{ borderColor: pink }}
-                  >
-                    {venture.status}
-                  </div>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
+              <p className="mt-5 text-base leading-7 sm:text-lg sm:leading-8">
+                {venture.description}
+              </p>
+            </div>
+
+            <div
+              className="mt-auto border-t pt-4 text-xs uppercase tracking-wider sm:text-sm"
+              style={{ borderColor: pink }}
+            >
+              {venture.status}
+            </div>
+          </article>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
 
 
     
@@ -598,7 +680,7 @@ function Home() {
 
             <div className="md:justify-self-end">
               <a
-                href="mailto:hello@woaom.com"
+                href="mailto:woaomventures@gmail.com"
                 className="inline-flex items-center gap-3 border px-6 py-4 text-sm uppercase transition-colors hover:bg-black hover:text-white sm:text-base"
                 style={{ borderColor: pink }}
               >
@@ -618,6 +700,7 @@ function Home() {
       </div>
 
     
+
 {/* FOOTER */}
 <footer className="px-5 py-8 md:px-10">
   <div className="mx-auto flex max-w-screen-xl flex-col items-center justify-between gap-5 md:flex-row">
@@ -703,6 +786,35 @@ function Home() {
           <path d="M12 2a10 10 0 0 0-3.64 19.31c-.02-.78 0-1.72.19-2.57l1.31-5.55s-.33-.66-.33-1.63c0-1.53.89-2.67 2-2.67.94 0 1.4.7 1.4 1.55 0 .95-.6 2.38-.91 3.7-.26 1.11.55 2.02 1.64 2.02 1.97 0 3.3-2.53 3.3-5.53 0-2.28-1.54-3.99-4.34-3.99-3.16 0-5.13 2.36-5.13 4.99 0 .91.27 1.55.69 2.04.19.23.22.32.15.58l-.22.89c-.07.29-.29.39-.54.28-1.5-.61-2.2-2.25-2.2-4.09 0-3.04 2.56-6.68 7.65-6.68 4.08 0 6.77 2.95 6.77 6.11 0 4.18-2.32 7.31-5.73 7.31-1.15 0-2.23-.62-2.6-1.32l-.75 2.99c-.23.87-.68 1.74-1.09 2.42A10 10 0 1 0 12 2z" />
         </svg>
       </a>
+
+      {/* LinkedIn */}
+      <a
+        href="https://www.linkedin.com/in/ruthzota/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="LinkedIn - Ruth Zota"
+        title="LinkedIn"
+        className="transition-opacity hover:opacity-60"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="22"
+          height="22"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="1.7"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          aria-hidden="true"
+        >
+          <rect x="3" y="3" width="18" height="18" rx="2" />
+          <path d="M8 10v7" />
+          <path d="M8 7v.01" />
+          <path d="M12 17v-4a2 2 0 0 1 4 0v4" />
+          <path d="M12 10v7" />
+        </svg>
+      </a>
     </div>
   </div>
 
@@ -717,6 +829,7 @@ function Home() {
     </a>
   </div>
 </footer>
+
 
     </main>
   );
