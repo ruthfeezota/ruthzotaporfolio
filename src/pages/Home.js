@@ -99,17 +99,12 @@ function Home() {
 
   return (
     <main className="overflow-hidden bg-[#E0DFDD] text-black">
-      <head>
-        <title>Ruth Zota | E-commerce Entrepreneur & Brand Builder</title>
-        <meta
-          name="description"
-          content="Ruth Zota is an e-commerce entrepreneur and founder of Woaom LLC, the company behind LilyLocks. Follow her journey building and testing consumer brands through RuthBuildsBrands."
-        />
-        <meta
-          name="keywords"
-          content="Ruth Zota, e-commerce entrepreneur, serial entrepreneur, consumer brand development, product development, Woaom LLC, LilyLocks, RuthBuildsBrands"
-        />
-      </head>
+      <title>Ruth Zota | E-commerce Entrepreneur &amp; Brand Builder</title>
+
+<meta
+  name="description"
+  content="Ruth Zota is an e-commerce entrepreneur and founder of Woaom LLC, the company behind LilyLocks. Follow her journey building and testing consumer brands through RuthBuildsBrands."
+/>
 
       {/* TOP ANNOUNCEMENT BAR */}
       <div

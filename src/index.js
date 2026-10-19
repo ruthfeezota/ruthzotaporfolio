@@ -8,7 +8,7 @@ import ReactGA from "react-ga4";
 
 
 // Initialize Google Analytics
-ReactGA.initialize("G-D9JKV7YKZX");
+ReactGA.initialize("G-3XCF5DFC11");
 
 ReactGA.send({ 
   hitType: "pageview", 
