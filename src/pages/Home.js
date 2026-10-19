@@ -680,7 +680,7 @@ function Home() {
 
             <div className="md:justify-self-end">
               <a
-                href="mailto:woaomventures@gmail.com"
+                href="https://www.linkedin.com/in/ruthzota/"
                 className="inline-flex items-center gap-3 border px-6 py-4 text-sm uppercase transition-colors hover:bg-black hover:text-white sm:text-base"
                 style={{ borderColor: pink }}
               >
